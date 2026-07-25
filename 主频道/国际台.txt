@@ -1,8 +1,11 @@
 BBCNews
+SkyNews
 CNN
-ABCNewslive
+ABCNewsLive
 CBSNews24/7
-Fox新闻
-BratTV
-卡塔尔|半岛新闻
+CBSNews
 FoxNewsChannel
+FoxNewsInternational
+MSNOW
+A&E
+CNBC(USA)

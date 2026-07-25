@@ -100,3 +100,4 @@ https://m3u.ibert.me/txt/y_g.txt
 https://gitlab.com/p2v5/wangtv/-/raw/main/lunbo.txt
 https://gitee.com/tushaoyong/live/raw/master/%E6%8E%A5%E5%8F%A3/IPV6.txt
 http://tot.totalh.net/tttt.txt
+https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt

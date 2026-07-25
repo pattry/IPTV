@@ -1,5 +1,15 @@
-CNN
 BBC
+CNN
+ABCNewsLive
+CBSNews24/7
+CBSNews
+FoxNewsChannel
+FoxNewsInternational
+MSNOW
+MSNBCb
+CNBCⓎ
+CNBC-e
+CNBc
 Fox新闻
 VOA美国之音
 半岛新闻「英语」

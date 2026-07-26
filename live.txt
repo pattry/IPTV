@@ -1,5 +1,5 @@
 更新时间,#genre#
-20260726 20:45,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
+20260727 07:34,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 
 
 央视频道,#genre#
@@ -576,7 +576,6 @@ amc电影台,http://4gtv.cnlive.club/channel/n4f2af9e/index.m3u8?q=1782639885837
 电视剧,#genre#
 仙剑奇侠传,,http://1.94.31.214:35455/yy/1382749903
 与凤行,http://159.75.85.63:35455/huya/26355866#http://cfss.cc/cdn/hy/26355866.m3u8
-与凤行,http://120.220.76.91:2003/huya.php?id=26355866
 庆余年,https://www.goodiptv.club/huya/11352960
 开端,http://159.75.85.63:35455/huya/11342397#http://cfss.cc/cdn/hy/11342397.m3u8
 小欢喜,,http://1.94.31.214:35455/yy/1382737888
@@ -594,7 +593,6 @@ amc电影台,http://4gtv.cnlive.club/channel/n4f2af9e/index.m3u8?q=1782639885837
 倚天屠龙记,https://www.goodiptv.club/huya/23734246
 倚天屠龙记,http://live.ottiptv.cc/huya/11342403
 雪中悍刀行,http://jiaojirentv.top/2020/yy.php?id=1382660835
-雪中悍刀行,http://120.220.76.91:2003/huya.php?id=11336592
 天龙八部,https://txmov2.a.kwimgs.com/upic/2021/02/26/11/BMjAyMTAyMjYxMTAwNTBfNDAzMDAxOTlfNDUwNDcyNzM5MTRfMF8z_b_B75ed716649c36f65fc2354f75dba47a5.mp4
 天龙八部,http://jiaojirentv.top/2020/yy.php?id=1382881708
 天龙八部,http://jiaojirentv.top/2020/yy.php?id=1382736855
@@ -1345,7 +1343,9 @@ Discovery,http://ott.watch/stream/E9LDH2ZCN7/177.m3u8
 徐州新闻综合,https://iptv.catvod.com/migu?id=639731747&token=878f99f5f37c42b48bd0ec0c3d404d01
 徐州新闻综合,http://kkk.888.3116598.xyz/api.php?n=tttt&id=8cx0Nx&tk=FgM0vQMejxvG
 徐州经济生活,http://stream3.huaihai.tv/xz2t/sd/live.m3u8
+无锡娱乐,https://t.freetv.fun/live/wu-xi-yu-le.m3u8
 无锡新闻综合,http://stream.thmz.com/wxtv1/sd/live.m3u8?zjiangsd#http://stream.thmz.com/wxtv1/playlist.m3u8?_upt=156143371706166361#http://stream.thmz.com/wxtv1/sd/live.m3u8?_upt=4ba3ab191698644028#http://stream.thmz.com/wxtv1/playlist.m3u8
+无锡生活,https://t.freetv.fun/live/wu-xi-sheng-huo.m3u8
 无锡都市资讯,https://t.freetv.fun/live/wu-xi-du-shi-zi-xun-1.m3u8
 无锡都市资讯,https://t.freetv.fun/live/wu-xi-du-shi-zi-xun-2.m3u8
 无锡都市资讯,https://t.freetv.fun/live/wu-xi-du-shi-zi-xun.m3u8

@@ -1,3 +1,12 @@
+# =====================================================
+# 【第一梯队】您亲测完美流畅播放的核心源
+# 放在首位，确保优先级最高
+# =====================================================
+https://gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt
+
+# =====================================================
+# 【以下为您保留的全部海量后备源，原封不动】
+# =====================================================
 https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/assets/test.txt
 https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u
@@ -100,4 +109,3 @@ https://m3u.ibert.me/txt/y_g.txt
 https://gitlab.com/p2v5/wangtv/-/raw/main/lunbo.txt
 https://gitee.com/tushaoyong/live/raw/master/%E6%8E%A5%E5%8F%A3/IPV6.txt
 http://tot.totalh.net/tttt.txt
-

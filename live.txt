@@ -1,5 +1,5 @@
 更新时间,#genre#
-20260727 14:36,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
+20260727 14:54,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 
 
 央视频道,#genre#
@@ -454,8 +454,6 @@ Now财经台,http://www.kaniptv.cn/uadl.php?etoken=AfWgyM6LS6ZDJKdNwdzYFlp1o3Gu2
 靖天欢乐台,http://www.kaniptv.cn/uadl.php?etoken=4KBtk0aHxm7laJsFR18kb9x%2FROH%2BWLRNgSjL1mKdQBfOvXdvzLPM2%2BRdWQByeGKZfbvvbju1pnlJn4epvMzD1kR0AiXiWFDHx20MJ%2FnBCFWhYjqjBwrh3LjZRpCO4z6WQZQCAJEY23S6FgNFwrlu2F2Rk3ZGSDga7zCntSyibTYsPEtM5RxbkY2xF%2B%2B6Tktit51Z26Q8DPFdeVBMPw6S5baTU4wLf5l%2Fglnpi39do%2BDPdozrY9YB5EJjG4wzp0GnMGphy2%2B0nbKASlR1uwGNqpriYd4pYJOlrgJM2c8%2BFArFAQyg00uS%2FkeQZTbFKCpgDhzugiPGnD5B9Cuzz%2FPcwQ%3D%3D
 靖天欢乐台,http://www.kaniptv.cn/uadl.php?etoken=kLKNB8Qc1Ek7M4u7JggDnGD92aXYTp4ddyvbe5OH4y%2Fyp8AU64GBiAGp%2BaHoa47BdUeJBmgL0XIudQXha%2Baopvob0Yy4VtF9Y1Gl2Pg38Ak%2FRTKjcKzZv1LjPVU9Xl0tNGN7zOpcawmHME81h9nLfZEtGue%2FKyI%2Fu%2ByFkkOnf4Xb%2BNMVZoSHnby378%2FNlnWDfbrVCCDORvlofMS2I6nShrmsAAzzIJK3%2Fjbqj%2BYk48fKwQGFqWQz%2BICwCqQBW5160fLCEO88kByN39jgKnrJLwo6KhmFwrQ8efUR1WacLQmZy2hTWFucwPg2FW%2BuAFWZjyMhYEFzORWWMIrSVvavjw%3D%3D
 靖天电影台,https://t.freetv.fun/live/jing-tian-dian-ying.m3u8
-靖天电影台,https://aktv.top/AKTV/live/aktv/null6/AKTV.m3u8
-靖天电影台,https://cdn12.178.indevs.in/163189/jtdy
 靖天综合台,http://litv.zapi.us.kg/?id=4gtv-4gtv046
 靖天综合台,http://4gtv.cnlive.club/channel/3f6ecb92/index.m3u8?q=1782639885837
 靖天综合台,http://www.kaniptv.cn/uadl.php?etoken=u2i%2FKxDvzWQNg%2BQBeQ7r7k7iN7LEPnB9fnfBg9Bvi91EjG8REgwVA%2BBNXG6ePfcaFsRBGzdx3itDbaSq4dtA1Z4q%2F3Q%2BDv1PZOQDT1lQb55Z%2BW4r2DvqyU7guPgQbFU8%2F0M0t91jDEYGPJYWHZikgDGzgX7fahoTyNgcgBfZMe7Z6xC7%2Fv03dB1OhiBMbbIaUG8XRNHJrAdqLWXfeU%2FaZgi09jVXxyDRQvRSAQ0uVBGFdMvVmrP481E3u0LtZ3K4dyWF7FmjOCJmTndJlSSJ3IYpMjc4ffxiUomV7u46ayXCD4p6V4m3nlvr4mlBKrSzbnsVP8beXF4%2B48fkS8iCUvNI%2FTaJ0f%2FaQh99rXs%2Br%2Fw%3D
@@ -479,8 +477,6 @@ Now财经台,http://www.kaniptv.cn/uadl.php?etoken=AfWgyM6LS6ZDJKdNwdzYFlp1o3Gu2
 龙华洋片,https://cdn8.163189.xyz/live/lhyp/stream.m3u8
 龙华洋片,http://bak.dou.ddns-ip.net/api.php?n=xxxtw&id=P4JMrn&tk=SLK5QjnsRiya
 龙华电影,http://cdn8.163189.xyz/163189/lhdy
-龙华电影,https://stream1.freetv.fun/1178a02eb676ee58293691fdc19fed767b2dc61d866c1fee41447a8503ec0253.m3u8
-龙华电影,https://cdn8.163189.xyz/live/lhdy/stream.m3u8
 龙华经典,http://cdn8.163189.xyz/163189/lhjd
 龙华经典,https://cdn8.163189.xyz/live/lhjd/stream.m3u8
 龙华经典,https://t.freetv.fun/live/long-hua-jing-dian.php
@@ -501,6 +497,8 @@ HBO,http://www.kaniptv.cn/uadl.php?etoken=P92oF%2B0OspALkeQn7nxLaXc252a%2F0ZZk34
 
 
 电影,#genre#
+cctv-6,https://t.freetv.fun/live/cctv-6.m3u8
+cctv-6,https://t.freetv.fun/live/cctv-6-3.m3u8
 CHC动作电影,https://t.freetv.fun/live/chcdong-zuo-dian-ying-1.m3u8
 CHC动作电影,https://t.freetv.fun/live/chcdong-zuo-dian-ying-5.m3u8
 CHC动作电影,https://t.freetv.fun/live/chcdong-zuo-dian-ying.m3u8
@@ -510,6 +508,15 @@ CHC家庭影院,https://t.freetv.fun/live/chcjia-ting-ying-yuan-5.m3u8
 CHC影迷电影,https://t.freetv.fun/live/chcying-mi-dian-ying-2.m3u8
 CHC影迷电影,https://t.freetv.fun/live/chcying-mi-dian-ying-7.m3u8
 CHC影迷电影,https://t.freetv.fun/live/chcying-mi-dian-ying-4.m3u8
+龙华电影,http://cdn8.163189.xyz/163189/lhdy
+龙华电影,https://stream1.freetv.fun/1178a02eb676ee58293691fdc19fed767b2dc61d866c1fee41447a8503ec0253.m3u8
+ROCKAction,http://bak.dou.ddns-ip.net/api.php?n=xxxtw&id=RhYj3n&tk=SLK5QjnsRiya
+ROCKAction,http://4gtv.cnlive.club/channel/n21b197ce/index.m3u8?q=1782639885837
+靖天电影台,https://t.freetv.fun/live/jing-tian-dian-ying.m3u8
+靖天电影台,https://aktv.top/AKTV/live/aktv/null6/AKTV.m3u8
+CinemaWorld,https://cdn.qd.je/163189/cinemaworld
+CinemaWorld,https://cdn12.178.indevs.in/163189/cinemaworld
+CinemaWorld,http://4gtv.cnlive.club/channel/n7815b83e/index.m3u8?q=1782639885837
 amc电影台,http://61.221.215.25:8800/hls/43/index.m3u8
 amc电影台,https://cdn12.178.indevs.in/163189/amc
 amc电影台,http://4gtv.cnlive.club/channel/n4f2af9e/index.m3u8?q=1782639885837
@@ -518,6 +525,9 @@ amc电影台,http://4gtv.cnlive.club/channel/n4f2af9e/index.m3u8?q=1782639885837
 美亚电影,http://173.208.234.146/live/mymovie.m3u8
 影迷数位电影,https://cdn12.178.indevs.in/163189/ymswdyt
 影迷数位电影,http://4gtv.cnlive.club/channel/n79da43c0/index.m3u8?q=1782639885837
+MovieSphere,https://amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv/playlist.m3u8
+MovieSphere,https://plexaaaaa-moviesphere-plex-efzys.amagi.tv/playlist/plexaaaaa-moviesphere-plex/playlist.m3u8
+HBOfamily,http://www.kaniptv.cn/uadl.php?etoken=w9SMyDLvv2T7aZg7DB%2Fwm1I23GOQQOPr6HLXMk9DD8hY%2FEGL2zDirbp%2B3Q6xFMSIzn8RKaXh7rwo47pKccHxN5UY4JBDTXnIrANDaNPOss0ztrFyBkQJq0Ob39A6Rpq%2Fd83194UMuDjhLMCnjEoMUE9tb2nBXx8HxXSWJfPSMynlIZIS1L7n9zZUz02j6HctZ43Qu7IyPr9JUKm8TIUkisEP6YufxZjMJizSbbKVDR3YJGrnsy5OxurZI5gy5Pk1HPc1fag2JxlYdEUTl2T%2BB1KFWzu8qLtU8As8fJOTNEX2ixHf9LwY70vfvwXkLjQvDDdGc01H8c%2FsbfjCDH7pvA%3D%3D
 淘电影,https://stream1.freetv.fun/tao-dian-ying-7.ctv
 淘电影,https://stream1.freetv.fun/tao-dian-ying-3.ctv
 淘电影,https://stream1.freetv.fun/tao-dian-ying-6.ctv
@@ -880,25 +890,27 @@ CN卡通,https://stream1.freetv.fun/cnqia-tong-1.m3u8
 
 国际台,#genre#
 ABCNewsLive,https://aegis-cloudfront-1.tubi.video/33c5cde2-7a0c-4dd4-8dd2-edd99dbf1427/index.m3u8
-A&E,https://t.freetv.fun/live/a-e-2.m3u8
-A&E,https://t.freetv.fun/live/a-e-1.m3u8
-A&E,https://gpuserver3.tier1streams.com/AE/index.m3u8
 BBCNews,https://t.freetv.fun/live/bbc-news.m3u8
-CBSNews,https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8
-CBSNews,https://jmp2.uk/plu-62310d5a5dc9550007c6f580.m3u8
-CBSNews,https://jmp2.uk/plu-62310f66d5888f0007534342.m3u8
+Bravo,https://t.freetv.fun/live/bravo.m3u8
+Bravo,https://t.freetv.fun/live/bravo-1.m3u8
+Bravo,https://t.freetv.fun/live/bravo-west.m3u8
 CBSNews24/7,https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master_24.m3u8
 CBSNews24/7,https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
 CBSNews24/7,https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8
-CNBC(USA),https://t.freetv.fun/live/cnbc-2.m3u8
-CNBC(USA),https://t.freetv.fun/live/cnbc-5.m3u8
-CNBC(USA),https://t.freetv.fun/live/cnbc.m3u8
+CNA,https://t.freetv.fun/live/cna-1.m3u8
+CNA,https://t.freetv.fun/live/cna.m3u8
+CNA,https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 CNN,https://t.freetv.fun/live/cnn-3.m3u8
 CNN,https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
-FoxNewsChannel,https://t.freetv.fun/live/fox-news-channel.m3u8
-FoxNewsChannel,https://t.freetv.fun/live/fox-news-channel-1.m3u8
-FoxNewsInternational,https://gpuserver3.tier1streams.com/FOX/index.m3u8
+E!,http://23.237.104.106:8080/USA_E/index.m3u8
+EntertainmentTonight,https://enterbcef94b.airspace-cdn.cbsivideo.com/master.m3u8
+FoxWeather,https://t.freetv.fun/live/mei-guo-fox-weather.m3u8
 MSNOW,http://40.160.24.53/MSNBC/index.m3u8
+NBC,https://t.freetv.fun/live/nbc.m3u8
+NBC,http://stream.cammonitorplus.net/1785/index.m3u8
+Newsmax,http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+Newsmax,https://t.freetv.fun/live/newsmax-spanish.m3u8
+Newsmax,https://t.freetv.fun/live/newsmax-tv.m3u8
 SkyNews,https://d25w9q07b2mtmw.cloudfront.net/live/master_4.m3u8
 SkyNews,https://d25w9q07b2mtmw.cloudfront.net/live/master_5.m3u8
 SkyNews,https://d25w9q07b2mtmw.cloudfront.net/live/master.m3u8

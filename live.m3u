@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://ghfast.top/https://github.com/CCSH/IPTV/raw/refs/heads/main/e.xml.gz"
-#EXTINF:-1  tvg-name="20260727 14:36" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/20260727 14:36.png"  group-title="更新时间",20260727 14:36
+#EXTINF:-1  tvg-name="20260727 14:54" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/20260727 14:54.png"  group-title="更新时间",20260727 14:54
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 #EXTINF:-1  tvg-name="CCTV1" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CCTV1.png"  group-title="央视频道",CCTV1
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
@@ -891,10 +891,6 @@ http://www.kaniptv.cn/uadl.php?etoken=4KBtk0aHxm7laJsFR18kb9x%2FROH%2BWLRNgSjL1m
 http://www.kaniptv.cn/uadl.php?etoken=kLKNB8Qc1Ek7M4u7JggDnGD92aXYTp4ddyvbe5OH4y%2Fyp8AU64GBiAGp%2BaHoa47BdUeJBmgL0XIudQXha%2Baopvob0Yy4VtF9Y1Gl2Pg38Ak%2FRTKjcKzZv1LjPVU9Xl0tNGN7zOpcawmHME81h9nLfZEtGue%2FKyI%2Fu%2ByFkkOnf4Xb%2BNMVZoSHnby378%2FNlnWDfbrVCCDORvlofMS2I6nShrmsAAzzIJK3%2Fjbqj%2BYk48fKwQGFqWQz%2BICwCqQBW5160fLCEO88kByN39jgKnrJLwo6KhmFwrQ8efUR1WacLQmZy2hTWFucwPg2FW%2BuAFWZjyMhYEFzORWWMIrSVvavjw%3D%3D
 #EXTINF:-1  tvg-name="靖天电影台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/靖天电影台.png"  group-title="港澳台",靖天电影台
 https://t.freetv.fun/live/jing-tian-dian-ying.m3u8
-#EXTINF:-1  tvg-name="靖天电影台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/靖天电影台.png"  group-title="港澳台",靖天电影台
-https://aktv.top/AKTV/live/aktv/null6/AKTV.m3u8
-#EXTINF:-1  tvg-name="靖天电影台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/靖天电影台.png"  group-title="港澳台",靖天电影台
-https://cdn12.178.indevs.in/163189/jtdy
 #EXTINF:-1  tvg-name="靖天综合台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/靖天综合台.png"  group-title="港澳台",靖天综合台
 http://litv.zapi.us.kg/?id=4gtv-4gtv046
 #EXTINF:-1  tvg-name="靖天综合台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/靖天综合台.png"  group-title="港澳台",靖天综合台
@@ -941,10 +937,6 @@ https://cdn8.163189.xyz/live/lhyp/stream.m3u8
 http://bak.dou.ddns-ip.net/api.php?n=xxxtw&id=P4JMrn&tk=SLK5QjnsRiya
 #EXTINF:-1  tvg-name="龙华电影" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华电影.png"  group-title="港澳台",龙华电影
 http://cdn8.163189.xyz/163189/lhdy
-#EXTINF:-1  tvg-name="龙华电影" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华电影.png"  group-title="港澳台",龙华电影
-https://stream1.freetv.fun/1178a02eb676ee58293691fdc19fed767b2dc61d866c1fee41447a8503ec0253.m3u8
-#EXTINF:-1  tvg-name="龙华电影" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华电影.png"  group-title="港澳台",龙华电影
-https://cdn8.163189.xyz/live/lhdy/stream.m3u8
 #EXTINF:-1  tvg-name="龙华经典" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华经典.png"  group-title="港澳台",龙华经典
 http://cdn8.163189.xyz/163189/lhjd
 #EXTINF:-1  tvg-name="龙华经典" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华经典.png"  group-title="港澳台",龙华经典
@@ -979,6 +971,10 @@ https://t.freetv.fun/live/hbo-b.m3u8
 http://www.kaniptv.cn/uadl.php?etoken=49xxzdw2aBUnqepTqT1wptX2PWN3r7no3ArtDolEBUljsCavFZNvoVWhH81FNYvLhmOqscIRZ7TK0emrPbjZ9%2Fjkp4LVyOIj%2BaOHh2Kk2Lchi2SfaVVczfuvMk1RxSkLqMVHuIdj6757UnaZ4KJvcQ%2BXe29vCJYKEpxrXLt8vxGwyDl51106NX3WXoEAldyb0jheB2Rq2sEXCRyWt12IoNVA%2BLvv4F%2FsHIW6NqOQ%2FjFKHwUcS1WsrUnMN5H4sgysOGHKmbRWWDpTSnbARn42W4g%2B7p6F5u8STbMLBp2ih%2Bkjo9gk4mJm3RgCOKX3nx9LhZdwIPTQJey1Dg5H7BrPHQ%3D%3D
 #EXTINF:-1  tvg-name="HBO" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/HBO.png"  group-title="港澳台",HBO
 http://www.kaniptv.cn/uadl.php?etoken=P92oF%2B0OspALkeQn7nxLaXc252a%2F0ZZk34qP%2B7k5%2B9u%2FmnithSthFzco1EPOQ52L2ed0EoJC2EAwwS2W%2FfV6TJDxrOWLEwSsz7PBfloP%2Ba4dfPbl7YpA4sbMuWR5AyMcGTmi3Xt8iGazyNPGVsVdIYoyg2DN%2BMuwyg35%2F1kfp4ELqzGzfryLcQdH5pSxnUo%2Fvh4xkMSJpz98Q9J4Ah7%2F2d0iVzkCLtLBGYJ8CA0WWAvv95K5BWhtcbmmUeHD6Tn%2BlNA%2FRnxc48shIo69SX9DTN%2Bqkg%2BGVAGH1CV933BzHWbwzbglBgqwcrYRskNW4ano0VvRjVq%2FdFHd%2FlfM3v53HA%3D%3D
+#EXTINF:-1  tvg-name="cctv-6" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/cctv-6.png"  group-title="电影",cctv-6
+https://t.freetv.fun/live/cctv-6.m3u8
+#EXTINF:-1  tvg-name="cctv-6" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/cctv-6.png"  group-title="电影",cctv-6
+https://t.freetv.fun/live/cctv-6-3.m3u8
 #EXTINF:-1  tvg-name="CHC动作电影" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CHC动作电影.png"  group-title="电影",CHC动作电影
 https://t.freetv.fun/live/chcdong-zuo-dian-ying-1.m3u8
 #EXTINF:-1  tvg-name="CHC动作电影" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CHC动作电影.png"  group-title="电影",CHC动作电影
@@ -997,6 +993,24 @@ https://t.freetv.fun/live/chcying-mi-dian-ying-2.m3u8
 https://t.freetv.fun/live/chcying-mi-dian-ying-7.m3u8
 #EXTINF:-1  tvg-name="CHC影迷电影" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CHC影迷电影.png"  group-title="电影",CHC影迷电影
 https://t.freetv.fun/live/chcying-mi-dian-ying-4.m3u8
+#EXTINF:-1  tvg-name="龙华电影" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华电影.png"  group-title="电影",龙华电影
+http://cdn8.163189.xyz/163189/lhdy
+#EXTINF:-1  tvg-name="龙华电影" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/龙华电影.png"  group-title="电影",龙华电影
+https://stream1.freetv.fun/1178a02eb676ee58293691fdc19fed767b2dc61d866c1fee41447a8503ec0253.m3u8
+#EXTINF:-1  tvg-name="ROCKAction" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/ROCKAction.png"  group-title="电影",ROCKAction
+http://bak.dou.ddns-ip.net/api.php?n=xxxtw&id=RhYj3n&tk=SLK5QjnsRiya
+#EXTINF:-1  tvg-name="ROCKAction" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/ROCKAction.png"  group-title="电影",ROCKAction
+http://4gtv.cnlive.club/channel/n21b197ce/index.m3u8?q=1782639885837
+#EXTINF:-1  tvg-name="靖天电影台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/靖天电影台.png"  group-title="电影",靖天电影台
+https://t.freetv.fun/live/jing-tian-dian-ying.m3u8
+#EXTINF:-1  tvg-name="靖天电影台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/靖天电影台.png"  group-title="电影",靖天电影台
+https://aktv.top/AKTV/live/aktv/null6/AKTV.m3u8
+#EXTINF:-1  tvg-name="CinemaWorld" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CinemaWorld.png"  group-title="电影",CinemaWorld
+https://cdn.qd.je/163189/cinemaworld
+#EXTINF:-1  tvg-name="CinemaWorld" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CinemaWorld.png"  group-title="电影",CinemaWorld
+https://cdn12.178.indevs.in/163189/cinemaworld
+#EXTINF:-1  tvg-name="CinemaWorld" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CinemaWorld.png"  group-title="电影",CinemaWorld
+http://4gtv.cnlive.club/channel/n7815b83e/index.m3u8?q=1782639885837
 #EXTINF:-1  tvg-name="amc电影台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/amc电影台.png"  group-title="电影",amc电影台
 http://61.221.215.25:8800/hls/43/index.m3u8
 #EXTINF:-1  tvg-name="amc电影台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/amc电影台.png"  group-title="电影",amc电影台
@@ -1013,6 +1027,12 @@ http://173.208.234.146/live/mymovie.m3u8
 https://cdn12.178.indevs.in/163189/ymswdyt
 #EXTINF:-1  tvg-name="影迷数位电影" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/影迷数位电影.png"  group-title="电影",影迷数位电影
 http://4gtv.cnlive.club/channel/n79da43c0/index.m3u8?q=1782639885837
+#EXTINF:-1  tvg-name="MovieSphere" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/MovieSphere.png"  group-title="电影",MovieSphere
+https://amg00353-lionsgatestudio-moviesphere-xumo-zh5u0.amagi.tv/playlist.m3u8
+#EXTINF:-1  tvg-name="MovieSphere" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/MovieSphere.png"  group-title="电影",MovieSphere
+https://plexaaaaa-moviesphere-plex-efzys.amagi.tv/playlist/plexaaaaa-moviesphere-plex/playlist.m3u8
+#EXTINF:-1  tvg-name="HBOfamily" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/HBOfamily.png"  group-title="电影",HBOfamily
+http://www.kaniptv.cn/uadl.php?etoken=w9SMyDLvv2T7aZg7DB%2Fwm1I23GOQQOPr6HLXMk9DD8hY%2FEGL2zDirbp%2B3Q6xFMSIzn8RKaXh7rwo47pKccHxN5UY4JBDTXnIrANDaNPOss0ztrFyBkQJq0Ob39A6Rpq%2Fd83194UMuDjhLMCnjEoMUE9tb2nBXx8HxXSWJfPSMynlIZIS1L7n9zZUz02j6HctZ43Qu7IyPr9JUKm8TIUkisEP6YufxZjMJizSbbKVDR3YJGrnsy5OxurZI5gy5Pk1HPc1fag2JxlYdEUTl2T%2BB1KFWzu8qLtU8As8fJOTNEX2ixHf9LwY70vfvwXkLjQvDDdGc01H8c%2FsbfjCDH7pvA%3D%3D
 #EXTINF:-1  tvg-name="淘电影" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/淘电影.png"  group-title="电影",淘电影
 https://stream1.freetv.fun/tao-dian-ying-7.ctv
 #EXTINF:-1  tvg-name="淘电影" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/淘电影.png"  group-title="电影",淘电影
@@ -1665,44 +1685,48 @@ https://cdn8.163189.xyz/live/lhkt/stream.m3u8
 https://8.fast.hidns.vip/163189/lhkt
 #EXTINF:-1  tvg-name="ABCNewsLive" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/ABCNewsLive.png"  group-title="国际台",ABCNewsLive
 https://aegis-cloudfront-1.tubi.video/33c5cde2-7a0c-4dd4-8dd2-edd99dbf1427/index.m3u8
-#EXTINF:-1  tvg-name="A&E" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/A&E.png"  group-title="国际台",A&E
-https://t.freetv.fun/live/a-e-2.m3u8
-#EXTINF:-1  tvg-name="A&E" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/A&E.png"  group-title="国际台",A&E
-https://t.freetv.fun/live/a-e-1.m3u8
-#EXTINF:-1  tvg-name="A&E" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/A&E.png"  group-title="国际台",A&E
-https://gpuserver3.tier1streams.com/AE/index.m3u8
 #EXTINF:-1  tvg-name="BBCNews" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/BBCNews.png"  group-title="国际台",BBCNews
 https://t.freetv.fun/live/bbc-news.m3u8
-#EXTINF:-1  tvg-name="CBSNews" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CBSNews.png"  group-title="国际台",CBSNews
-https://cbsnews.akamaized.net/hls/live/2020607/cbsnlineup_8/master.m3u8
-#EXTINF:-1  tvg-name="CBSNews" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CBSNews.png"  group-title="国际台",CBSNews
-https://jmp2.uk/plu-62310d5a5dc9550007c6f580.m3u8
-#EXTINF:-1  tvg-name="CBSNews" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CBSNews.png"  group-title="国际台",CBSNews
-https://jmp2.uk/plu-62310f66d5888f0007534342.m3u8
+#EXTINF:-1  tvg-name="Bravo" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/Bravo.png"  group-title="国际台",Bravo
+https://t.freetv.fun/live/bravo.m3u8
+#EXTINF:-1  tvg-name="Bravo" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/Bravo.png"  group-title="国际台",Bravo
+https://t.freetv.fun/live/bravo-1.m3u8
+#EXTINF:-1  tvg-name="Bravo" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/Bravo.png"  group-title="国际台",Bravo
+https://t.freetv.fun/live/bravo-west.m3u8
 #EXTINF:-1  tvg-name="CBSNews24/7" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CBSNews24/7.png"  group-title="国际台",CBSNews24/7
 https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master_24.m3u8
 #EXTINF:-1  tvg-name="CBSNews24/7" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CBSNews24/7.png"  group-title="国际台",CBSNews24/7
 https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
 #EXTINF:-1  tvg-name="CBSNews24/7" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CBSNews24/7.png"  group-title="国际台",CBSNews24/7
 https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8
-#EXTINF:-1  tvg-name="CNBC(USA)" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CNBC(USA).png"  group-title="国际台",CNBC(USA)
-https://t.freetv.fun/live/cnbc-2.m3u8
-#EXTINF:-1  tvg-name="CNBC(USA)" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CNBC(USA).png"  group-title="国际台",CNBC(USA)
-https://t.freetv.fun/live/cnbc-5.m3u8
-#EXTINF:-1  tvg-name="CNBC(USA)" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CNBC(USA).png"  group-title="国际台",CNBC(USA)
-https://t.freetv.fun/live/cnbc.m3u8
+#EXTINF:-1  tvg-name="CNA" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CNA.png"  group-title="国际台",CNA
+https://t.freetv.fun/live/cna-1.m3u8
+#EXTINF:-1  tvg-name="CNA" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CNA.png"  group-title="国际台",CNA
+https://t.freetv.fun/live/cna.m3u8
+#EXTINF:-1  tvg-name="CNA" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CNA.png"  group-title="国际台",CNA
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
 #EXTINF:-1  tvg-name="CNN" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CNN.png"  group-title="国际台",CNN
 https://t.freetv.fun/live/cnn-3.m3u8
 #EXTINF:-1  tvg-name="CNN" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CNN.png"  group-title="国际台",CNN
 https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
-#EXTINF:-1  tvg-name="FoxNewsChannel" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/FoxNewsChannel.png"  group-title="国际台",FoxNewsChannel
-https://t.freetv.fun/live/fox-news-channel.m3u8
-#EXTINF:-1  tvg-name="FoxNewsChannel" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/FoxNewsChannel.png"  group-title="国际台",FoxNewsChannel
-https://t.freetv.fun/live/fox-news-channel-1.m3u8
-#EXTINF:-1  tvg-name="FoxNewsInternational" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/FoxNewsInternational.png"  group-title="国际台",FoxNewsInternational
-https://gpuserver3.tier1streams.com/FOX/index.m3u8
+#EXTINF:-1  tvg-name="E!" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/E!.png"  group-title="国际台",E!
+http://23.237.104.106:8080/USA_E/index.m3u8
+#EXTINF:-1  tvg-name="EntertainmentTonight" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/EntertainmentTonight.png"  group-title="国际台",EntertainmentTonight
+https://enterbcef94b.airspace-cdn.cbsivideo.com/master.m3u8
+#EXTINF:-1  tvg-name="FoxWeather" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/FoxWeather.png"  group-title="国际台",FoxWeather
+https://t.freetv.fun/live/mei-guo-fox-weather.m3u8
 #EXTINF:-1  tvg-name="MSNOW" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/MSNOW.png"  group-title="国际台",MSNOW
 http://40.160.24.53/MSNBC/index.m3u8
+#EXTINF:-1  tvg-name="NBC" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/NBC.png"  group-title="国际台",NBC
+https://t.freetv.fun/live/nbc.m3u8
+#EXTINF:-1  tvg-name="NBC" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/NBC.png"  group-title="国际台",NBC
+http://stream.cammonitorplus.net/1785/index.m3u8
+#EXTINF:-1  tvg-name="Newsmax" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/Newsmax.png"  group-title="国际台",Newsmax
+http://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+#EXTINF:-1  tvg-name="Newsmax" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/Newsmax.png"  group-title="国际台",Newsmax
+https://t.freetv.fun/live/newsmax-spanish.m3u8
+#EXTINF:-1  tvg-name="Newsmax" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/Newsmax.png"  group-title="国际台",Newsmax
+https://t.freetv.fun/live/newsmax-tv.m3u8
 #EXTINF:-1  tvg-name="SkyNews" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/SkyNews.png"  group-title="国际台",SkyNews
 https://d25w9q07b2mtmw.cloudfront.net/live/master_4.m3u8
 #EXTINF:-1  tvg-name="SkyNews" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/SkyNews.png"  group-title="国际台",SkyNews

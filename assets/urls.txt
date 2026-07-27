@@ -1,26 +1,12 @@
-# 优先级最高：fafa002 源（高质量国内台优先抓取）
-# 注意：已将 fafa002 也加入了 gh-proxy 代理，确保纯 IPv4 环境下也能稳定拉取
+# ---------------- 优先级最高：fafa002 优质大源 ----------------
 https://gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt
 
-# =====================================================
-# 纯 IPv4 网络下的国内主力源（已剔除所有 ipv6 源）
-# =====================================================
+# ---------------- 极速国内 IPTV 源（直连） ----------------
+https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv4.m3u
 https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
 https://raw.githubusercontent.com/kimwang1978/collect-txt/refs/heads/main/others_output.txt
-https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt
-https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8
-https://raw.githubusercontent.com/gaotianliuyun/gao/master/list.txt
-https://raw.githubusercontent.com/jiangnan1224/iptv_ipv4_live/refs/heads/main/live_ipv4.txt
-https://raw.githubusercontent.com/zwc456baby/iptv_alive/refs/heads/master/live.m3u
-https://raw.githubusercontent.com/maitel2020/iptv-self-use/main/iptv.txt
-https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/台湾香港澳门2023.m3u
-https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/国内电视台2023.m3u8
-https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/轮播_华数.黑莓.NewTV.SiTV.CIBN.m3u
-https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u
 
-# 仍保留以下海外强源（带 gh-proxy 代理）
+# ---------------- 全球混合源（保底提供 ABC/CBS 等） ----------------
 https://gh-proxy.org/https://raw.githubusercontent.com/iptv-org/iptv/index.m3u
 https://gh-proxy.org/https://iptv.catvod.com/tv.m3u
-https://gh-proxy.org/https://live.freetv.top/douyuyqk.m3u
 https://gh-proxy.org/https://live.iptv-free.com/iptv/categories/general.m3u
-https://gh-proxy.org/https://live.iptv-free.com/iptv/categories/movies.m3u

@@ -22,7 +22,7 @@ RESPONSE_TIME_THRESHOLD = 2000
 TVG_URL = "https://ghfast.top/https://github.com/CCSH/IPTV/raw/refs/heads/main/e.xml.gz"
 LOGO_URL_TPL = "https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/{}.png"
 # 所有单个频道最多保留的有效源数量，可直接修改数字（-1=无限制）
-SINGLE_CHANNEL_MAX_COUNT = 3  
+SINGLE_CHANNEL_MAX_COUNT = 12  
 
 # ===================== 通用工具函数 =====================
 def get_project_dirs() -> dict:

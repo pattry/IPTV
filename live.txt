@@ -1,5 +1,5 @@
 更新时间,#genre#
-20260728 11:32,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
+20260728 11:39,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 
 
 央视频道,#genre#
@@ -1776,14 +1776,6 @@ ELEVEN体育2,https://stream1.freetv.fun/eltaai-er-da-ti-yu--2--wj-1.ctv
 
 
 游戏频道,#genre#
-游戏风云,http://t.061899.xyz/tl/tl.php?id=yxfy
-游戏风云,http://dassby.qqff.top:99/live/游戏风云/index.m3u8
-游戏风云,http://111.29.9.33:6610/000000001000/5000000011000031114/index.m3u8?channel-id=bestzb&Contentid=5000000011000031114&livemode=1&stbId=3
-游戏风云,https://live.264788.xyz/channel/youxifengyun?streamid=07e90ddeb9e01a72addf4dd310ebe1cf&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-游戏风云,https://live.264788.xyz/channel/youxifengyun?streamid=6e817b754189d2c8f7b32e7bff61ac7b&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-游戏风云,https://live.264788.xyz/channel/youxifengyun?streamid=49dcecc843de685ba1f6337febacc78e&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-游戏风云,https://live.264788.xyz/channel/youxifengyun?streamid=9d151740f57f6bd412bb6f101204b7bd&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
-游戏风云,http://pgg.sdmdpx.com:5140/rtsp/112.245.125.48:1554/iptv/import/Tvod/iptv/001/001/ch16051316213602697345.rsc/70026_Uni.sdp
 
 
 解说频道,#genre#
@@ -3684,7 +3676,6 @@ Discovery,http://mypanel-4k.com:80/me52pjdqa6/dt2t9r16ja/693845
 
 
 春晚,#genre#
-春晚2023,https://alimov2.a.kwimgs.com/upic/2023/01/13/20/BMjAyMzAxMTMyMDA5MjJfNDAzMDAxOTlfOTM0OTkwNDQ2MTZfMF8z_b_B4851f43f5a2bc2871a9b0ec87294a6e7.mp4
 
 
 直播中国,#genre#

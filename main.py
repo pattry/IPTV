@@ -23,7 +23,7 @@ RESPONSE_TIME_THRESHOLD = 2000
 TVG_URL = "https://ghfast.top/https://github.com/CCSH/IPTV/raw/refs/heads/main/e.xml.gz"
 LOGO_URL_TPL = "https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/{}.png"
 # 所有单个频道最多保留的有效源数量，可直接修改数字（-1=无限制）
-SINGLE_CHANNEL_MAX_COUNT = 18
+SINGLE_CHANNEL_MAX_COUNT = 20
 
 # ===================== 标准化策略配置 =====================
 # 需要去掉HD/画质标记的分类（HD版和非HD版合并）
@@ -417,8 +417,12 @@ class ChannelClassifier:
             return True
         return False
 
-    def add_channel_line(self, chn_type: str, line: str, url: str):
-        self.channel_data[chn_type].append(line)
+    def add_channel_line(self, chn_type: str, line: str, url: str, priority: bool = False):
+        """添加频道行，priority=True时插入到最前面"""
+        if priority:
+            self.channel_data[chn_type].insert(0, line)
+        else:
+            self.channel_data[chn_type].append(line)
         self.all_urls[chn_type].add(url)
         channel_name = line.split(',')[0].strip()
         self.single_chn_count[channel_name] = self.single_chn_count.get(channel_name, 0) + 1
@@ -428,8 +432,8 @@ class ChannelClassifier:
             self.other_urls.add(url)
             self.other_lines.append(line)
 
-    def classify(self, channel_name: str, channel_url: str, line: str):
-        """智能分类方法"""
+    def classify(self, channel_name: str, channel_url: str, line: str, priority: bool = False):
+        """智能分类方法，priority=True时频道排在最前面"""
         if channel_url in self.blacklist or not channel_url or self.is_single_chn_limit(channel_name):
             return
         
@@ -444,7 +448,7 @@ class ChannelClassifier:
                     idx = normalized_list.index(normalized_input)
                     display_name = self.main_display[chn_type][idx]
                     new_line = f"{display_name},{channel_url}"
-                    self.add_channel_line(chn_type, new_line, channel_url)
+                    self.add_channel_line(chn_type, new_line, channel_url, priority)
                 return
         
         # 3. 尝试在地方台字典中匹配
@@ -455,7 +459,7 @@ class ChannelClassifier:
                     idx = normalized_list.index(normalized_input)
                     display_name = self.local_display[chn_type][idx]
                     new_line = f"{display_name},{channel_url}"
-                    self.add_channel_line(chn_type, new_line, channel_url)
+                    self.add_channel_line(chn_type, new_line, channel_url, priority)
                 return
         
         # 4. 未匹配：策略C保留原名
@@ -467,7 +471,7 @@ class ChannelClassifier:
                         idx = self.main_normalized[chn_type].index(normalized_input)
                         display_name = self.main_display[chn_type][idx]
                         new_line = f"{display_name},{channel_url}"
-                        self.add_channel_line(chn_type, new_line, channel_url)
+                        self.add_channel_line(chn_type, new_line, channel_url, priority)
                     return
         
         # 默认：扔到 others
@@ -502,7 +506,8 @@ def convert_m3u_to_txt(m3u_content: str) -> list:
                 txt_lines.append(line)
     return txt_lines
 
-def process_remote_url(url: str, classifier: ChannelClassifier, corrections: dict):
+def process_remote_url(url: str, classifier: ChannelClassifier, corrections: dict, priority: bool = False):
+    """处理远程源，priority=True时该源的链接排在最前面"""
     classifier.other_lines.append(f"{url},#genre#")
     try:
         headers = {'User-Agent': USER_AGENT}
@@ -525,12 +530,13 @@ def process_remote_url(url: str, classifier: ChannelClassifier, corrections: dic
                 lines = [line.strip() for line in text.split('\n') if line.strip()]
         print(f"[PROCESS] 远程源 {url} 提取有效行: {len(lines)}")
         for line in lines:
-            process_single_line(line, classifier, corrections)
+            process_single_line(line, classifier, corrections, priority)
         classifier.other_lines.append('\n')
     except Exception as e:
         print(f"[ERROR] 处理远程源 {url} 失败: {str(e)}")
 
-def process_single_line(line: str, classifier: ChannelClassifier, corrections: dict):
+def process_single_line(line: str, classifier: ChannelClassifier, corrections: dict, priority: bool = False):
+    """处理单行频道数据，priority=True时该频道排在最前面"""
     if "#genre#" in line or "#EXTINF:" in line or "," not in line or "://" not in line:
         return
     try:
@@ -544,17 +550,17 @@ def process_single_line(line: str, classifier: ChannelClassifier, corrections: d
     channel_address = clean_url(channel_address)
     
     new_line = f"{channel_name},{channel_address}"
-    classifier.classify(channel_name, channel_address, new_line)
+    classifier.classify(channel_name, channel_address, new_line, priority)
 
-def process_all_urls(urls: list, classifier: ChannelClassifier, corrections: dict):
-    """并发处理所有远程源"""
+def process_all_urls(urls: list, classifier: ChannelClassifier, corrections: dict, priority: bool = False):
+    """并发处理所有远程源，priority=True时这些源的链接排在最前面"""
     http_urls = [url for url in urls if url.startswith("http")]
     success_count = 0
     fail_count = 0
     
     with concurrent.futures.ThreadPoolExecutor(max_workers=20) as executor:
         future_to_url = {
-            executor.submit(process_remote_url, url, classifier, corrections): url 
+            executor.submit(process_remote_url, url, classifier, corrections, priority): url 
             for url in http_urls
         }
         for future in concurrent.futures.as_completed(future_to_url):
@@ -699,14 +705,14 @@ if __name__ == "__main__":
         else:
             backup_sources.append(url)
 
-    # 第一步：串行处理主源（保证它的链接排在最前面）
+    # 第一步：串行处理主源（priority=True，链接插入到最前面）
     print(f"[PRIORITY] 优先处理主源（{len(main_sources)} 个）")
     for url in main_sources:
-        process_remote_url(url, classifier, corrections)
+        process_remote_url(url, classifier, corrections, priority=True)
 
-    # 第二步：并发处理备用源
+    # 第二步：并发处理备用源（priority=False，链接追加到末尾）
     print(f"[BACKUP] 并发处理备用源（{len(backup_sources)} 个）")
-    process_all_urls(backup_sources, classifier, corrections)
+    process_all_urls(backup_sources, classifier, corrections, priority=False)
 
     _, main_display = main_dicts
     live_full, live_lite = generate_live_text(classifier, main_display)

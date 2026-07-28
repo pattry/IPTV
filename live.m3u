@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://ghfast.top/https://github.com/CCSH/IPTV/raw/refs/heads/main/e.xml.gz"
-#EXTINF:-1  tvg-name="20260728 08:43" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/20260728 08:43.png"  group-title="更新时间",20260728 08:43
+#EXTINF:-1  tvg-name="20260728 09:00" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/20260728 09:00.png"  group-title="更新时间",20260728 09:00
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 #EXTINF:-1  tvg-name="CCTV1" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CCTV1.png"  group-title="央视频道",CCTV1
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226016/index.m3u8
@@ -3989,6 +3989,14 @@ https://www.goodiptv.club/huya/11336587
 http://173.208.234.146/live/vlzxc.m3u8
 #EXTINF:-1  tvg-name="周星驰" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/周星驰.png"  group-title="电影",周星驰
 http://alist.xicp.fun:35455/yy/1382736808#https://live.metshop.top/yy/1382736808
+#EXTINF:-1  tvg-name="周星驰" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/周星驰.png"  group-title="电影",周星驰
+https://yg.ygbox.de5.net/huya.php?id=11336587
+#EXTINF:-1  tvg-name="周星驰" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/周星驰.png"  group-title="电影",周星驰
+https://yg.ygbox.de5.net/huya.php?id=11342412
+#EXTINF:-1  tvg-name="周星驰" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/周星驰.png"  group-title="电影",周星驰
+https://yg.ygbox.de5.net/huya.php?id=30296786
+#EXTINF:-1  tvg-name="周星驰" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/周星驰.png"  group-title="电影",周星驰
+https://yg.ygbox.de5.net/huya.php?id=21136378
 #EXTINF:-1  tvg-name="李连杰" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/李连杰.png"  group-title="电影",李连杰
 https://www.goodiptv.club/huya/11342390
 #EXTINF:-1  tvg-name="洪金宝" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/洪金宝.png"  group-title="电影",洪金宝
@@ -4001,6 +4009,10 @@ https://stream1.freetv.fun/hong-jin-bao-4.ctv
 https://stream1.freetv.fun/hong-jin-bao-2.ctv
 #EXTINF:-1  tvg-name="洪金宝" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/洪金宝.png"  group-title="电影",洪金宝
 https://www.goodiptv.club/huya/11279251
+#EXTINF:-1  tvg-name="洪金宝" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/洪金宝.png"  group-title="电影",洪金宝
+https://yg.ygbox.de5.net/huya.php?id=11279251
+#EXTINF:-1  tvg-name="梁家辉" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/梁家辉.png"  group-title="电影",梁家辉
+https://yg.ygbox.de5.net/huya.php?id=11342429
 #EXTINF:-1  tvg-name="刘德华" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/刘德华.png"  group-title="电影",刘德华
 http://173.208.234.146/live/vlldh.m3u8
 #EXTINF:-1  tvg-name="刘德华" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/刘德华.png"  group-title="电影",刘德华
@@ -4011,6 +4023,10 @@ http://epg.112114.xyz/douyu/2516864
 https://vd2.bdstatic.com/mda-ni103pry5e4aqk39/sc/cae_h264/1662084584421447983/mda-ni103pry5e4aqk39.mp4
 #EXTINF:-1  tvg-name="刘德华" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/刘德华.png"  group-title="电影",刘德华
 https://www.goodiptv.club/huya/11342424
+#EXTINF:-1  tvg-name="刘德华" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/刘德华.png"  group-title="电影",刘德华
+https://yg.ygbox.de5.net/huya.php?id=11342424
+#EXTINF:-1  tvg-name="刘德华" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/刘德华.png"  group-title="电影",刘德华
+https://yg.ygbox.de5.net/huya.php?id=30080191
 #EXTINF:-1  tvg-name="成龙" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/成龙.png"  group-title="电影",成龙
 http://173.208.234.146/live/vlcl.m3u8
 #EXTINF:-1  tvg-name="成龙" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/成龙.png"  group-title="电影",成龙
@@ -4019,8 +4035,12 @@ http://38.75.136.137:82/live1/jsb.m3u8?id=lbcl&ip=whus21&usign=1LR7Q-EFMMTvbEbLX
 https://p6-dy.byteimg.com/origin/pgc-image/bebfddceee5c40f495882785675174cf
 #EXTINF:-1  tvg-name="成龙" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/成龙.png"  group-title="电影",成龙
 https://www.goodiptv.club/huya/11342386
+#EXTINF:-1  tvg-name="成龙" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/成龙.png"  group-title="电影",成龙
+https://yg.ygbox.de5.net/huya.php?id=11342386
 #EXTINF:-1  tvg-name="王晶" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/王晶.png"  group-title="电影",王晶
 https://www.goodiptv.club/huya/11602058
+#EXTINF:-1  tvg-name="王晶" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/王晶.png"  group-title="电影",王晶
+https://yg.ygbox.de5.net/huya.php?id=11602058
 #EXTINF:-1  tvg-name="沈腾" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/沈腾.png"  group-title="电影",沈腾
 https://www.goodiptv.club/huya/11601968
 #EXTINF:-1  tvg-name="黄渤" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/黄渤.png"  group-title="电影",黄渤
@@ -4035,8 +4055,12 @@ https://stream1.freetv.fun/lin-zheng-ying-8.ctv
 https://stream1.freetv.fun/lin-zheng-ying-2.ctv
 #EXTINF:-1  tvg-name="林正英" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/林正英.png"  group-title="电影",林正英
 http://epg.112114.xyz/douyu/218859
+#EXTINF:-1  tvg-name="林正英" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/林正英.png"  group-title="电影",林正英
+https://yg.ygbox.de5.net/huya.php?id=11342421
 #EXTINF:-1  tvg-name="甄子丹" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/甄子丹.png"  group-title="电影",甄子丹
 https://www.goodiptv.club/huya/11352935
+#EXTINF:-1  tvg-name="甄子丹" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/甄子丹.png"  group-title="电影",甄子丹
+https://yg.ygbox.de5.net/huya.php?id=16857432
 #EXTINF:-1  tvg-name="电影_洪金宝" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/电影_洪金宝.png"  group-title="电影",电影_洪金宝
 http://cdn.jdshipin.com:8880/huya.php?id=11279251
 #EXTINF:-1  tvg-name="电影_强森" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/电影_强森.png"  group-title="电影",电影_强森
@@ -4291,6 +4315,8 @@ http://live.ottiptv.cc/yy/1352811698
 http://alist.xicp.fun:35455/yy/1354931580#https://live.metshop.top/yy/1354931580
 #EXTINF:-1  tvg-name="我的前半生" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/我的前半生.png"  group-title="电视剧",我的前半生
 http://jiaojirentv.top/2020/yy.php?id=1382735564
+#EXTINF:-1  tvg-name="我的前半生" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/我的前半生.png"  group-title="电视剧",我的前半生
+https://yg.ygbox.de5.net/huya.php?id=11352916
 #EXTINF:-1  tvg-name="济公游记" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/济公游记.png"  group-title="电视剧",济公游记
 http://jiaojirentv.top/2020/yy.php?id=1355265814
 #EXTINF:-1  tvg-name="济公游记" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/济公游记.png"  group-title="电视剧",济公游记
@@ -4331,6 +4357,8 @@ http://live.nctv.top/douyu1.php?id=9286868
 http://pgg.sdmdpx.com:5140/rtsp/112.245.125.48:1554/iptv/import/Tvod/iptv/001/001/ch13031310531244319435.rsc/70013_Uni.sdp
 #EXTINF:-1  tvg-name="相声小品" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/相声小品.png"  group-title="综艺频道",相声小品
 http://121.24.98.127:8090/hls/101/index.m3u8
+#EXTINF:-1  tvg-name="经典小品" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/经典小品.png"  group-title="综艺频道",经典小品
+https://yg.ygbox.de5.net/huya.php?id=11602068
 #EXTINF:-1  tvg-name="蔡明小品" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/蔡明小品.png"  group-title="综艺频道",蔡明小品
 http://120.78.6.151:8968/yy.php?id=1354936177
 #EXTINF:-1  tvg-name="蔡明小品" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/蔡明小品.png"  group-title="综艺频道",蔡明小品
@@ -5207,6 +5235,8 @@ https://t.freetv.fun/live/dong-wu-xing-qiu.m3u8
 https://stream1.freetv.fun/dong-wu-xing-qiu-1.m3u8
 #EXTINF:-1  tvg-name="动物星球" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/动物星球.png"  group-title="纪录片",动物星球
 http://61.221.215.25:8800/hls/57/index.m3u8
+#EXTINF:-1  tvg-name="易中天品三国" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/易中天品三国.png"  group-title="纪录片",易中天品三国
+https://yg.ygbox.de5.net/huya.php?id=11602032
 #EXTINF:-1  tvg-name="求索纪录" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/求索纪录.png"  group-title="纪录片",求索纪录
 https://stream1.freetv.fun/qiu-suo-ji-lu-15.m3u8
 #EXTINF:-1  tvg-name="求索纪录" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/求索纪录.png"  group-title="纪录片",求索纪录

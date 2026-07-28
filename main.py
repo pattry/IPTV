@@ -22,7 +22,7 @@ RESPONSE_TIME_THRESHOLD = 2000
 TVG_URL = "https://ghfast.top/https://github.com/CCSH/IPTV/raw/refs/heads/main/e.xml.gz"
 LOGO_URL_TPL = "https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/{}.png"
 # 所有单个频道最多保留的有效源数量，可直接修改数字（-1=无限制）
-SINGLE_CHANNEL_MAX_COUNT = 30
+SINGLE_CHANNEL_MAX_COUNT = 18
 
 # ===================== 标准化策略配置 =====================
 # 需要去掉HD/画质标记的分类（HD版和非HD版合并）

@@ -6,23 +6,117 @@ from datetime import datetime, timedelta, timezone
 import opencc
 
 # ===================== 全局核心配置 =====================
-# 指定按TXT文件内顺序排列的分类，其余自动字典序排序，按需增删ÏÒ
+# 指定按TXT文件内顺序排列的分类，其余自动字典序排序，按需增删
 ORDERED_CHANNEL_TYPES = ["央视频道", "卫视频道", "港澳台", "电影", "电视剧", "埋堆堆", "咪咕直播"]
-# 频道名称清理字符集
+# 频道名称清理字符集（仅用于clean_channel_name的初步清洗）
 REMOVAL_LIST = [
     "「IPV4」", "「IPV6」", "[ipv6]", "[ipv4]", "_电信", "电信", "（HD）", "[超清]","高清", "超清", "-HD", "(HK)", "AKtv", "@", 
     "IPV6", "🎞️", "🎦","[BD]", "[VGA]", "[HD]", "[SD]", "(1080p)", "(720p)", "(480p)", "HD", "｜", "NewTV-", "New_"
 ]
 # 网络请求配置
-USER_AGENT = "PostmanRuntime-ApipostRuntime/1.1.0"
-URL_FETCH_TIMEOUT = 10
+USER_AGENT = "okhttp/3.15.0"
+URL_FETCH_TIMEOUT = 15
 # 白名单测速阈值(ms)
 RESPONSE_TIME_THRESHOLD = 2000
 # M3U相关配置
 TVG_URL = "https://ghfast.top/https://github.com/CCSH/IPTV/raw/refs/heads/main/e.xml.gz"
 LOGO_URL_TPL = "https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/{}.png"
 # 所有单个频道最多保留的有效源数量，可直接修改数字（-1=无限制）
-SINGLE_CHANNEL_MAX_COUNT = 18  
+SINGLE_CHANNEL_MAX_COUNT = 30
+
+# ===================== 标准化策略配置 =====================
+# 需要去掉HD/画质标记的分类（HD版和非HD版合并）
+REMOVE_HD_TYPES = ["央视频道", "卫视频道"]
+
+# 匹不上也保留原名的分类（策略C：尽量匹配，匹不上保留原名）
+KEEP_UNMATCHED_TYPES = ["电影", "纪录片", "国际台", "儿童频道"]
+
+# ===================== 港澳台别名映射表 =====================
+ALIAS_MAP = {
+    # TVB系列
+    "翡翠台": "TVB翡翠台",
+    "明珠台": "TVBPearl",
+    "无线新闻": "TVB互动新闻台",
+    "无线新闻台": "TVB互动新闻台",
+    "TVBJ2": "TVBJ2",
+    
+    # 中天系列
+    "中天新闻": "中天新闻台",
+    
+    # 中视系列
+    "中视新闻": "中视新闻台",
+    
+    # 民视系列
+    "民视新闻": "民视新闻台",
+    
+    # 台视系列
+    "台视新闻": "台视新闻台",
+    
+    # 华视系列
+    "华视新闻": "华视新闻台",
+    
+    # 三立系列
+    "三立新闻": "三立新闻台",
+    
+    # 东森系列
+    "东森新闻": "东森新闻台",
+    
+    # 纬来系列（无"台"→有"台"）
+    "纬来体育": "纬来体育台",
+    "纬来戏剧": "纬来戏剧台",
+    "纬来日本": "纬来日本台",
+    "纬来电影": "纬来电影台",
+    "纬来精彩": "纬来精彩台",
+    "纬来综合": "纬来综合台",
+    "纬来育乐": "纬来育乐台",
+    "纬来音乐": "纬来音乐台",
+    
+    # 靖天系列
+    "靖天戏剧": "靖天戏剧台",
+    "靖天日本": "靖天日本台",
+    "靖天映画": "靖天映画台",
+    "靖天欢乐": "靖天欢乐台",
+    "靖天电影": "靖天电影台",
+    "靖天综合": "靖天综合台",
+    "靖天育乐": "靖天育乐台",
+    "靖天资讯": "靖天资讯台",
+    "靖天卡通": "靖天卡通台",
+    
+    # 靖洋系列
+    "靖洋戏剧": "靖洋戏剧台",
+    "靖洋卡通": "靖洋卡通台",
+    
+    # 龙华系列
+    "龙华偶像": "龙华偶像台",
+    "龙华动画": "龙华动画台",
+    "龙华影剧": "龙华影剧台",
+    "龙华戏剧": "龙华戏剧台",
+    "龙华洋片": "龙华洋片台",
+    "龙华电影": "龙华电影台",
+    "龙华经典": "龙华经典台",
+    
+    # 壹电视系列
+    "壹电视新闻": "壹电视新闻台",
+    "壹电视电影": "壹电视电影台",
+    "壹电视综合": "壹电视综合台",
+    
+    # 八大系列
+    "八大优": "八大优频道",
+    "八大娱乐": "八大娱乐台",
+    "八大戏剧": "八大戏剧台",
+    "八大第一": "八大第一台",
+    "八大精彩": "八大精彩台",
+    "八大综合": "八大综合台",
+    "八大综艺": "八大综艺台",
+    
+    # Now系列
+    "Now新闻": "Now新闻台",
+    "Now直播": "Now直播台",
+    "Now财经": "Now财经台",
+    "Now华剧": "Now华剧台",
+    "Now报价": "Now报价台",
+    "Now爆谷星影": "Now爆谷星影台",
+}
 
 # ===================== 通用工具函数 =====================
 def get_project_dirs() -> dict:
@@ -113,6 +207,7 @@ def load_corrections(corrections_path: str) -> dict:
 
 # ===================== 频道名称/URL处理 =====================
 def clean_channel_name(name: str) -> str:
+    """初步清洗频道名，删除无关标记"""
     if not name:
         return ""
         
@@ -127,8 +222,6 @@ def clean_channel_name(name: str) -> str:
         name = name.replace(item, "")
     name = name.replace("CCTV-", "CCTV")
     name = name.replace("CCTV0", "CCTV")
-    name = name.replace("CCTV-", "CCTV")
-    name = name.replace("HD", "")
     name = name.replace("PLUS", "+")
     name = name.replace("iHOT-", "iHOT")
     return name.strip()
@@ -144,8 +237,82 @@ def correct_channel_name(name: str, corrections: dict) -> str:
         return name
     return corrections[name] if corrections[name] != name else name
 
+# ===================== 新增：分类型频道名标准化 =====================
+def normalize_channel_name(name: str, chn_type: str = None) -> str:
+    """
+    根据分类类型，智能标准化频道名用于字典匹配。
+    
+    Args:
+        name: 清洗后的频道名
+        chn_type: 所属分类（用于判断是否去掉HD标记）
+    
+    Returns:
+        标准化后的纯小写字母数字标识符
+    """
+    if not name:
+        return ""
+    
+    # 1. 基础清洗
+    name = name.replace("　", " ")
+    name = re.sub(r'[\u200b\u200c\u200d\u200e\u200f]', '', name)
+    name = name.strip()
+    name = name.lower()
+    
+    # 2. 中国教育台
+    name = re.sub(r'中国教育\s*一?\s*套?', 'cetv1', name)
+    name = re.sub(r'中国教育\s*(\d)\s*台?', r'cetv\1', name)
+    name = re.sub(r'cetv[-\s]*(\d)', r'cetv\1', name)
+    
+    # 3. CCTV5+ 必须最先处理（避免被后续规则破坏）
+    name = re.sub(r'cctv[-\s]*5\s*[+＋]', 'cctv5+', name)
+    name = re.sub(r'cctv\s*5\s*plus', 'cctv5+', name)
+    
+    # 4. CCTV4K / CCTV8K
+    name = re.sub(r'cctv[-\s]*4\s*k', 'cctv4k', name)
+    name = re.sub(r'cctv[-\s]*8\s*k', 'cctv8k', name)
+    
+    # 5. CCTV1-CCTV17
+    name = re.sub(r'cctv[-\s]*(\d+)', r'cctv\1', name)
+    
+    # 6. 去掉画质标记（根据分类决定）
+    if chn_type in REMOVE_HD_TYPES:
+        hd_tags = ['hd', 'fhd', 'uhd', 'sd', '高清', '标清', '超清', '蓝光', '普清']
+        for tag in hd_tags:
+            name = name.replace(tag, '')
+    
+    # 7. 去掉所有修饰词
+    modifiers = [
+        '综合', '财经', '综艺', '体育', '电影', '电视剧', '科教', '戏曲',
+        '社会与法', '法制', '新闻', '少儿', '音乐', '纪录', '纪录片',
+        '国防军事', '农业农村', '国际', '中文国际', '奥林匹克',
+        '娱乐', '精品', '电视指南', '卫生健康', '文化精品',
+        '亚洲', '欧洲', '美洲', '港澳版', '海外版', '国际版',
+        '一套', '二套', '三套', '四套', '五套', '六套', '七套', '八套',
+        'h265', 'hevc', 'avs2', 'avs3',
+        'ipv4', 'ipv6', 'asi', 'eu', 'us', 'euo', 'ame',
+        '(亚洲)', '(欧洲)', '(美洲)', '(港澳版)', '(国际版)', '(海外版)',
+        '(hd)', '(sd)', '(4k)', '(8k)',
+        '（hd）', '（sd）', '（4k）', '（8k）',
+        '「ipv4」', '「ipv6」', '[ipv6]', '[ipv4]',
+        '｜', '@', '🎞️', '🎦', '[bd]', '[vga]', '[hd]', '[sd]',
+        '(1080p)', '(720p)', '(480p)',
+        'newtv-', 'new_', '_电信', '电信', 'aktv',
+    ]
+    for mod in modifiers:
+        name = name.replace(mod, '')
+    
+    # 8. 删除空格和所有剩余特殊字符（保留字母、数字、+）
+    name = name.replace(' ', '')
+    name = re.sub(r'[^a-z0-9+]', '', name)
+    
+    return name.strip()
+
 # ===================== 频道字典加载 =====================
-def load_channel_dictionaries(main_dir: str, local_dir: str) -> tuple[dict, dict]:
+def load_channel_dictionaries(main_dir: str, local_dir: str) -> tuple:
+    """
+    返回两个元组：
+    (main_normalized, main_display), (local_normalized, local_display)
+    """
     # 主频道数组
     main_name_list = [
         "央视频道", "卫视频道", "体育频道", "电影", "电视剧", "港澳台",
@@ -153,7 +320,6 @@ def load_channel_dictionaries(main_dir: str, local_dir: str) -> tuple[dict, dict
         "iHOT", "儿童频道", "综艺频道", "埋堆堆", "音乐频道", "游戏频道",
         "收音机频道", "直播中国", "MTV", "咪咕直播"
     ]
-    # 自动生成 {分类名: 分类名.txt}
     main_channels = {name: f"{name}.txt" for name in main_name_list}
 
     # 地方台数组
@@ -166,47 +332,64 @@ def load_channel_dictionaries(main_dir: str, local_dir: str) -> tuple[dict, dict
     ]
     local_channels = {name: f"{name}.txt" for name in local_name_list}
 
-    main_dict = {}
+    # 两个字典：一个存标准化名（匹配用），一个存原始名（输出用）
+    main_normalized = {}
+    main_display = {}
+    
     for chn_type, filename in main_channels.items():
         file_path = os.path.join(main_dir, filename)
         raw_lines = read_txt(file_path)
-        # 关键：和源频道执行完全一样的清洗流程，保证名称一致
-        clean_lines = []
+        
+        display_names = []
+        normalized_names = []
         for name in raw_lines:
             n = traditional_to_simplified(name)
             n = clean_channel_name(n)
-            clean_lines.append(n)
-        main_dict[chn_type] = clean_lines
+            display_names.append(n)
+            # 用该分类的策略标准化
+            normalized_names.append(normalize_channel_name(n, chn_type))
+        
+        main_normalized[chn_type] = normalized_names
+        main_display[chn_type] = display_names
         print(f"[INFO] 加载主频道 {chn_type}: {len(raw_lines)} 个")
 
-    local_dict = {}
+    local_normalized = {}
+    local_display = {}
+    
     for chn_type, filename in local_channels.items():
         file_path = os.path.join(local_dir, filename)
         raw_lines = read_txt(file_path)
-        clean_lines = []
+        
+        display_names = []
+        normalized_names = []
         for name in raw_lines:
             n = traditional_to_simplified(name)
             n = clean_channel_name(n)
-            clean_lines.append(n)
-        local_dict[chn_type] = clean_lines
+            display_names.append(n)
+            # 地方台保留HD标记
+            normalized_names.append(normalize_channel_name(n, chn_type))
+        
+        local_normalized[chn_type] = normalized_names
+        local_display[chn_type] = display_names
         print(f"[INFO] 加载地方台 {chn_type}: {len(raw_lines)} 个")
 
-    return main_dict, local_dict
+    return (main_normalized, main_display), (local_normalized, local_display)
 
 # ===================== 频道分类核心 =====================
 class ChannelClassifier:
-    def __init__(self, main_dict: dict, local_dict: dict, blacklist: set):
-        self.main_dict = main_dict
-        self.local_dict = local_dict
+    def __init__(self, main_dicts: tuple, local_dicts: tuple, blacklist: set):
+        self.main_normalized, self.main_display = main_dicts
+        self.local_normalized, self.local_display = local_dicts
         self.blacklist = blacklist
         self.channel_data = {}
         self.other_lines = []
         self.other_urls = set()
         self.all_urls = {}
-        # === 全局单频道限流 新增：单频道计数字典 ===
-        self.single_chn_count = {}  # key: 频道名(如CCTV1), value: 已添加源数量
+        self.single_chn_count = {}
+        
         # 初始化分类数据
-        for chn_type in list(main_dict.keys()) + list(local_dict.keys()):
+        all_types = list(self.main_normalized.keys()) + list(self.local_normalized.keys())
+        for chn_type in all_types:
             self.channel_data[chn_type] = []
             self.all_urls[chn_type] = set()
 
@@ -215,13 +398,10 @@ class ChannelClassifier:
             return True
         return False
 
-    # === 全局单频道限流 ===
     def is_single_chn_limit(self, channel_name: str) -> bool:
         if SINGLE_CHANNEL_MAX_COUNT == -1:
-            return False  # -1表示无限制
-        # 获取该频道已添加数量，默认0
+            return False
         current_count = self.single_chn_count.get(channel_name, 0)
-        # 达到上限返回True，否则False
         if current_count >= SINGLE_CHANNEL_MAX_COUNT:
             return True
         return False
@@ -229,7 +409,6 @@ class ChannelClassifier:
     def add_channel_line(self, chn_type: str, line: str, url: str):
         self.channel_data[chn_type].append(line)
         self.all_urls[chn_type].add(url)
-        # === 全局单频道限流 新增：更新单频道计数 ===
         channel_name = line.split(',')[0].strip()
         self.single_chn_count[channel_name] = self.single_chn_count.get(channel_name, 0) + 1
 
@@ -238,20 +417,57 @@ class ChannelClassifier:
             self.other_urls.add(url)
             self.other_lines.append(line)
 
-    # === 全局单频道限流 ===
     def classify(self, channel_name: str, channel_url: str, line: str):
-        # 先判断：黑名单/空URL → 跳过；单频道达上限 → 跳过
+        """
+        智能分类方法。
+        1. 先查别名映射
+        2. 再尝试匹配主频道字典
+        3. 再尝试匹配地方台字典
+        4. 未匹配：策略C的分类保留原名，其余扔others
+        """
         if channel_url in self.blacklist or not channel_url or self.is_single_chn_limit(channel_name):
             return
-        # 原有分类逻辑不变
-        for chn_type, chn_names in self.main_dict.items():
-            if channel_name in chn_names and not self.check_url_exist(chn_type, channel_url):
-                self.add_channel_line(chn_type, line, channel_url)
+        
+        # 1. 先查别名映射
+        resolved_name = ALIAS_MAP.get(channel_name, channel_name)
+        
+        # 2. 尝试在主频道字典中匹配
+        for chn_type, normalized_list in self.main_normalized.items():
+            normalized_input = normalize_channel_name(resolved_name, chn_type)
+            if normalized_input in normalized_list:
+                if not self.check_url_exist(chn_type, channel_url):
+                    idx = normalized_list.index(normalized_input)
+                    display_name = self.main_display[chn_type][idx]
+                    new_line = f"{display_name},{channel_url}"
+                    self.add_channel_line(chn_type, new_line, channel_url)
                 return
-        for chn_type, chn_names in self.local_dict.items():
-            if channel_name in chn_names and not self.check_url_exist(chn_type, channel_url):
-                self.add_channel_line(chn_type, line, channel_url)
+        
+        # 3. 尝试在地方台字典中匹配
+        for chn_type, normalized_list in self.local_normalized.items():
+            normalized_input = normalize_channel_name(resolved_name, chn_type)
+            if normalized_input in normalized_list:
+                if not self.check_url_exist(chn_type, channel_url):
+                    idx = normalized_list.index(normalized_input)
+                    display_name = self.local_display[chn_type][idx]
+                    new_line = f"{display_name},{channel_url}"
+                    self.add_channel_line(chn_type, new_line, channel_url)
                 return
+        
+        # 4. 未匹配：根据策略决定去向
+        # 策略C：尝试在KEEP_UNMATCHED_TYPES中保留原名
+        for chn_type in KEEP_UNMATCHED_TYPES:
+            if chn_type in self.channel_data:
+                normalized_input = normalize_channel_name(channel_name, chn_type)
+                # 如果匹配上该分类的字典，放入该分类
+                if chn_type in self.main_normalized and normalized_input in self.main_normalized[chn_type]:
+                    if not self.check_url_exist(chn_type, channel_url):
+                        idx = self.main_normalized[chn_type].index(normalized_input)
+                        display_name = self.main_display[chn_type][idx]
+                        new_line = f"{display_name},{channel_url}"
+                        self.add_channel_line(chn_type, new_line, channel_url)
+                    return
+        
+        # 默认：扔到 others
         self.add_other_line(line, channel_url)
 
     def get_channel_data(self, chn_type: str) -> list:
@@ -291,7 +507,7 @@ def process_remote_url(url: str, classifier: ChannelClassifier, corrections: dic
         with urllib.request.urlopen(req, timeout=URL_FETCH_TIMEOUT) as resp:
             data = resp.read()
             text = None
-            for encoding in ['utf-8', 'gbk', 'gb2312', 'iso-8859-1']:
+            for encoding in ['utf-8', 'gbk', 'gb2312', 'gb18030', 'iso-8859-1']:
                 try:
                     text = data.decode(encoding)
                     break
@@ -300,16 +516,10 @@ def process_remote_url(url: str, classifier: ChannelClassifier, corrections: dic
             if not text:
                 print(f"[ERROR] 远程源 {url} 解码失败")
                 return
-
-            # ============= 修改区域开始 =============
-            lines = []
-            # 如果包含 #EXTINF 标签，强制使用 M3U 转换器
-            if is_m3u_content(text) or "#EXTINF:" in text:
+            if is_m3u_content(text):
                 lines = convert_m3u_to_txt(text)
             else:
                 lines = [line.strip() for line in text.split('\n') if line.strip()]
-            # ============= 修改区域结束 =============
-
         print(f"[PROCESS] 远程源 {url} 提取有效行: {len(lines)}")
         for line in lines:
             process_single_line(line, classifier, corrections)
@@ -324,13 +534,15 @@ def process_single_line(line: str, classifier: ChannelClassifier, corrections: d
         channel_name, channel_address = line.split(',', 1)
     except ValueError:
         return
-    # 频道名标准化（简繁转换→清理→纠错）
+    
+    # 频道名标准化（简繁转换→清洗→纠错）
     channel_name = traditional_to_simplified(channel_name)
     channel_name = clean_channel_name(channel_name)
     channel_name = correct_channel_name(channel_name, corrections)
     channel_address = clean_url(channel_address)
+    
     new_line = f"{channel_name},{channel_address}"
-    # 传入标准化后的频道名做分类（保证计数统一）
+    # 传入标准化后的频道名做分类
     classifier.classify(channel_name, channel_address, new_line)
 
 def sort_channel_data(channel_data: list, chn_type: str, cfg_list: list) -> list:
@@ -350,7 +562,7 @@ def sort_channel_data(channel_data: list, chn_type: str, cfg_list: list) -> list
             return pure_name if pure_name else name
         return sorted(channel_data, key=_dict_key)
 
-def generate_live_text(classifier: ChannelClassifier, main_dict: dict) -> tuple[list, list]:
+def generate_live_text(classifier: ChannelClassifier, main_display: dict) -> tuple[list, list]:
     bj_time = datetime.now(timezone.utc) + timedelta(hours=8)
     formatted_time = bj_time.strftime("%Y%m%d %H:%M")
     version = f"{formatted_time},http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8"
@@ -364,7 +576,8 @@ def generate_live_text(classifier: ChannelClassifier, main_dict: dict) -> tuple[
     ]
     for chn_type in lite_sort_types:
         chn_data = classifier.get_channel_data(chn_type)
-        sorted_data = sort_channel_data(chn_data, chn_type, main_dict[chn_type])
+        sort_list = main_display.get(chn_type, [])
+        sorted_data = sort_channel_data(chn_data, chn_type, sort_list)
         lite_lines += [f"{chn_type},#genre#"] + sorted_data + ['\n']
     lite_lines = lite_lines[:-1] if lite_lines and lite_lines[-1] == '\n' else lite_lines
 
@@ -380,7 +593,7 @@ def generate_live_text(classifier: ChannelClassifier, main_dict: dict) -> tuple[
     ]
     for chn_type in full_other_types:
         chn_data = classifier.get_channel_data(chn_type)
-        sort_list = main_dict.get(chn_type, []) or classifier.local_dict.get(chn_type, [])
+        sort_list = main_display.get(chn_type, [])
         sorted_data = sort_channel_data(chn_data, chn_type, sort_list)
         full_lines += [f"{chn_type},#genre#"] + sorted_data + ['\n']
     full_lines = full_lines[:-1] if full_lines and full_lines[-1] == '\n' else full_lines
@@ -409,7 +622,7 @@ def make_m3u(txt_file: str, m3u_file: str, tvg_url: str, logo_tpl: str):
                 continue
             logo_url = logo_tpl.format(channel_name)
             m3u_content += (
-                f"#EXTINF:-1  tvg-name=\"{channel_name}\" tvg-logo=\"{logo_url}\"  group-title=\"{group_name}\",{channel_name}\n"
+                f"#EXTINF:-1 tvg-name=\"{channel_name}\" tvg-logo=\"{logo_url}\" group-title=\"{group_name}\",{channel_name}\n"
                 f"{channel_url}\n"
             )
         write_txt(m3u_file, m3u_content)
@@ -424,8 +637,8 @@ if __name__ == "__main__":
     
     blacklist = load_blacklist(dirs["blacklist_auto"], dirs["blacklist_manual"])
     corrections = load_corrections(dirs["corrections_name"])
-    main_dict, local_dict = load_channel_dictionaries(dirs["main_channel"], dirs["local_channel"])
-    classifier = ChannelClassifier(main_dict, local_dict, blacklist)
+    main_dicts, local_dicts = load_channel_dictionaries(dirs["main_channel"], dirs["local_channel"])
+    classifier = ChannelClassifier(main_dicts, local_dicts, blacklist)
 
     print(f"[PROCESS] 处理手动白名单")
     whitelist_manual = read_txt(dirs["whitelist_manual"])
@@ -441,9 +654,7 @@ if __name__ == "__main__":
             continue
         parts = line.split(",")
         try:
-            # 移除 'ms' 并去除空格
             time_str = parts[0].replace('ms', '').strip()
-            # 转换为浮点数，空字符串返回无穷大
             resp_time = float(time_str) if time_str else float('inf')
         except (ValueError, IndexError, AttributeError):
             resp_time = float('inf')
@@ -457,7 +668,9 @@ if __name__ == "__main__":
         if url.startswith("http"):
             process_remote_url(url, classifier, corrections)
 
-    live_full, live_lite = generate_live_text(classifier, main_dict)
+    # 获取 main_display 用于排序
+    _, main_display = main_dicts
+    live_full, live_lite = generate_live_text(classifier, main_display)
     live_full_path = os.path.join(dirs["root"], "live.txt")
     live_lite_path = os.path.join(dirs["root"], "live_lite.txt")
     others_path = os.path.join(dirs["root"], "others.txt")
@@ -482,5 +695,3 @@ if __name__ == "__main__":
     print(f"[STAT] live.txt行数: {live_count}")
     print(f"[STAT] others.txt行数: {others_count}")
     print("=" * 60)
-
-

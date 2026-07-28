@@ -300,10 +300,16 @@ def process_remote_url(url: str, classifier: ChannelClassifier, corrections: dic
             if not text:
                 print(f"[ERROR] 远程源 {url} 解码失败")
                 return
-            if is_m3u_content(text):
+
+            # ============= 修改区域开始 =============
+            lines = []
+            # 如果包含 #EXTINF 标签，强制使用 M3U 转换器
+            if is_m3u_content(text) or "#EXTINF:" in text:
                 lines = convert_m3u_to_txt(text)
             else:
                 lines = [line.strip() for line in text.split('\n') if line.strip()]
+            # ============= 修改区域结束 =============
+
         print(f"[PROCESS] 远程源 {url} 提取有效行: {len(lines)}")
         for line in lines:
             process_single_line(line, classifier, corrections)

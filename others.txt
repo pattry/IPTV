@@ -24712,12 +24712,6 @@ NTR的救赎-架乃由罗,https://t33.cdn2020.com/video/m3u8/2024/08/25/cf8dfb68
 少白洁第六章MDSR-0005-6绿艾悠,https://t33.cdn2020.com/video/m3u8/2025/10/18/64827eee/index.m3u8
 
 
-https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt,#genre#
-叶县,http://tvpull.dxhmt.cn:9081/tv/10422-1.m3u8#
-项城新闻,http://tvpull.dxhmt.cn:9081/tv/11681-1.m3u8#@http://live.dxhmt.cn:9081/tv/11681-1.m3u8#@http://p2.weizan.cn/978354/131995006225520039/live.m3u8
-水浒传,http://live.ottiptv.cc/huya/26355860
-
-
 https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u,#genre#
 https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt,#genre#
 新闻频道,http://tvcdn.stream3.hndt.com/tv/65bb6966017e100059b75a8500000000_transios/playlist.m3u8?wsSecret=14d08b16a4dbe259ba8c709b23a5d855&wsTime=1785232772
@@ -24823,8 +24817,6 @@ https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u,#genre
 湖南卫视4K,http://8.138.7.223/tv/api.php?id=hnws4k
 江苏卫视4K,http://8.138.7.223/tv/jsws4k.php
 重温经典,http://8.138.7.223/tv/cwjd.php
-广安公共,http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8?zsicd
-旺苍新闻综合,http://channel.wcrmt.cn:80/nmip-media/channellive/channel105268/playlist.m3u8
 河南国际,http://1.94.31.214/php/hntv.php?id=hngj
 移动戏曲,http://1.94.31.214/php/hntv.php?id=ydxj
 
@@ -24933,19 +24925,8 @@ https://raw.githubusercontent.com/skddyj/iptv/refs/heads/main/IPTV.m3u,#genre#
 
 https://raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt,#genre#
 电影喜剧专场,http://live.metshop.top/huya/11602044?cdn=alicdn
-云霄综合,http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian,
-云霄综合,http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian
-嵊泗综合,http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
-广安公共,http://live1.gatv.com.cn:85/live/GGPD.m3u8
-广安公共,http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8
-开化国家公园,http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8zzhed#http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8
-无锡新闻综合,http://stream.thmz.com/wxtv1/sd/live.m3u8?zjiangsd#http://stream.thmz.com/wxtv1/playlist.m3u8?_upt=156143371706166361#http://stream.thmz.com/wxtv1/sd/live.m3u8?_upt=4ba3ab191698644028#http://stream.thmz.com/wxtv1/playlist.m3u8
-无锡都市资讯,http://stream.thmz.com/wxtv3/sd/live.m3u8?zjiangsd#http://stream.thmz.com/wxtv3/sd/live.m3u8?_upt=978cd8731706199708#http://stream.thmz.com/wxtv3/playlist.m3u8#http://stream.thmz.com/wxtv3/playlist.m3u8?_upt=1758133b1706166861
-汶川新闻综合,http://live.iwcmt.cn:90/live/zhxw.m3u8
-汶川新闻综合,http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd#rtmp://tv.mcrm.org.cn:1935/channellive/tv01
-汶川新闻综合,http://live.iwcmt.cn:90/live/zhxw.m3u8?zsicd
-泗洪新闻综合,http://live1.habctv.com/ggpdsl/sd/live.m3u8?zjiangsd#http://live1.habctv.com/ggpdsl/sd/live.m3u8
-营山电视台,http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd#http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8
+广安公共,http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8?zsicd
+旺苍新闻综合,http://channel.wcrmt.cn:80/nmip-media/channellive/channel105268/playlist.m3u8
 
 
 https://raw.githubusercontent.com/kakaxi-1/IPTV/refs/heads/main/ipv4.txt,#genre#
@@ -25060,6 +25041,11 @@ https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.txt,#genre#
 
 
 https://raw.githubusercontent.com/zhi35/iptv/refs/heads/master/iptv.m3u,#genre#
+嵊泗综合,http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8
+广安公共,http://live1.gatv.com.cn:85/live/GGPD_ggpdzm.m3u8
+汶川新闻综合,http://live.iwcmt.cn:90/live/zhxw.m3u8
+泗洪新闻综合,http://live1.habctv.com/ggpdsl/sd/live.m3u8?zjiangsd#http://live1.habctv.com/ggpdsl/sd/live.m3u8
+营山电视台,http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd#http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8
 
 
 https://raw.githubusercontent.com/cyh92/iptv-api-cctv/refs/heads/master/output/cctv.m3u,#genre#
@@ -26404,6 +26390,14 @@ dj《错过不是我的错》,hhttps://vd3.bdstatic.com/mda-na6dv0mi83nwdcj9/sc/
 
 
 https://live.zhoujie218.top/tv/iptv4.txt,#genre#
+云霄综合,http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian,
+云霄综合,http://live.zzyxxw.com:85/live/xwzh.m3u8?fujian
+广安公共,http://live1.gatv.com.cn:85/live/GGPD.m3u8
+开化国家公园,http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8?zzhed#http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8zzhed#http://l.cztvcloud.com/channels/lantian/SXkaihua2/720p.m3u8
+无锡新闻综合,http://stream.thmz.com/wxtv1/sd/live.m3u8?zjiangsd#http://stream.thmz.com/wxtv1/playlist.m3u8?_upt=156143371706166361#http://stream.thmz.com/wxtv1/sd/live.m3u8?_upt=4ba3ab191698644028#http://stream.thmz.com/wxtv1/playlist.m3u8
+无锡都市资讯,http://stream.thmz.com/wxtv3/sd/live.m3u8?zjiangsd#http://stream.thmz.com/wxtv3/sd/live.m3u8?_upt=978cd8731706199708#http://stream.thmz.com/wxtv3/playlist.m3u8#http://stream.thmz.com/wxtv3/playlist.m3u8?_upt=1758133b1706166861
+汶川新闻综合,http://file.ysxtv.cn/cms/videos/nmip-media/channellive/channel4/playlist.m3u8?zsicd#rtmp://tv.mcrm.org.cn:1935/channellive/tv01
+汶川新闻综合,http://live.iwcmt.cn:90/live/zhxw.m3u8?zsicd
 
 
 https://live.hacks.tools/tv/ipv4/categories/地方频道.m3u,#genre#
@@ -26602,17 +26596,6 @@ window.gon={};gon.api_version="v4";gon.default_avatar_url="https://jihulab.com/a
 
 
 https://cc-im-kefu-cos.7moor-fs2.com/im/2768a390-5474-11ea-afc9-7b323e3e16c0/d4fe44c5-107c-4511-af02-aa08fb10dff7/2024-04-25/2024-04-25_17:22:21/1714036941087/98644330/wexiptv.txt,#genre#
-深圳都市,http://livepull-tcyzb.sztv.com.cn/live/dushi01.m3u8#http://livepull-tcyzb.sztv.com.cn/showto_live/dushi01.m3u8
-唐河一套,http://tvpull.dxhmt.cn:9081/tv/11328-1.m3u8?zhend#http://tvpull.dxhmt.cn:9081/tv/11328-1.m3u8
-鬼吹灯之云南虫谷,https://live.metshop.top/huya/11352898#http://cfss.cc/cdn/hy/11352898.flv
-鬼吹灯之南海归墟,https://live.metshop.top/huya/11352883#http://cfss.cc/cdn/hy/11352883.flv
-🔥临时劫案,https://v.cdnlz12.com/20240306/12466_cad8e71b/2000k/hls/mixed.m3u8#https://yzzy.play-cdn19.com/20240306/22153_c54de4da/2000k/hls/mixed.m3u8
-陌路狂刀,https://v.cdnlz12.com/20240308/12526_77ee2ef5/2000k/hls/mixed.m3u8#https://yzzy1.play-cdn1.com/20240308/19202_84e12afe/2000k/hls/mixed.m3u8
-聊斋志异之瞳人语,https://yzzy1.play-cdn20.com/20240305/18516_cd41cda3/2000k/hls/mixed.m3u8#https://hn.bfvvs.com/play/RdGJDE0b/index.m3u8
-一起看恐怖片,熊出没·伴我熊芯,https://hd.lz-cdn18.com/20230416/1902_adf3668b/2000k/hls/mixed.m3u8#https://hd.lz-cdn18.com/20230416/1902_adf3668b/index.m3u8#https://ukzyvod3.ukubf5.com/20230416/RQv7Npdz/2000kb/hls/index.m3u8#https://ukzyvod3.ukubf5.com/20230416/RQv7Npdz/index.m3u8
-深海,https://vip1.lz-cdn1.com/20230324/20760_c088369d/1800k/hls/mixed.m3u8#https://vip1.lz-cdn1.com/20230324/20760_c088369d/index.m3u8
-
-
 https://m3u.ibert.me/txt/ycl_iptv.txt,#genre#
 ,动作影院,rtp://239.3.1.92:4120
 group-title="数字"_zz-definition="",重温经典,rtp://239.3.1.25:8001

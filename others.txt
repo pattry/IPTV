@@ -25035,40 +25035,6 @@ CCTV4美洲,http://8.135.27.147:1234/608807416
 中国天气,http://gslbmgsplive.miguvideo.com/migu/kailu/zgtq/51/20251103/index.m3u8?msisdn=8f57375f94cd491ee13286e9c2f4c33b&mdspid=&spid=600697&netType=0&sid=5910022296&pid=2028597139&timestamp=20260728102138&Channel_ID=0116_2600034600-99000-201600010010028&ProgramID=959986621&ParentNodeID=-99&assertID=5910022296&client_ip=39.103.182.111&SecurityKey=20260728102138&promotionId=&mvid=5900006772&mcid=500020&playurlVersion=WX-A1-9.6.1.6-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=b086c55db66b4a9931efd2fa898eb883&ddCalcu=3b80v88ab6weca85958dabf626dbf4ea1939&sv=10004&ct=android
 
 
-https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8,#genre#
-TVCultura,https://player-tvcultura.stream.uol.com.br/live/tvcultura.m3u8
-TVNovaⓈ,https://sktv.mxnticek.eu/new/stream.php?ch=Nova
-NovaAction,https://sktv.mxnticek.eu/new/stream.php?ch=NovaAction
-TNLive,https://sktv.mxnticek.eu/new/stream.php?ch=Nova%20TN%20Live
-CNNPrimaNews,https://sktv.mxnticek.eu/new/stream.php?ch=PrimaNews
-PrimaZoom,https://sktv.mxnticek.eu/new/stream.php?ch=PrimaZoom
-PrimaLove,https://sktv.mxnticek.eu/new/stream.php?ch=PrimaLove
-PrimaSTAR,https://sktv.mxnticek.eu/new/stream.php?ch=PrimaStar
-PrimaMAX,https://sktv.mxnticek.eu/new/stream.php?ch=PrimaMax
-PrimaCool,https://sktv.mxnticek.eu/new/stream.php?ch=PrimaCool
-JOJFamilyⓈ,https://sktv.mxnticek.eu/new/stream.php?ch=JOJ%20Family
-JOJCinema,https://sktv.mxnticek.eu/new/stream.php?ch=JOJ%20Cinema
-CSFilm,https://sktv.mxnticek.eu/new/stream.php?ch=CS%20Film
-CSHistory,https://sktv.mxnticek.eu/new/stream.php?ch=CS%20History
-CSMystery,https://sktv.mxnticek.eu/new/stream.php?ch=CS%20Mystery
-TV5Finland,https://live-fi.tvkaista.net/tv5/live.m3u8?src=freetv
-Kutonen,https://live-fi.tvkaista.net/kutonen/live.m3u8?src=freetv
-TLCFinland,https://live-fi.tvkaista.net/tlc/live.m3u8?src=freetv
-StarChannelFinland,https://live-fi.tvkaista.net/star-channel/live.m3u8?src=freetv
-Frii,https://live-fi.tvkaista.net/frii/live.m3u8?src=freetv
-SophiaTv,https://bild-und-ton.stream/sophiatv-it/smil:sophia-tv-it.smil/playlist.m3u8
-GSTV,https://gstv-tnz-gsmediastreaming.preview-jpea.channel.media.azure.net/dfd06b62-e9d1-4a7f-bcbb-89d2ecbc82ee/preview.ism/manifest(format=mpd-time-csf,audio-only=false)
-TVP2,https://strims.top/tv/tvp2.m3u8
-Звезда,https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
-TVM3,http://livevideo.infomaniak.com/streaming/livecast/tvm3/playlist.m3u8
-4MusicⒼ,https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,boxhits-alldev.m3u8?spotxc1=195996&spotxc2=190878&yo.up=https://boxtv.secure.footprint.net/boxhits/
-TheBoxⒼ,https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,thebox-alldev.m3u8?yo.up=https://boxtv.secure.footprint.net/thebox/
-KISSⒼ,https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,kiss-alldev.m3u8?spotxc1=195996&spotxc2=190878&yo.up=https://boxtv.secure.footprint.net/kiss/
-MagicⒼ,https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,magic-alldev.m3u8?yo.up=https%3A%2F%2Fboxtv.secure.footprint.net%2Fmagic%2F&spotxc1=195996&spotxc2=190878
-Kerrang!,https://csm-e-boxplus.tls1.yospace.com/csm/extlive/boxplus01,kerrang-alldev.m3u8?yo.up=http://boxtv-origin-elb.cds1.yospace.com/uploads/kerrang/
-MetroGlobeNetwork,https://edge.medcom.id/live-edge/smil:mgnch.smil/playlist.m3u8
-
-
 https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u,#genre#
 
 
@@ -26951,6 +26917,8 @@ https://seep.eu.org/develop202.github.io/migu_video/interface.txt,#genre#
 
 
 https://yg.ygbox.de5.net/huya.php,#genre#
+
+
 https://ilook.epg.one/5CM5SY98BF24PL/2,#genre#
 погоди!,http://sewv654wfcsdwfi87fwvgbngh.siauliairsavlt.pw/iptv/5CM5SY98BF24PL/30161/index.m3u8
 
@@ -27678,6 +27646,7 @@ SonyMax1,http://103.159.180.34:5001/live/3418.m3u8
 SophiaTV,https://bild-und-ton.stream/sophiatv-en/smil:sophia-tv-en.smil/playlist.m3u8
 SophiaTVEspañol,https://bild-und-ton.stream/sophiatv-es/smil:sophia-tv-es.smil/playlist.m3u8
 SophiaTVFrançais,https://bild-und-ton.stream/sophiatv-fr/smil:sophia-tv-fr.smil/playlist.m3u8
+SophiaTVItaly,https://bild-und-ton.stream/sophiatv-it/smil:sophia-tv-it.smil/playlist.m3u8
 Sorozat+,http://88.212.15.19/live/test_sorozat_hungary_1200_atk/playlist.m3u8
 Sorozatklub,http://88.212.15.19/live/sorozatklub_atk/index.m3u8
 SouthPark,https://jmp2.uk/plu-61c0b627e3ed94000793c18a.m3u8

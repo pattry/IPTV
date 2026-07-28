@@ -1,5 +1,4 @@
 https://gh-proxy.org/https://raw.githubusercontent.com/fafa002/yf2025/refs/heads/main/yiyifafa.txt
-https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg1.m3u
 https://raw.githubusercontent.com/Supprise0901/TVBox_live/refs/heads/main/live.txt
 https://raw.githubusercontent.com/zwc456baby/iptv_alive/refs/heads/master/live.m3u
 https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u
@@ -35,9 +34,7 @@ https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/台
 https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/国内电视台2023.m3u8
 https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/轮播_华数.黑莓.NewTV.SiTV.CIBN.m3u
 https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt
-https://raw.githubusercontent.com/yuanzl77/IPTV/refs/heads/main/live.txt
 https://2121.ccwu.cc
-https://jsnzkpg.us.ci/live.m3u
 https://sports.de5.net/xiaohongshu/xhsworldcup.m3u
 http://rihou.cc:555/gggg.nzk
 https://seep.eu.org/develop202.github.io/migu_video/interface.txt

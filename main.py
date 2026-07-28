@@ -23,7 +23,7 @@ RESPONSE_TIME_THRESHOLD = 2000
 TVG_URL = "https://ghfast.top/https://github.com/CCSH/IPTV/raw/refs/heads/main/e.xml.gz"
 LOGO_URL_TPL = "https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/{}.png"
 # 所有单个频道最多保留的有效源数量，可直接修改数字（-1=无限制）
-SINGLE_CHANNEL_MAX_COUNT = 18
+SINGLE_CHANNEL_MAX_COUNT = 30
 
 # ===================== 标准化策略配置 =====================
 # 需要去掉HD/画质标记的分类（HD版和非HD版合并）
@@ -245,7 +245,7 @@ def correct_channel_name(name: str, corrections: dict) -> str:
         return name
     return corrections[name] if corrections[name] != name else name
 
-# ===================== 新增：分类型频道名标准化 =====================
+# ===================== 分类型频道名标准化 =====================
 def normalize_channel_name(name: str, chn_type: str = None) -> str:
     """
     根据分类类型，智能标准化频道名用于字典匹配。
@@ -682,9 +682,31 @@ if __name__ == "__main__":
         if resp_time < RESPONSE_TIME_THRESHOLD:
             process_single_line(",".join(parts[1:]), classifier, corrections)
 
-    print(f"[PROCESS] 并发处理远程URL源")
+    # ===== 优先处理主源 + 并发处理备用源 =====
+    print(f"[PROCESS] 处理远程URL源")
     urls = read_txt(dirs["urls"])
-    process_all_urls(urls, classifier, corrections)
+
+    # 分离主源和备用源
+    main_sources = []
+    backup_sources = []
+
+    for url in urls:
+        if not url.startswith("http"):
+            continue
+        # 主源：yiyifafa.txt（你亲测流畅的源）
+        if "yiyifafa.txt" in url:
+            main_sources.append(url)
+        else:
+            backup_sources.append(url)
+
+    # 第一步：串行处理主源（保证它的链接排在最前面）
+    print(f"[PRIORITY] 优先处理主源（{len(main_sources)} 个）")
+    for url in main_sources:
+        process_remote_url(url, classifier, corrections)
+
+    # 第二步：并发处理备用源
+    print(f"[BACKUP] 并发处理备用源（{len(backup_sources)} 个）")
+    process_all_urls(backup_sources, classifier, corrections)
 
     _, main_display = main_dicts
     live_full, live_lite = generate_live_text(classifier, main_display)

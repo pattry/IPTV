@@ -127,6 +127,8 @@ def clean_channel_name(name: str) -> str:
         name = name.replace(item, "")
     name = name.replace("CCTV-", "CCTV")
     name = name.replace("CCTV0", "CCTV")
+    name = name.replace("CCTV-", "CCTV")
+    name = name.replace("HD", "")
     name = name.replace("PLUS", "+")
     name = name.replace("iHOT-", "iHOT")
     return name.strip()

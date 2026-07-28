@@ -1,12 +1,12 @@
 import urllib.request
-from urllib.parse import quote, unquote
+from urllib.parse import quote, unquote, urlparse
 import re
 import os
 from datetime import datetime, timedelta, timezone
 import opencc
 
 # ===================== 全局核心配置 =====================
-# 指定按TXT文件内顺序排列的分类，其余自动字典序排序，按需增删ÏÒ
+# 指定按TXT文件内顺序排列的分类，其余自动字典序排序，按需增删
 ORDERED_CHANNEL_TYPES = ["央视频道", "卫视频道", "港澳台", "电影", "电视剧", "埋堆堆", "咪咕直播"]
 # 频道名称清理字符集
 REMOVAL_LIST = [
@@ -22,7 +22,15 @@ RESPONSE_TIME_THRESHOLD = 2000
 TVG_URL = "https://ghfast.top/https://github.com/CCSH/IPTV/raw/refs/heads/main/e.xml.gz"
 LOGO_URL_TPL = "https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/{}.png"
 # 所有单个频道最多保留的有效源数量，可直接修改数字（-1=无限制）
-SINGLE_CHANNEL_MAX_COUNT = 12  
+SINGLE_CHANNEL_MAX_COUNT = 20  
+
+# ===================== 新增：链接域名黑名单 =====================
+BLACKLIST_DOMAINS = [
+    "stream1.freetv.fun",
+    "t.freetv.fun",
+    "freetv.fun",
+    # 可继续添加其他不可用的域名
+]
 
 # ===================== 通用工具函数 =====================
 def get_project_dirs() -> dict:
@@ -141,6 +149,19 @@ def correct_channel_name(name: str, corrections: dict) -> str:
     if not name or name not in corrections:
         return name
     return corrections[name] if corrections[name] != name else name
+
+# ===================== 新增：域名黑名单检查函数 =====================
+def is_blacklisted_domain(url: str) -> bool:
+    """检查URL是否在黑名单域名中"""
+    try:
+        domain = urlparse(url).netloc.lower()
+        for black_domain in BLACKLIST_DOMAINS:
+            if black_domain in domain:
+                print(f"[FILTER] 过滤黑名单域名链接: {domain}")
+                return True
+    except Exception:
+        pass
+    return False
 
 # ===================== 频道字典加载 =====================
 def load_channel_dictionaries(main_dir: str, local_dir: str) -> tuple[dict, dict]:
@@ -316,6 +337,12 @@ def process_single_line(line: str, classifier: ChannelClassifier, corrections: d
         channel_name, channel_address = line.split(',', 1)
     except ValueError:
         return
+    
+    # ===================== 新增：域名黑名单过滤 =====================
+    if is_blacklisted_domain(channel_address):
+        return  # 跳过黑名单域名链接
+    # ============================================================
+    
     # 频道名标准化（简繁转换→清理→纠错）
     channel_name = traditional_to_simplified(channel_name)
     channel_name = clean_channel_name(channel_name)
@@ -412,6 +439,7 @@ def make_m3u(txt_file: str, m3u_file: str, tvg_url: str, logo_tpl: str):
 if __name__ == "__main__":
     timestart = datetime.now()
     print(f"[START] 程序开始执行: {timestart.strftime('%Y%m%d %H:%M:%S')}")
+    print(f"[INFO] 域名黑名单已启用: {BLACKLIST_DOMAINS}")
     dirs = get_project_dirs()
     
     blacklist = load_blacklist(dirs["blacklist_auto"], dirs["blacklist_manual"])
@@ -471,8 +499,7 @@ if __name__ == "__main__":
     print("=" * 60)
     print(f"[END] 程序执行完成: {timeend.strftime('%Y%m%d %H:%M:%S')}")
     print(f"[STAT] 执行时间: {minutes} 分 {seconds} 秒")
+    print(f"[STAT] 黑名单域名数: {len(BLACKLIST_DOMAINS)}")
     print(f"[STAT] live.txt行数: {live_count}")
     print(f"[STAT] others.txt行数: {others_count}")
     print("=" * 60)
-
-

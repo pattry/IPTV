@@ -24,12 +24,16 @@ LOGO_URL_TPL = "https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/r
 # 所有单个频道最多保留的有效源数量，可直接修改数字（-1=无限制）
 SINGLE_CHANNEL_MAX_COUNT = 20  
 
-# ===================== 新增：链接域名黑名单 =====================
+# ===================== 链接域名黑名单 =====================
 BLACKLIST_DOMAINS = [
     "stream1.freetv.fun",
     "t.freetv.fun",
     "freetv.fun",
-    # 可继续添加其他不可用的域名
+    "ottrrs.hl.chinamobile.com",
+    "dd.ddzb.fun",
+    "kkk.888.3116598",
+    "iptv.catvod.com",
+    "satellitepull.cnr.cn",
 ]
 
 # ===================== 通用工具函数 =====================

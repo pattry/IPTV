@@ -18,19 +18,20 @@ REMOVAL_LIST = [
 ]
 USER_AGENT = "PostmanRuntime-ApipostRuntime/1.1.0"
 URL_FETCH_TIMEOUT = 10
-RESPONSE_TIME_THRESHOLD = 3000
+RESPONSE_TIME_THRESHOLD = 5000
 SPEEDTEST_MAX_WORKERS = 30
-SPEEDTEST_TIMEOUT = 3
+SPEEDTEST_TIMEOUT = 5
 TVG_URL = "https://ghfast.top/https://github.com/CCSH/IPTV/raw/refs/heads/main/e.xml.gz"
 LOGO_URL_TPL = "https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/{}.png"
 
-# 分层保留数量
+# 排序保留配置
 MAX_4K = 3
-MAX_HD = 3
-MAX_SD = 3
-MAX_LOW = 1
-MAX_AD = 1
-MAX_TOTAL = 10
+MAX_HD = 5
+MAX_SD = 5
+MAX_LOW = 5
+MAX_AD = 3
+MIN_KEEP = 5        # 每个频道最少保留
+MAX_TOTAL = 30      # 每个频道最多保留
 
 BLACKLIST_DOMAINS = [
     "stream1.freetv.fun",
@@ -68,7 +69,6 @@ def read_txt(file_path: str, strip: bool = True, skip_empty: bool = True) -> lis
                 lines = [line for line in lines if line]
             return lines
     except FileNotFoundError:
-        print(f"[ERROR] 文件未找到: {file_path}")
         return []
     except Exception as e:
         print(f"[ERROR] 读取文件 {file_path} 失败: {str(e)}")
@@ -107,11 +107,7 @@ def load_blacklist(blacklist_auto_path: str, blacklist_manual_path: str) -> set:
                 if url:
                     urls.append(url)
         return urls
-    auto_urls = _extract_black_urls(blacklist_auto_path)
-    manual_urls = _extract_black_urls(blacklist_manual_path)
-    combined = set(auto_urls + manual_urls)
-    print(f"[INFO] 合并黑名单URL数: {len(combined)}")
-    return combined
+    return set(_extract_black_urls(blacklist_auto_path) + _extract_black_urls(blacklist_manual_path))
 
 def load_corrections(corrections_path: str) -> dict:
     corrections = {}
@@ -158,7 +154,6 @@ def is_blacklisted_domain(url: str) -> bool:
         domain = urlparse(url).netloc.lower()
         for black_domain in BLACKLIST_DOMAINS:
             if black_domain in domain:
-                print(f"[FILTER] 过滤黑名单域名链接: {domain}")
                 return True
     except Exception:
         pass
@@ -200,9 +195,6 @@ class ChannelClassifier:
     def check_url_exist(self, chn_type: str, url: str) -> bool:
         return url in self.all_urls.get(chn_type, set()) or "127.0.0.1" in url
 
-    def is_single_chn_limit(self, channel_name: str) -> bool:
-        return self.single_chn_count.get(channel_name, 0) >= MAX_TOTAL
-
     def add_channel_line(self, chn_type: str, line: str, url: str):
         self.channel_data[chn_type].append(line)
         self.all_urls[chn_type].add(url)
@@ -215,7 +207,7 @@ class ChannelClassifier:
             self.other_lines.append(line)
 
     def classify(self, channel_name: str, channel_url: str, line: str):
-        if channel_url in self.blacklist or not channel_url or self.is_single_chn_limit(channel_name):
+        if channel_url in self.blacklist or not channel_url:
             return
         for chn_type, chn_names in self.main_dict.items():
             if channel_name in chn_names and not self.check_url_exist(chn_type, channel_url):
@@ -265,7 +257,6 @@ def process_remote_url(url: str, classifier: ChannelClassifier, corrections: dic
                 except UnicodeDecodeError:
                     continue
             if not text:
-                print(f"[ERROR] 远程源 {url} 解码失败")
                 return
             if is_m3u_content(text):
                 lines = convert_m3u_to_txt(text)
@@ -302,19 +293,19 @@ def sort_channel_data(channel_data: list, cfg_list: list) -> list:
         return cfg_index_map.get(name, len(cfg_list))
     return sorted(channel_data, key=_ordered_key)
 
-# ===================== 测速与分层标记 =====================
+# ===================== 测速与排序（只排序不删除）=====================
 def test_url_speed(url: str, timeout: int = SPEEDTEST_TIMEOUT) -> tuple:
-    """快速测速：建立连接，读4KB"""
+    """测速：读4KB"""
     try:
         start = time.time()
         req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             data = resp.read(4096)
         elapsed = (time.time() - start) * 1000
-        if len(data) < 512:
+        if len(data) < 256:
             return (float('inf'), False)
-        text = data[:2048]
-        for kw in [b'404 Not Found', b'403 Forbidden', b'<!DOCTYPE html']:
+        text = data[:1024]
+        for kw in [b'404 Not Found', b'403 Forbidden']:
             if kw in text:
                 return (float('inf'), False)
         return (elapsed, True)
@@ -322,10 +313,10 @@ def test_url_speed(url: str, timeout: int = SPEEDTEST_TIMEOUT) -> tuple:
         return (float('inf'), False)
 
 
-def test_url_label(url: str, timeout: int = 3) -> str:
+def test_url_label(url: str, timeout: int = 5) -> str:
     """
-    质量检测，返回标签:
-    'donate' | 'ad' | '4k' | 'hd' | 'sd' | 'low' | 'dead'
+    质量标签（不删除，只分类）:
+    '4k' | 'hd' | 'sd' | 'low' | 'ad' | 'donate' | 'dead'
     """
     try:
         req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
@@ -334,7 +325,7 @@ def test_url_label(url: str, timeout: int = 3) -> str:
         
         text_data = data[:4096]
         
-        # 打赏检测 → 直接淘汰
+        # 打赏检测
         donate_kw = [b'\xe6\x89\x93\xe8\xb5\x8f', b'\xe6\x89\xab\xe7\xa0\x81',
                      b'\xe4\xba\x8c\xe7\xbb\xb4\xe7\xa0\x81', b'\xe7\xba\xa2\xe5\x8c\x85']
         for kw in donate_kw:
@@ -342,35 +333,24 @@ def test_url_label(url: str, timeout: int = 3) -> str:
                 return 'donate'
         
         # 广告检测
-        ad_kw = [b'ADINSERT', b'vast', b'vmap', b'donate', b'reward']
-        is_ad = False
-        for kw in ad_kw:
-            if kw in data:
-                is_ad = True
-                break
+        ad_kw = [b'ADINSERT', b'vast', b'vmap']
+        is_ad = any(kw in data for kw in ad_kw)
         
         # 清晰度判断
         max_bw = 0
-        has_4k_url = any(kw in url.lower() for kw in ['4k', '2160p', 'uhd'])
-        has_hd_url = any(kw in url.lower() for kw in ['1080p', 'fhd', 'hd'])
+        url_lower = url.lower()
+        has_4k_url = any(kw in url_lower for kw in ['4k', '2160p', 'uhd'])
+        has_hd_url = any(kw in url_lower for kw in ['1080p', 'fhd', 'hd'])
         
         if b'#EXTM3U' in text_data:
             lines = text_data.split(b'\n')
-            
-            # 循环检测
-            ts_count = sum(1 for l in lines if l.strip().endswith(b'.ts') or b'.ts?' in l)
-            if ts_count <= 2:
-                if is_ad: return 'ad'
-                return 'low'
             
             for line in lines:
                 if b'BANDWIDTH=' in line:
                     bw_match = re.search(rb'BANDWIDTH=(\d+)', line)
                     if bw_match:
-                        max_bw = int(bw_match.group(1))
-                        break
+                        max_bw = max(max_bw, int(bw_match.group(1)))
         
-        # 分层判断
         if is_ad:
             return 'ad'
         
@@ -383,15 +363,15 @@ def test_url_label(url: str, timeout: int = 3) -> str:
         elif max_bw > 0:
             return 'low'
         else:
-            return 'sd'  # TS/FLV流默认标清
+            return 'hd'  # 无码率信息默认当高清
         
     except Exception:
         return 'dead'
 
 
 def sort_and_filter_channels(classifier: ChannelClassifier):
-    """分层筛选排序"""
-    print(f"[SPEEDTEST] 开始测速分层（{SPEEDTEST_MAX_WORKERS}线程）")
+    """排序不删除：高清优先，广告/打赏排最后"""
+    print(f"[SPEEDTEST] 开始测速排序（{SPEEDTEST_MAX_WORKERS}线程）")
     
     stats = {'4k': 0, 'hd': 0, 'sd': 0, 'low': 0, 'ad': 0, 'donate': 0, 'dead': 0}
     
@@ -436,99 +416,80 @@ def sort_and_filter_channels(classifier: ChannelClassifier):
                     except Exception:
                         speed_results[url] = (float('inf'), False)
             
+            # 所有连通的源
             alive = []
+            dead = []
             for line, url in url_list:
                 elapsed, is_alive = speed_results.get(url, (float('inf'), False))
-                if is_alive and elapsed <= RESPONSE_TIME_THRESHOLD:
+                if is_alive:
                     alive.append((elapsed, line, url))
+                else:
+                    dead.append((elapsed, line, url))
             
-            if not alive:
-                continue
-            
-            # 阶段2：质量标签
+            # 阶段2：质量标签（只对连通的源）
             label_results = {}
-            
-            with concurrent.futures.ThreadPoolExecutor(max_workers=SPEEDTEST_MAX_WORKERS) as executor:
-                futures = {executor.submit(test_url_label, url): url for _, _, url in alive}
-                for future in concurrent.futures.as_completed(futures):
-                    url = None
-                    for u, f in [(url, future) for _, _, url in alive if url not in label_results]:
-                        pass
-                    try:
-                        result = future.result()
-                        # 找到对应的url
-                        for _, _, u in alive:
-                            if futures.get(future) == u or True:
-                                break
-                    except Exception:
-                        pass
-            
-            # 重新做：建立url→label映射
-            label_results = {}
-            urls_to_test = [(url, speed) for speed, _, url in alive]
-            
-            for speed, _, url in alive:
-                if url not in label_results:
-                    label_results[url] = 'dead'
-            
-            with concurrent.futures.ThreadPoolExecutor(max_workers=SPEEDTEST_MAX_WORKERS) as executor:
-                future_to_url = {executor.submit(test_url_label, url): url for _, _, url in alive}
-                for future in concurrent.futures.as_completed(future_to_url):
-                    url = future_to_url[future]
-                    try:
-                        label_results[url] = future.result()
-                    except Exception:
-                        label_results[url] = 'dead'
-            
-            # 统计
-            for label in label_results.values():
-                stats[label] = stats.get(label, 0) + 1
+            if alive:
+                with concurrent.futures.ThreadPoolExecutor(max_workers=SPEEDTEST_MAX_WORKERS) as executor:
+                    future_to_url = {executor.submit(test_url_label, url): url for _, _, url in alive}
+                    for future in concurrent.futures.as_completed(future_to_url):
+                        url = future_to_url[future]
+                        try:
+                            label_results[url] = future.result()
+                        except Exception:
+                            label_results[url] = 'dead'
             
             # 分层收集
-            layer_4k = []   # (speed, line)
+            layer_4k = []
             layer_hd = []
             layer_sd = []
             layer_low = []
             layer_ad = []
+            layer_donate = []
+            layer_dead = []
             
             for speed, line, url in alive:
-                label = label_results.get(url, 'dead')
-                if label == 'donate' or label == 'dead':
-                    continue
-                elif label == '4k':
-                    layer_4k.append((speed, line))
-                elif label == 'hd':
-                    layer_hd.append((speed, line))
-                elif label == 'sd':
-                    layer_sd.append((speed, line))
-                elif label == 'ad':
-                    layer_ad.append((speed, line))
-                else:
-                    layer_low.append((speed, line))
+                label = label_results.get(url, 'hd')
+                stats[label] = stats.get(label, 0) + 1
+                
+                item = (speed, line)
+                if label == '4k':      layer_4k.append(item)
+                elif label == 'hd':    layer_hd.append(item)
+                elif label == 'sd':    layer_sd.append(item)
+                elif label == 'low':   layer_low.append(item)
+                elif label == 'ad':    layer_ad.append(item)
+                elif label == 'donate': layer_donate.append(item)
+                else:                  layer_dead.append(item)
+            
+            # 失效源放最后
+            for speed, line, url in dead:
+                layer_dead.append((speed, line))
             
             # 每层按速度排序
-            for layer in [layer_4k, layer_hd, layer_sd, layer_low, layer_ad]:
+            for layer in [layer_4k, layer_hd, layer_sd, layer_low, layer_ad, layer_donate, layer_dead]:
                 layer.sort(key=lambda x: x[0])
             
-            # 分层选取
+            # 按优先级选取
             selected = []
             selected.extend(layer_4k[:MAX_4K])
             selected.extend(layer_hd[:MAX_HD])
             selected.extend(layer_sd[:MAX_SD])
+            selected.extend(layer_low[:MAX_LOW])
+            selected.extend(layer_ad[:MAX_AD])
+            selected.extend(layer_donate[:MAX_AD])
             
-            # 保底：如果没有高清也没有标清，取低清
-            if not selected:
-                selected.extend(layer_low[:MAX_LOW])
+            # 保底：不够 MIN_KEEP 个，用任意源补足
+            if len(selected) < MIN_KEEP:
+                for layer in [layer_4k, layer_hd, layer_sd, layer_low, layer_ad, layer_donate]:
+                    for item in layer:
+                        if item not in selected:
+                            selected.append(item)
+                            if len(selected) >= MIN_KEEP:
+                                break
+                    if len(selected) >= MIN_KEEP:
+                        break
             
-            # 如果还没有，取广告作为最后保底
-            if not selected:
-                selected.extend(layer_ad[:MAX_AD])
-            
-            # 如果仍然没有（极端情况），取任意有效源
-            if not selected:
-                for speed, line, url in alive:
-                    selected.append((speed, line))
-                    break
+            # 上限
+            selected = selected[:MAX_TOTAL]
             
             for _, line in selected:
                 new_lines.append(line)
@@ -549,17 +510,14 @@ def generate_live_text(classifier: ChannelClassifier, main_dict: dict) -> tuple:
     lite_sort_types = ["央视", "地方", "体育", "新闻", "电影", "港澳台"]
     for chn_type in lite_sort_types:
         chn_data = classifier.get_channel_data(chn_type)
-        sort_list = main_dict.get(chn_type, [])
-        sorted_data = sort_channel_data(chn_data, sort_list)
+        sorted_data = sort_channel_data(chn_data, main_dict.get(chn_type, []))
         lite_lines += [f"{chn_type},#genre#"] + sorted_data + ['\n']
     lite_lines = lite_lines[:-1] if lite_lines and lite_lines[-1] == '\n' else lite_lines
 
     full_lines = lite_lines.copy() + ['\n']
-    full_other_types = ["少儿", "音乐", "纪录", "国外", "轮播剧场"]
-    for chn_type in full_other_types:
+    for chn_type in ["少儿", "音乐", "纪录", "国外", "轮播剧场"]:
         chn_data = classifier.get_channel_data(chn_type)
-        sort_list = main_dict.get(chn_type, [])
-        sorted_data = sort_channel_data(chn_data, sort_list)
+        sorted_data = sort_channel_data(chn_data, main_dict.get(chn_type, []))
         full_lines += [f"{chn_type},#genre#"] + sorted_data + ['\n']
     full_lines = full_lines[:-1] if full_lines and full_lines[-1] == '\n' else full_lines
 
@@ -568,7 +526,6 @@ def generate_live_text(classifier: ChannelClassifier, main_dict: dict) -> tuple:
 def make_m3u(txt_file: str, m3u_file: str, tvg_url: str, logo_tpl: str):
     try:
         if not os.path.exists(txt_file):
-            print(f"[ERROR] M3U源文件不存在: {txt_file}")
             return
         m3u_content = f"#EXTM3U x-tvg-url=\"{tvg_url}\"\n"
         lines = read_txt(txt_file, strip=True, skip_empty=True)
@@ -605,25 +562,12 @@ if __name__ == "__main__":
     main_dict = load_channel_dictionaries(dirs["main_channel"], corrections)
     classifier = ChannelClassifier(main_dict, blacklist)
 
-    print(f"[PROCESS] 处理手动白名单")
-    whitelist_manual = read_txt(dirs["whitelist_manual"])
-    classifier.other_lines.append("白名单,#genre#")
-    for line in whitelist_manual:
-        process_single_line(line, classifier, corrections)
-
-    print(f"[PROCESS] 处理自动白名单")
-    whitelist_respotime = read_txt(dirs["whitelist_respotime"])
-    classifier.other_lines.append("白名单测速,#genre#")
-    for line in whitelist_respotime:
-        if "#genre#" in line or "," not in line or "://" not in line:
-            continue
-        parts = line.split(",")
-        try:
-            resp_time = float(parts[0].replace('ms', '').strip())
-        except (ValueError, IndexError, AttributeError):
-            resp_time = float('inf')
-        if resp_time < RESPONSE_TIME_THRESHOLD:
-            process_single_line(",".join(parts[1:]), classifier, corrections)
+    print(f"[PROCESS] 处理白名单")
+    for whitelist_file in ["whitelist_manual", "whitelist_respotime"]:
+        whitelist = read_txt(dirs[whitelist_file])
+        classifier.other_lines.append(f"{whitelist_file},#genre#")
+        for line in whitelist:
+            process_single_line(line, classifier, corrections)
 
     print(f"[PROCESS] 处理远程URL源")
     urls = read_txt(dirs["urls"])
@@ -638,13 +582,8 @@ if __name__ == "__main__":
     write_txt(os.path.join(dirs["root"], "live_lite.txt"), live_lite)
     write_txt(os.path.join(dirs["root"], "others.txt"), classifier.other_lines)
 
-    print(f"[GENERATE] 生成M3U文件")
     make_m3u(os.path.join(dirs["root"], "live.txt"), os.path.join(dirs["root"], "live.m3u"), TVG_URL, LOGO_URL_TPL)
     make_m3u(os.path.join(dirs["root"], "live_lite.txt"), os.path.join(dirs["root"], "live_lite.m3u"), TVG_URL, LOGO_URL_TPL)
 
-    timeend = datetime.now()
-    elapsed = timeend - timestart
-    print("=" * 60)
-    print(f"[END] 程序执行完成: {timeend.strftime('%Y%m%d %H:%M:%S')}")
-    print(f"[STAT] 执行时间: {int(elapsed.total_seconds() // 60)} 分 {int(elapsed.total_seconds() % 60)} 秒")
-    print("=" * 60)
+    elapsed = (datetime.now() - timestart).total_seconds()
+    print(f"[END] 执行时间: {int(elapsed // 60)} 分 {int(elapsed % 60)} 秒")

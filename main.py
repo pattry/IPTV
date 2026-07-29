@@ -20,7 +20,7 @@ USER_AGENT = "PostmanRuntime-ApipostRuntime/1.1.0"
 URL_FETCH_TIMEOUT = 10
 RESPONSE_TIME_THRESHOLD = 5000
 SPEEDTEST_MAX_WORKERS = 30
-SPEEDTEST_TIMEOUT = 5
+SPEEDTEST_TIMEOUT = 6
 TVG_URL = "https://ghfast.top/https://github.com/CCSH/IPTV/raw/refs/heads/main/e.xml.gz"
 LOGO_URL_TPL = "https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/{}.png"
 

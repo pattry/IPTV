@@ -2,6 +2,8 @@ import urllib.request
 from urllib.parse import quote, unquote, urlparse
 import re
 import os
+import time
+import concurrent.futures
 from datetime import datetime, timedelta, timezone
 import opencc
 
@@ -21,6 +23,9 @@ USER_AGENT = "PostmanRuntime-ApipostRuntime/1.1.0"
 URL_FETCH_TIMEOUT = 10
 # 白名单测速阈值(ms)
 RESPONSE_TIME_THRESHOLD = 2000
+# 测速配置
+SPEEDTEST_MAX_WORKERS = 30
+SPEEDTEST_TIMEOUT = 3
 # M3U相关配置
 TVG_URL = "https://ghfast.top/https://github.com/CCSH/IPTV/raw/refs/heads/main/e.xml.gz"
 LOGO_URL_TPL = "https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/{}.png"
@@ -180,7 +185,7 @@ def load_channel_dictionaries(main_dir: str, corrections: dict) -> dict:
         for name in raw_lines:
             n = traditional_to_simplified(name)
             n = clean_channel_name(n)
-            n = correct_channel_name(n, corrections)  # 保持与直播源处理一致
+            n = correct_channel_name(n, corrections)
             clean_lines.append(n)
         main_dict[chn_type] = clean_lines
         print(f"[INFO] 加载分类 {chn_type}: {len(raw_lines)} 个频道")
@@ -299,11 +304,9 @@ def process_single_line(line: str, classifier: ChannelClassifier, corrections: d
     except ValueError:
         return
     
-    # 域名黑名单过滤
     if is_blacklisted_domain(channel_address):
         return
     
-    # 频道名标准化
     channel_name = traditional_to_simplified(channel_name)
     channel_name = clean_channel_name(channel_name)
     channel_name = correct_channel_name(channel_name, corrections)
@@ -321,13 +324,92 @@ def sort_channel_data(channel_data: list, chn_type: str, cfg_list: list) -> list
         return cfg_index_map.get(name, len(cfg_list))
     return sorted(channel_data, key=_ordered_key)
 
+# ===================== 测速与排序 =====================
+def test_single_url(url: str, timeout: int = SPEEDTEST_TIMEOUT) -> tuple:
+    try:
+        start = time.time()
+        req = urllib.request.Request(url, headers={'User-Agent': USER_AGENT})
+        with urllib.request.urlopen(req, timeout=timeout) as resp:
+            data = resp.read(8192)
+            if not data:
+                return (url, float('inf'))
+        elapsed = (time.time() - start) * 1000
+        return (url, elapsed)
+    except Exception:
+        return (url, float('inf'))
+
+def test_channel_urls(urls: list, max_workers: int = SPEEDTEST_MAX_WORKERS, timeout: int = SPEEDTEST_TIMEOUT) -> dict:
+    results = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {executor.submit(test_single_url, url, timeout): url for url in urls}
+        for future in concurrent.futures.as_completed(futures):
+            url, speed = future.result()
+            results[url] = speed
+    return results
+
+def sort_and_filter_channels(classifier: ChannelClassifier, max_workers: int = SPEEDTEST_MAX_WORKERS, timeout: int = SPEEDTEST_TIMEOUT):
+    print(f"[SPEEDTEST] 开始测速，阈值={RESPONSE_TIME_THRESHOLD}ms，线程数={max_workers}")
+    total_tested = 0
+    total_passed = 0
+    
+    for chn_type in classifier.channel_data:
+        lines = classifier.channel_data[chn_type]
+        if not lines:
+            continue
+        
+        channel_urls = {}
+        for line in lines:
+            if "," not in line or "://" not in line:
+                continue
+            parts = line.split(',', 1)
+            if len(parts) != 2:
+                continue
+            name = parts[0].strip()
+            url = parts[1].strip()
+            if not url:
+                continue
+            if name not in channel_urls:
+                channel_urls[name] = []
+            channel_urls[name].append((line, url))
+        
+        new_lines = []
+        for chn_name, url_list in channel_urls.items():
+            if len(url_list) <= 1:
+                for line, url in url_list:
+                    new_lines.append(line)
+                continue
+            
+            urls = [url for _, url in url_list]
+            speed_results = test_channel_urls(urls, max_workers, timeout)
+            total_tested += len(urls)
+            
+            scored = []
+            for line, url in url_list:
+                speed = speed_results.get(url, float('inf'))
+                if speed <= RESPONSE_TIME_THRESHOLD:
+                    scored.append((speed, line))
+                    total_passed += 1
+            
+            scored.sort(key=lambda x: x[0])
+            
+            if SINGLE_CHANNEL_MAX_COUNT > 0:
+                scored = scored[:SINGLE_CHANNEL_MAX_COUNT]
+            
+            for speed, line in scored:
+                new_lines.append(line)
+        
+        classifier.channel_data[chn_type] = new_lines
+    
+    print(f"[SPEEDTEST] 测速完成: 共测 {total_tested} 个源, 通过 {total_passed} 个")
+    return classifier
+
+# ===================== 生成输出文件 =====================
 def generate_live_text(classifier: ChannelClassifier, main_dict: dict) -> tuple[list, list]:
     bj_time = datetime.now(timezone.utc) + timedelta(hours=8)
     formatted_time = bj_time.strftime("%Y%m%d %H:%M")
     version = f"{formatted_time},http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8"
     header = ["更新时间,#genre#", version, '\n']
 
-    # 生成lite精简版（核心分类）
     lite_lines = header.copy()
     lite_sort_types = [
         "央视", "地方", "体育", "新闻", "电影", "港澳台"
@@ -339,7 +421,6 @@ def generate_live_text(classifier: ChannelClassifier, main_dict: dict) -> tuple[
         lite_lines += [f"{chn_type},#genre#"] + sorted_data + ['\n']
     lite_lines = lite_lines[:-1] if lite_lines and lite_lines[-1] == '\n' else lite_lines
 
-    # 补全剩余生成full版
     full_lines = lite_lines.copy() + ['\n']
     full_other_types = [
         "少儿", "音乐", "纪录", "国外", "轮播剧场"
@@ -420,6 +501,9 @@ if __name__ == "__main__":
     for url in urls:
         if url.startswith("http"):
             process_remote_url(url, classifier, corrections)
+
+    # 测速排序过滤
+    classifier = sort_and_filter_channels(classifier)
 
     live_full, live_lite = generate_live_text(classifier, main_dict)
     live_full_path = os.path.join(dirs["root"], "live.txt")

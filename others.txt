@@ -15149,7 +15149,7 @@ Play,https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0300fg10000ca5nc43c77u
 I'llDoIt,https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0d00fg10000ch9m0jjc77u31dq1i4b0&ratio=720p&line=0
 touch,https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000cmhn50rc77ucfc970np0&ratio=720p&line=0
 closer,https://www.iesdouyin.com/aweme/v1/playwm/?video_id=v0200fg10000c6c60frc77u7j9o2ecs0&ratio=720p&line=0
-扫码进群,https://pan.vma.cc/pan/v/e236ee1b0f91ddbbf6ffee81ed59be0b?ext=mp4
+扫码进群,http://pan.vma.cc/pan/d/3a4b0a1eb1abbb7e6dd4173b650f3f67?ext=mp4
 TVBplus备,https://vdm6-hw.nbgdsygs.com/live/h6-2.flv
 新澳门直播,https://play3636.zdwafis.com/live/mosixmark.flv
 老澳门直播,https://vdm6-ali.hrypl168.com/live/a6.flv

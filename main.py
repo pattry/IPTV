@@ -165,7 +165,7 @@ def is_blacklisted_domain(url: str) -> bool:
     return False
 
 # ===================== 频道字典加载（11个分类）=====================
-def load_channel_dictionaries(main_dir: str) -> dict:
+def load_channel_dictionaries(main_dir: str, corrections: dict) -> dict:
     channel_types = [
         "央视", "地方", "体育", "新闻", "电影", "少儿", 
         "音乐", "纪录", "港澳台", "国外", "轮播剧场"
@@ -180,6 +180,7 @@ def load_channel_dictionaries(main_dir: str) -> dict:
         for name in raw_lines:
             n = traditional_to_simplified(name)
             n = clean_channel_name(n)
+            n = correct_channel_name(n, corrections)  # 保持与直播源处理一致
             clean_lines.append(n)
         main_dict[chn_type] = clean_lines
         print(f"[INFO] 加载分类 {chn_type}: {len(raw_lines)} 个频道")
@@ -390,7 +391,7 @@ if __name__ == "__main__":
     
     blacklist = load_blacklist(dirs["blacklist_auto"], dirs["blacklist_manual"])
     corrections = load_corrections(dirs["corrections_name"])
-    main_dict = load_channel_dictionaries(dirs["main_channel"])
+    main_dict = load_channel_dictionaries(dirs["main_channel"], corrections)
     classifier = ChannelClassifier(main_dict, blacklist)
 
     print(f"[PROCESS] 处理手动白名单")

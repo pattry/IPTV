@@ -33,7 +33,23 @@ BLACKLIST_DOMAINS = [
     "kkk.888.3116598",
     "iptv.catvod.com",
     "satellitepull.cnr.cn",
-    # 新增：继续添加失效域名...
+    # 新增：你提供的不稳定源
+    "120.87.19.109",
+    "live.264788.xyz",
+    "69.30.245.50",
+    "204.12.221.218",
+    "player.cntv.cn",
+    "xykt-fix.github.io",
+    "74.91.26.218",
+    "198.204.228.26",
+    "php.jdshipin.com:8880",
+    "cdn6.163189.xyz",
+    "ChiSheng9/iptv",
+    "bak.dou.ddns-ip.net",
+    "rihou.cc:555",
+    "hlszymgsplive.miguvideo.com",
+    "free.cnlive.club",
+    "cdn8.163189.xyz",
 ]
 
 # ===================== 通用工具函数 =====================

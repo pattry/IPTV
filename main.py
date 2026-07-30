@@ -25,9 +25,9 @@ LOGO_URL_TPL = "https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/r
 SINGLE_CHANNEL_MAX_COUNT = 20
 
 # 测速配置
-SPEEDTEST_TIMEOUT = 5
+SPEEDTEST_TIMEOUT = 8
 SPEEDTEST_CONCURRENT = 50
-MIN_SPEED_THRESHOLD = 5000  # 5秒超时
+MIN_SPEED_THRESHOLD = 8000  # 5秒超时
 
 # ===================== 链接域名黑名单 =====================
 BLACKLIST_DOMAINS = [

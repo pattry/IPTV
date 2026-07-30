@@ -107,16 +107,3 @@ https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/{频道名}.png
 本项目基于 **MIT License** 开源。
 Copyright © 2024-PRESENT CCSH
 
----
-
-## 🎁 支持与赞赏
-如果这个工具对您有帮助，并希望支持项目的持续维护与优化，欢迎通过下方的赞赏码给予鼓励。感谢您的认可！
-
-![赞赏码](https://raw.githubusercontent.com/CCSH/CCSH/refs/heads/main/ccsh.png)
-
----
-**祝您使用愉快！** 
-
-<a href="#top">
-    <img src="https://img.shields.io/badge/-返回顶部-orange.svg" alt="#" align="right">
-</a>

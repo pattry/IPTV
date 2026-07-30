@@ -18,6 +18,8 @@ Big3专场,https://live.ottiptv.cc/huya/30847442
 瑜伽专场,https://live.ottiptv.cc/huya/20753449
 棒球专场,https://live.ottiptv.cc/huya/20072763
 扇耳光专场,https://live.ottiptv.cc/huya/30631765
+
+CCTV13,http://222.89.96.36:8001/hls/13/index.m3u8
 凤凰资讯台,http://xtvantsc.xyz/fhx.php?id=1
 凤凰中文台,http://xtvantsc.xyz/fhx.php?id=2
 凤凰香港台,http://xtvantsc.xyz/fhx.php?id=3
@@ -29,3 +31,22 @@ TVBS新聞,http://4gtv.cnlive.club/channel/n1ea96b20/index.m3u8?q=1782639885837
 三立新聞iNEWS,http://4gtv.cnlive.club/channel/4fa717ad/index.m3u8?q=1782639885837
 寰宇新聞台灣台,http://4gtv.cnlive.club/channel/n37458587/index.m3u8?q=1782639885837
 BBC News,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
+ABCNewsLive,https://aegis-cloudfront-1.tubi.video/33c5cde2-7a0c-4dd4-8dd2-edd99dbf1427/index.m3u8
+CBSNews24/7,https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master_24.m3u8
+CBSNews24/7,https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master.m3u8
+CBSNews24/7,https://jmp2.uk/plu-6350fdd266e9ea0007bedec5.m3u8
+CNN,https://t.freetv.fun/live/cnn-3.m3u8
+CNN,https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8
+MSNOW,http://40.160.24.53/MSNBC/index.m3u8
+SkyNews,https://d25w9q07b2mtmw.cloudfront.net/live/master_4.m3u8
+SkyNews,https://d25w9q07b2mtmw.cloudfront.net/live/master_5.m3u8
+SkyNews,https://d25w9q07b2mtmw.cloudfront.net/live/master.m3u8
+SkyNews,https://xemzi.short.gy/1000018
+Fox Weather,https://247wlive.foxweather.com/stream/index_1280x720.m3u8
+MSNBC HD,http://108.181.20.255:27347/livehttpplay?channel_id=23116
+NBC,http://206.212.244.63/127/index.m3u8
+CNBC HD ,http://108.181.20.255:27347/livehttpplay?channel_id=23115
+Entertainment Tonight,https://enterbcef94b.airspace-cdn.cbsivideo.com/master.m3u8
+Newsnation (WGNA) HD,http://108.181.20.255:27347/livehttpplay?channel_id=23102
+Newsmax,https://nmxlive.akamaized.net/hls/live/529965/Live_1/1.m3u8
+Brat TV,https://brat-samsung-us.amagi.tv/playlist.m3u8

@@ -29,15 +29,34 @@ SPEEDTEST_TIMEOUT = 5
 SPEEDTEST_CONCURRENT = 50
 MIN_SPEED_THRESHOLD = 5000  # 5秒超时
 
+# ===================== 链接域名黑名单 =====================
 BLACKLIST_DOMAINS = [
-    "stream1.freetv.fun", "t.freetv.fun", "freetv.fun",
-    "ottrrs.hl.chinamobile.com", "dd.ddzb.fun", "kkk.888.3116598",
-    "iptv.catvod.com", "satellitepull.cnr.cn",
-    "120.87.19.109", "live.264788.xyz", "69.30.245.50",
-    "204.12.221.218", "player.cntv.cn", "xykt-fix.github.io",
-    "74.91.26.218", "198.204.228.26", "php.jdshipin.com:8880",
-    "cdn6.163189.xyz", "ChiSheng9/iptv", "bak.dou.ddns-ip.net",
-    "rihou.cc:555", "hlszymgsplive.miguvideo.com", "free.cnlive.club",
+    # freetv系列
+    "stream1.freetv.fun",
+    "t.freetv.fun",
+    "freetv.fun",
+    # 失效代理/源
+    "ottrrs.hl.chinamobile.com",
+    "dd.ddzb.fun",
+    "kkk.888.3116598",
+    "iptv.catvod.com",
+    "satellitepull.cnr.cn",
+    # 新增：你提供的不稳定源
+    "120.87.19.109",
+    "live.264788.xyz",
+    "69.30.245.50",
+    "204.12.221.218",
+    "player.cntv.cn",
+    "xykt-fix.github.io",
+    "74.91.26.218",
+    "198.204.228.26",
+    "php.jdshipin.com:8880",
+    "cdn6.163189.xyz",
+    "ChiSheng9/iptv",
+    "bak.dou.ddns-ip.net",
+    "rihou.cc:555",
+    "hlszymgsplive.miguvideo.com",
+    "free.cnlive.club",
     "cdn8.163189.xyz",
 ]
 

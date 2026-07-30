@@ -2,7 +2,11 @@ import urllib.request
 from urllib.parse import quote, unquote, urlparse
 import re
 import os
+import asyncio
+import aiohttp
+import time
 from datetime import datetime, timedelta, timezone
+from tqdm import tqdm
 import opencc
 
 # ===================== 全局核心配置 =====================
@@ -16,39 +20,24 @@ REMOVAL_LIST = [
 ]
 USER_AGENT = "PostmanRuntime-ApipostRuntime/1.1.0"
 URL_FETCH_TIMEOUT = 10
-RESPONSE_TIME_THRESHOLD = 2000
 TVG_URL = "https://ghfast.top/https://github.com/CCSH/IPTV/raw/refs/heads/main/e.xml.gz"
 LOGO_URL_TPL = "https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/{}.png"
-SINGLE_CHANNEL_MAX_COUNT = 30
+SINGLE_CHANNEL_MAX_COUNT = 20
 
-# ===================== 链接域名黑名单 =====================
+# 测速配置
+SPEEDTEST_TIMEOUT = 5
+SPEEDTEST_CONCURRENT = 50
+MIN_SPEED_THRESHOLD = 5000  # 5秒超时
+
 BLACKLIST_DOMAINS = [
-    # freetv系列
-    "stream1.freetv.fun",
-    "t.freetv.fun",
-    "freetv.fun",
-    # 失效代理/源
-    "ottrrs.hl.chinamobile.com",
-    "dd.ddzb.fun",
-    "kkk.888.3116598",
-    "iptv.catvod.com",
-    "satellitepull.cnr.cn",
-    # 新增：你提供的不稳定源
-    "120.87.19.109",
-    "live.264788.xyz",
-    "69.30.245.50",
-    "204.12.221.218",
-    "player.cntv.cn",
-    "xykt-fix.github.io",
-    "74.91.26.218",
-    "198.204.228.26",
-    "php.jdshipin.com:8880",
-    "cdn6.163189.xyz",
-    "ChiSheng9/iptv",
-    "bak.dou.ddns-ip.net",
-    "rihou.cc:555",
-    "hlszymgsplive.miguvideo.com",
-    "free.cnlive.club",
+    "stream1.freetv.fun", "t.freetv.fun", "freetv.fun",
+    "ottrrs.hl.chinamobile.com", "dd.ddzb.fun", "kkk.888.3116598",
+    "iptv.catvod.com", "satellitepull.cnr.cn",
+    "120.87.19.109", "live.264788.xyz", "69.30.245.50",
+    "204.12.221.218", "player.cntv.cn", "xykt-fix.github.io",
+    "74.91.26.218", "198.204.228.26", "php.jdshipin.com:8880",
+    "cdn6.163189.xyz", "ChiSheng9/iptv", "bak.dou.ddns-ip.net",
+    "rihou.cc:555", "hlszymgsplive.miguvideo.com", "free.cnlive.club",
     "cdn8.163189.xyz",
 ]
 
@@ -71,13 +60,10 @@ def read_txt(file_path: str, strip: bool = True, skip_empty: bool = True) -> lis
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             lines = f.readlines()
-            if strip:
-                lines = [line.strip() for line in lines]
-            if skip_empty:
-                lines = [line for line in lines if line]
+            if strip: lines = [line.strip() for line in lines]
+            if skip_empty: lines = [line for line in lines if line]
             return lines
     except FileNotFoundError:
-        print(f"[ERROR] 文件未找到: {file_path}")
         return []
     except Exception as e:
         print(f"[ERROR] 读取文件 {file_path} 失败: {str(e)}")
@@ -86,8 +72,7 @@ def read_txt(file_path: str, strip: bool = True, skip_empty: bool = True) -> lis
 def write_txt(file_path: str, data: list or str) -> None:
     try:
         os.makedirs(os.path.dirname(file_path), exist_ok=True)
-        if isinstance(data, list):
-            data = '\n'.join([str(line) for line in data])
+        if isinstance(data, list): data = '\n'.join([str(line) for line in data])
         with open(file_path, 'w', encoding='utf-8') as f:
             f.write(data)
         print(f"[SUCCESS] 文件写入成功: {os.path.basename(file_path)}")
@@ -96,8 +81,7 @@ def write_txt(file_path: str, data: list or str) -> None:
 
 def safe_quote_url(url: str) -> str:
     try:
-        unquoted = unquote(url)
-        return quote(unquoted, safe=':/?&=')
+        return quote(unquote(url), safe=':/?&=')
     except Exception:
         return url
 
@@ -109,62 +93,45 @@ def traditional_to_simplified(text: str) -> str:
 def load_blacklist(blacklist_auto_path: str, blacklist_manual_path: str) -> set:
     def _extract_black_urls(file_path):
         lines = read_txt(file_path)
-        urls = []
-        for line in lines:
-            if "," in line:
-                url = line.split(',')[1].strip()
-                if url:
-                    urls.append(url)
-        return urls
+        return [line.split(',')[1].strip() for line in lines if "," in line and line.split(',')[1].strip()]
     return set(_extract_black_urls(blacklist_auto_path) + _extract_black_urls(blacklist_manual_path))
 
 def load_corrections(corrections_path: str) -> dict:
     corrections = {}
-    lines = read_txt(corrections_path)
-    for line in lines:
-        if not line or "," not in line:
-            continue
+    for line in read_txt(corrections_path):
+        if not line or "," not in line: continue
         parts = line.split(',')
         correct_name = parts[0].strip()
         for wrong_name in parts[1:]:
-            wrong_name = wrong_name.strip()
-            if wrong_name:
-                corrections[wrong_name] = correct_name
+            if wrong_name.strip():
+                corrections[wrong_name.strip()] = correct_name
     print(f"[INFO] 加载频道纠错规则数: {len(corrections)}")
     return corrections
 
 def clean_channel_name(name: str) -> str:
-    if not name:
-        return ""
+    if not name: return ""
     name = name.replace("　", " ")
     name = re.sub(r'[\u200b\u200c\u200d\u200e\u200f]', '', name)
     name = name.replace(" ", "")
-    for item in REMOVAL_LIST:
-        name = name.replace(item, "")
-    name = name.replace("CCTV-", "CCTV")
-    name = name.replace("CCTV0", "CCTV")
-    name = name.replace("PLUS", "+")
-    name = name.replace("iHOT-", "iHOT")
+    for item in REMOVAL_LIST: name = name.replace(item, "")
+    name = name.replace("CCTV-", "CCTV").replace("CCTV0", "CCTV")
+    name = name.replace("PLUS", "+").replace("iHOT-", "iHOT")
     return name.strip()
 
 def clean_url(url: str) -> str:
-    if not url:
-        return ""
+    if not url: return ""
     dollar_idx = url.rfind('$')
     return url[:dollar_idx].strip() if dollar_idx != -1 else url.strip()
 
 def correct_channel_name(name: str, corrections: dict) -> str:
-    if not name or name not in corrections:
-        return name
+    if not name or name not in corrections: return name
     return corrections[name] if corrections[name] != name else name
 
 def is_blacklisted_domain(url: str) -> bool:
     try:
         domain = urlparse(url).netloc.lower()
         for black_domain in BLACKLIST_DOMAINS:
-            if black_domain in domain:
-                print(f"[FILTER] 过滤黑名单域名链接: {domain}")
-                return True
+            if black_domain in domain: return True
     except Exception:
         pass
     return False
@@ -206,8 +173,7 @@ class ChannelClassifier:
         return url in self.all_urls.get(chn_type, set()) or "127.0.0.1" in url
 
     def is_single_chn_limit(self, channel_name: str) -> bool:
-        if SINGLE_CHANNEL_MAX_COUNT == -1:
-            return False
+        if SINGLE_CHANNEL_MAX_COUNT == -1: return False
         return self.single_chn_count.get(channel_name, 0) >= SINGLE_CHANNEL_MAX_COUNT
 
     def add_channel_line(self, chn_type: str, line: str, url: str):
@@ -233,28 +199,20 @@ class ChannelClassifier:
     def get_channel_data(self, chn_type: str) -> list:
         return self.channel_data.get(chn_type, [])
 
-    def get_all_other(self) -> list:
-        return self.other_lines
-
 def is_m3u_content(text: str) -> bool:
-    if not text:
-        return False
+    if not text: return False
     return text.strip().splitlines()[0].strip().startswith("#EXTM3U")
 
 def convert_m3u_to_txt(m3u_content: str) -> list:
     lines = [line.strip() for line in m3u_content.split('\n') if line.strip()]
     txt_lines, channel_name = [], ""
     for line in lines:
-        if line.startswith("#EXTM3U"):
-            continue
-        elif line.startswith("#EXTINF"):
-            channel_name = line.split(',')[-1].strip()
+        if line.startswith("#EXTM3U"): continue
+        elif line.startswith("#EXTINF"): channel_name = line.split(',')[-1].strip()
         elif line.startswith(("http", "rtmp", "p3p")):
-            if channel_name:
-                txt_lines.append(f"{channel_name},{line}")
+            if channel_name: txt_lines.append(f"{channel_name},{line}")
         elif "#genre#" not in line and "," in line and "://" in line:
-            if re.match(r'^[^,]+,[^\s]+://[^\s]+$', line):
-                txt_lines.append(line)
+            if re.match(r'^[^,]+,[^\s]+://[^\s]+$', line): txt_lines.append(line)
     return txt_lines
 
 def process_remote_url(url: str, classifier: ChannelClassifier, corrections: dict):
@@ -269,14 +227,10 @@ def process_remote_url(url: str, classifier: ChannelClassifier, corrections: dic
                 try:
                     text = data.decode(encoding)
                     break
-                except UnicodeDecodeError:
-                    continue
-            if not text:
-                return
-            if is_m3u_content(text):
-                lines = convert_m3u_to_txt(text)
-            else:
-                lines = [line.strip() for line in text.split('\n') if line.strip()]
+                except UnicodeDecodeError: continue
+            if not text: return
+            if is_m3u_content(text): lines = convert_m3u_to_txt(text)
+            else: lines = [line.strip() for line in text.split('\n') if line.strip()]
         print(f"[PROCESS] 远程源 {url} 提取有效行: {len(lines)}")
         for line in lines:
             process_single_line(line, classifier, corrections)
@@ -285,31 +239,109 @@ def process_remote_url(url: str, classifier: ChannelClassifier, corrections: dic
         print(f"[ERROR] 处理远程源 {url} 失败: {str(e)}")
 
 def process_single_line(line: str, classifier: ChannelClassifier, corrections: dict):
-    if "#genre#" in line or "#EXTINF:" in line or "," not in line or "://" not in line:
-        return
+    if "#genre#" in line or "#EXTINF:" in line or "," not in line or "://" not in line: return
     try:
         channel_name, channel_address = line.split(',', 1)
-    except ValueError:
-        return
-    if is_blacklisted_domain(channel_address):
-        return
+    except ValueError: return
+    if is_blacklisted_domain(channel_address): return
     channel_name = traditional_to_simplified(channel_name)
     channel_name = clean_channel_name(channel_name)
     channel_name = correct_channel_name(channel_name, corrections)
     channel_address = clean_url(channel_address)
     classifier.classify(channel_name, channel_address, f"{channel_name},{channel_address}")
 
+# ===================== 异步测速排序 =====================
+async def test_url_speed(session: aiohttp.ClientSession, url: str) -> tuple:
+    """测试单个URL的响应速度"""
+    try:
+        start = time.time()
+        async with session.get(url, timeout=aiohttp.ClientTimeout(total=SPEEDTEST_TIMEOUT)) as resp:
+            data = await resp.read()
+            elapsed = (time.time() - start) * 1000
+            if len(data) < 256: return (url, float('inf'), False)
+            # 检查广告/打赏
+            text = data[:4096]
+            bad_kw = [b'\xe6\x89\x93\xe8\xb5\x8f', b'\xe6\x89\xab\xe7\xa0\x81',
+                      b'\xe4\xba\x8c\xe7\xbb\xb4\xe7\xa0\x81', b'ADINSERT', b'vast']
+            for kw in bad_kw:
+                if kw in text: return (url, float('inf'), False)
+            return (url, elapsed, True)
+    except Exception:
+        return (url, float('inf'), False)
+
+
+async def test_urls_batch(urls: list) -> dict:
+    """批量异步测速"""
+    results = {}
+    connector = aiohttp.TCPConnector(limit=SPEEDTEST_CONCURRENT)
+    async with aiohttp.ClientSession(connector=connector, headers={'User-Agent': USER_AGENT}) as session:
+        tasks = [test_url_speed(session, url) for url in urls]
+        for coro in asyncio.as_completed(tasks):
+            url, elapsed, is_alive = await coro
+            results[url] = (elapsed, is_alive)
+    return results
+
+
+async def sort_and_filter_channels_async(classifier: ChannelClassifier):
+    """异步测速排序：按速度排序，过滤失效源，广告/打赏放最后"""
+    print(f"[SPEEDTEST] 异步测速开始 ({SPEEDTEST_CONCURRENT}并发, {SPEEDTEST_TIMEOUT}s超时)")
+    
+    all_urls = []
+    url_to_info = {}
+    
+    # 收集所有URL
+    for chn_type in classifier.channel_data:
+        for line in classifier.channel_data[chn_type]:
+            if "," not in line or "://" not in line: continue
+            parts = line.split(',', 1)
+            if len(parts) != 2: continue
+            name, url = parts[0].strip(), parts[1].strip()
+            if not url: continue
+            all_urls.append(url)
+            url_to_info[url] = (chn_type, line, name)
+    
+    total = len(all_urls)
+    print(f"[SPEEDTEST] 共 {total} 个URL待测速")
+    
+    # 批量测速
+    speed_results = await test_urls_batch(all_urls)
+    
+    # 重建分类数据
+    new_channel_data = {t: {} for t in classifier.channel_data}
+    
+    for url, (elapsed, is_alive) in speed_results.items():
+        info = url_to_info.get(url)
+        if not info: continue
+        chn_type, line, name = info
+        
+        if is_alive and elapsed <= MIN_SPEED_THRESHOLD:
+            if name not in new_channel_data[chn_type]:
+                new_channel_data[chn_type][name] = []
+            new_channel_data[chn_type][name].append((elapsed, line))
+    
+    # 排序：按速度从快到慢
+    for chn_type in new_channel_data:
+        lines = []
+        for chn_name in new_channel_data[chn_type]:
+            sorted_urls = sorted(new_channel_data[chn_type][chn_name], key=lambda x: x[0])
+            for _, line in sorted_urls[:SINGLE_CHANNEL_MAX_COUNT]:
+                lines.append(line)
+        classifier.channel_data[chn_type] = lines
+    
+    alive_count = sum(1 for _, (elapsed, is_alive) in speed_results.items() if is_alive)
+    print(f"[SPEEDTEST] 测速完成: 有效 {alive_count}/{total}")
+    return classifier
+
+
 def sort_channel_data(channel_data: list, cfg_list: list) -> list:
-    if not channel_data:
-        return channel_data
+    if not channel_data: return channel_data
     cfg_index_map = {cfg_name: idx for idx, cfg_name in enumerate(cfg_list)}
     return sorted(channel_data, key=lambda l: cfg_index_map.get(l.split(',')[0] if ',' in l else "", len(cfg_list)))
 
 def generate_live_text(classifier: ChannelClassifier, main_dict: dict) -> tuple:
     bj_time = datetime.now(timezone.utc) + timedelta(hours=8)
     formatted_time = bj_time.strftime("%Y%m%d %H:%M")
-    version = f"{formatted_time},http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8"
-    header = ["更新时间,#genre#", version, '\n']
+    header = ["更新时间,#genre#", formatted_time + ",http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8", '\n']
 
     lite_lines = header.copy()
     for chn_type in ["央视", "地方", "体育", "新闻", "电影", "港澳台"]:
@@ -327,23 +359,19 @@ def generate_live_text(classifier: ChannelClassifier, main_dict: dict) -> tuple:
 
 def make_m3u(txt_file: str, m3u_file: str, tvg_url: str, logo_tpl: str):
     try:
-        if not os.path.exists(txt_file):
-            return
+        if not os.path.exists(txt_file): return
         m3u_content = f"#EXTM3U x-tvg-url=\"{tvg_url}\"\n"
         lines = read_txt(txt_file, strip=True, skip_empty=True)
         group_name = ""
         for line in lines:
-            if "," not in line:
-                continue
+            if "," not in line: continue
             parts = line.split(',', 1)
-            if len(parts) != 2:
-                continue
+            if len(parts) != 2: continue
             if "#genre#" in parts[1]:
                 group_name = parts[0].strip()
                 continue
             channel_name, channel_url = parts[0].strip(), parts[1].strip()
-            if not channel_url or "://" not in channel_url:
-                continue
+            if not channel_url or "://" not in channel_url: continue
             logo_url = logo_tpl.format(channel_name)
             m3u_content += (
                 f"#EXTINF:-1  tvg-name=\"{channel_name}\" tvg-logo=\"{logo_url}\"  group-title=\"{group_name}\",{channel_name}\n"
@@ -354,10 +382,9 @@ def make_m3u(txt_file: str, m3u_file: str, tvg_url: str, logo_tpl: str):
         print(f"[ERROR] 生成M3U失败 {m3u_file}: {str(e)}")
 
 # ===================== 主函数 =====================
-if __name__ == "__main__":
+async def main_async():
     timestart = datetime.now()
     print(f"[START] 程序开始执行: {timestart.strftime('%Y%m%d %H:%M:%S')}")
-    print(f"[INFO] 域名黑名单已启用 ({len(BLACKLIST_DOMAINS)}个): {BLACKLIST_DOMAINS}")
     dirs = get_project_dirs()
     
     blacklist = load_blacklist(dirs["blacklist_auto"], dirs["blacklist_manual"])
@@ -371,19 +398,16 @@ if __name__ == "__main__":
 
     print(f"[PROCESS] 处理自动白名单")
     for line in read_txt(dirs["whitelist_respotime"]):
-        if "#genre#" in line or "," not in line or "://" not in line:
-            continue
-        parts = line.split(",")
-        try:
-            if float(parts[0].replace('ms', '').strip()) < RESPONSE_TIME_THRESHOLD:
-                process_single_line(",".join(parts[1:]), classifier, corrections)
-        except (ValueError, IndexError, AttributeError):
-            pass
+        if "#genre#" in line or "," not in line or "://" not in line: continue
+        process_single_line(line, classifier, corrections)
 
     print(f"[PROCESS] 处理远程URL源")
     for url in read_txt(dirs["urls"]):
         if url.startswith("http"):
             process_remote_url(url, classifier, corrections)
+
+    # 异步测速排序
+    classifier = await sort_and_filter_channels_async(classifier)
 
     live_full, live_lite = generate_live_text(classifier, main_dict)
     write_txt(os.path.join(dirs["root"], "live.txt"), live_full)
@@ -395,5 +419,6 @@ if __name__ == "__main__":
 
     elapsed = (datetime.now() - timestart).total_seconds()
     print(f"[END] 执行时间: {int(elapsed // 60)} 分 {int(elapsed % 60)} 秒")
-    print(f"[STAT] live.txt行数: {len(live_full)}")
-    print(f"[STAT] others.txt行数: {len(classifier.other_lines)}")
+
+if __name__ == "__main__":
+    asyncio.run(main_async())

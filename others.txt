@@ -21668,6 +21668,8 @@ EntunoTV[Not24/7],https://soportedvb.click:3442/live/entunotvlive.m3u8
 ETVTerramar,https://liveingesta318.cdnmedia.tv/tvetvlive/smil:rtmp01.smil/playlist.m3u8
 EUTV,https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
 France3,http://85.14.32.26:8800/udp/239.100.10.144:5000
+France3Coted'Azur,http://89.187.185.76:8080/France3/index.m3u8
+France3Lorraine,http://5.180.164.197:8080/FRANCE3/index.m3u8
 Galavision,http://200.39.57.254:8008/play/a00v/index.m3u8
 Galaxy4,https://budapest-cache-1.antik.sk/live/test_galaxy_4_atk_1200/playlist.m3u8
 GlobalSocialTV[Not24/7],https://stream.castr.com/6809124f3f3e7e594c63cf15/live_8e5d0b50206a11f08690576446b3c082/index.fmp4.m3u8
@@ -21693,6 +21695,7 @@ KocaeliTV,https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 KoreanCentralTelevision(KCTV)(576p),https://streamer.nknews.org/tvdash/stream.mpd
 KTK(576p),http://stream.mcquack.net/26/index.m3u8
 La8Mediterraneo,https://newscript.gestec-video.com/hls/8TVEVENTOS.m3u8
+LaNacion+(576p),http://playcom.trapemn.tv:1935/transcoderip/lanacionplus.stream/playlist.m3u8
 Latina,https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/playlist.m3u8
 LawTV,http://stream.mcquack.net/406/index.m3u8
 LleidaTelevisió,https://liveingesta318.cdnmedia.tv/lleidatvlive/smil:live.smil/playlist.m3u8?DVR=
@@ -21754,6 +21757,7 @@ SCTV[Geo-blocked],https://op-group1-swiftservehd-1.dens.tv/h/h217/index.m3u8
 SILTV,https://live20.bozztv.com/giatv/giatv-SilTvOnline/SilTvOnline/playlist.m3u8
 SimaVisionTV,https://soportedvb.click:3668/live/simavisiontvlive.m3u8
 StarTV,https://cdn4.skygo.mn/live/disk1/Star/DASH-FTA/Star.mpd
+Studio+TV,https://cloudvideo.servers10.com:8081/8184/index.m3u8
 Suspilne.Krym,http://stream.mcquack.net/436/index.m3u8
 Svit+,http://stream.mcquack.net/358/index.m3u8
 Tele7,https://ingest2-video.streaming-pro.com/tele7_ABR/stream/playlist.m3u8

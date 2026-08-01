@@ -50,5 +50,6 @@ Entertainment Tonight,https://enterbcef94b.airspace-cdn.cbsivideo.com/master.m3u
 Newsnation (WGNA) HD,http://108.181.20.255:27347/livehttpplay?channel_id=23102
 Newsmax,https://nmxlive.akamaized.net/hls/live/529965/Live_1/1.m3u8
 Brat TV,https://brat-samsung-us.amagi.tv/playlist.m3u8
-http://4gtv.cnlive.club/
+
 http://www.kaniptv.cn/
+http://4gtv.cnlive.club/

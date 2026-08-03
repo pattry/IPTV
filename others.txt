@@ -21364,6 +21364,7 @@ CW[Geo-blocked],https://messi.damitv.st/papi/ts/cw-usa/playlist.m3u8
 ĐàNẵngTV2[Not24/7],https://live.mediatech.vn/live/2859145290d0d7947ef88b6240123b62474/chunklist.m3u8
 DeenTV(576p),https://cd198.anystream.uk:9092/iqapp/d33ntv/playlist.m3u8
 DerTV,https://stream.berosat.live/hls/der-tv/der-tv.m3u8
+DienBienTV,https://stream.langsontv.vn/live/2855dfeccb7f49a41a2b0441b3bfeda413c/playlist.m3u8
 Digital15,https://live4.telemicro.com.do/live/digital15cast_1080p/playlist.m3u8
 DragonTVInternational[Geo-blocked],https://op-group1-swiftservesd-1.dens.tv/s/s29/index.m3u8
 Duna,http://88.212.15.19/live/duna_hun/index.m3u8
@@ -21402,6 +21403,7 @@ KayTV(576p)[Geo-blocked],https://live.artidijitalmedya.com/artidijital_kaytv/kay
 KBSWorld,https://stream8.cinerama.uz/1448/playlist.m3u8
 KentronTV,http://stream.mcquack.net/39/index.m3u8
 Keshet12,http://stream.mcquack.net/294/index.m3u8
+KhanhHoaTV,https://cdnbaokhanhhoa.com/live/1332e3a79e27.m3u8?vhost=video
 KocaeliTV,https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 KoreanCentralTelevision(KCTV)(576p),https://streamer.nknews.org/tvdash/stream.mpd
 KTK(576p),http://stream.mcquack.net/26/index.m3u8
@@ -21433,6 +21435,7 @@ MRTV,https://mrtvott.com/cache/MRTV-HD/master.m3u8
 MusawaChannel[Not24/7],https://pbc.furrera.ps/musawahd/index.m3u8
 MyUkraina+,https://api-tv.ipnet.ua/api/v1/manifest/2118742680.m3u8
 NBC,http://stream.cammonitorplus.net/1785/index.m3u8
+NinhThuanTV,https://cdnbaokhanhhoa.com/live/90405a889081.m3u8?vhost=video
 Notele(576p)[Not24/7],https://streaming01.divercom.be/notele_live/direct.stream/playlist.m3u8
 Nova,http://213.91.179.28:8000/play/a03l
 OlotTV,https://liveingesta118.cdnmedia.tv/olottvlive/smil:live.smil/playlist.m3u8?DVR=
@@ -21504,6 +21507,7 @@ TV3Curitiba,https://stmv.webtvninjas.com.br/tv3/tv3/playlist.m3u8
 TV5,https://cdn4.skygo.mn/live/disk1/TV5HD/DASH-FTA/TV5HD.mpd
 TV8,https://cdn4.skygo.mn/live/disk1/TV8HD/DASH-FTA/TV8HD.mpd
 TV9,https://cdn4.skygo.mn/live/disk1/TV9HD/DASH-FTA/TV9HD.mpd
+TVArad,https://live.djemba.ro/memfs/1b01c281-126d-4787-9d51-9e06c96bb9f9.m3u8
 TVRipollès,https://liveingesta318.cdnmedia.tv/tvripolleslive/smil:live.smil/playlist.m3u8?DVR=
 TVSabadell-Vallès,https://ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8
 TVNBN,https://cdn.jmvstream.com/w/LVW-8410/LVW8410_uiZOVm6vz1/playlist.m3u8
@@ -21512,6 +21516,7 @@ UBS,https://cdn4.skygo.mn/live/disk1/UBSHD/DASH-FTA/UBSHD.mpd
 UNIANSerial,http://stream.mcquack.net/341/index.m3u8
 UnitelSantaCruz,https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8
 UTVAfrica,https://oqgdro3xd4rm-hls-live.5centscdn.com/tfmediacastlivestreamUTV/8f263182c36c7e5c56a986bf770091e3.sdp/playlist.m3u8
+VinhLongTV1(576p)[Not24/7],http://125hvt.ddns.net:21585/thvl1/playlist.m3u8
 VivaTV,http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/vivatv.stream/playlist.m3u8
 WataVision,https://live20.bozztv.com/giatv/giatv-watavision/watavision/chunks.m3u8
 WedoTVAmor,https://amg00735-videosolutions-amg00735c15-wedotv-eu-1915.playouts.now.amagi.tv/playlist/amg00735-videosolutionsagfast-wedoamor-wedotveu/playlist.m3u8

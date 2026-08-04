@@ -1,5 +1,5 @@
 更新时间,#genre#
-20260804 04:19,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
+20260805 04:14,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 
 
 央视,#genre#
@@ -232,7 +232,11 @@ CHC影迷电影,http://38.75.136.137:98/gslb/dsdqpub/chchd.m3u8?auth=testpub
 CHC影迷电影,http://60.168.105.138:5008/952383261
 CHC影迷电影,http://223.247.25.221:1234/952383261
 CHC影迷电影,http://182.61.15.84:80/952383261
+足球,http://po.sdmdpx.com:5140/%E8%BD%AE%E6%92%AD%E9%A2%91%E9%81%93/%E8%B6%B3%E7%90%83
 IPTV谍战剧场,rtsp://183.59.56.116:554/PLTV/88888905/224/3221227158/10000100000000060000000000937867_0.smil?0&accountinfo=%7E%7EV2.0%7EDrPxmKDwQZeAvzANz-MGng%7EzJeEdQQK6GK7r2Q5jZjxjKYhZiHklGs8wg1XyXUSKdk5d8f2s2AYjzO2-qcyDeaExan3Pra4cuU_Whoju6BKGf666OGX7-GKwJrfpZjwyfM~ExtInfoWNHSPSTb+3AG0FnUkYLPMw=-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2CEND&GuardEncType=2
+IPTV野外,http://po.sdmdpx.com:5140/%E8%BD%AE%E6%92%AD%E9%A2%91%E9%81%93/IPTV%E9%87%8E%E5%A4%96
+IPTV法治,http://po.sdmdpx.com:5140/%E8%BD%AE%E6%92%AD%E9%A2%91%E9%81%93/IPTV%E6%B3%95%E6%B2%BB
+收视指南,http://po.sdmdpx.com:5140/%E8%BD%AE%E6%92%AD%E9%A2%91%E9%81%93/%E6%94%B6%E8%A7%86%E6%8C%87%E5%8D%97
 重温经典,http://php.jdshipin.com/TVOD/iptv.php?id=cwjd
 重温经典,http://38.75.136.137:82/live1/jsb.m3u8?id=cwjd&ip=whus28&usign=1LR7Q-EFMMTvbEbLXeCmxA
 重温经典,http://38.75.136.137:98/gslb/dsdqpub/cwjd.m3u8?auth=testpub
@@ -246,13 +250,11 @@ IPTV谍战剧场,rtsp://183.59.56.116:554/PLTV/88888905/224/3221227158/100001000
 国学频道,http://38.75.136.137:98/gslb/dsdqpub/gxpd.m3u8?auth=testpub
 国学频道,http://107.150.60.122/live/gxpd.m3u8
 国学频道,http://192.151.150.154/live/gxpd.m3u8
-国学频道,http://123.234.2.58/sccucc-livod.tx-cdn.gitv.tv/gitv_live/G_GUOXUE/G_GUOXUE.m3u8
 天元围棋,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gztywq
 天元围棋,http://120.76.248.139/live/bfgd/4200000633.m3u8
 天元围棋,http://38.75.136.137:98/gslb/dsdqpub/gztywq.m3u8?auth=testpub
 天元围棋,http://107.150.60.122/live/gztywq.m3u8
 天元围棋,http://192.151.150.154/live/gztywq.m3u8
-天元围棋,http://123.234.2.58/sccucc-livod.tx-cdn.gitv.tv/gitv_live/G_TIANYUANWQ/G_TIANYUANWQ.m3u8
 优漫卡通,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ymkt
 优漫卡通,http://111.231.6.102:1234/626064703
 优漫卡通,http://60.168.105.138:5008/626064703
@@ -294,7 +296,9 @@ CCTV1港澳版,https://cdn6.cc.cd/163189/cctv1
 金鹰纪实,http://218.77.84.102:85/tsfile/live/152/2008_1.m3u8?key=txiptv
 金鹰纪实,http://111.29.9.33:6610/000000001000/5000000011000031203/index.m3u8?channel-id=bestzb&Contentid=5000000011000031203&livemode=1&stbId=3
 金鹰纪实,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226667/1.m3u8
-金鹰纪实,http://qwrt.ansun.de5.net:7088/%E4%B8%93%E4%B8%9A/%E9%87%91%E9%B9%B0%E7%BA%AA%E5%AE%9E
+金鹰纪实,http://po.sdmdpx.com:5140/%E5%85%B6%E4%BB%96%E9%A2%91%E9%81%93/%E9%87%91%E9%B9%B0%E7%BA%AA%E5%AE%9E
+金鹰纪实,http://plzysm.cn:5140/%E5%BD%B1%E8%A7%86%E7%BA%AA%E5%AE%9E/%E9%87%91%E9%B9%B0%E7%BA%AA%E5%AE%9E
+金鹰纪实,http://www.kooca.cn:5140/%E6%95%B0%E5%AD%97%E9%A2%91%E9%81%93/%E9%87%91%E9%B9%B0%E7%BA%AA%E5%AE%9E
 金鹰卡通,http://183.11.239.36:808/hls/69/index.m3u8
 金鹰卡通,http://113.15.109.216:59901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
 金鹰卡通,http://218.77.84.102:85/tsfile/live/153/2009_1.m3u8?key=txiptv
@@ -549,7 +553,7 @@ CCTV1港澳版,https://cdn6.cc.cd/163189/cctv1
 厦门卫视,http://110.80.17.38:9999/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
 厦门卫视,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226695/1.m3u8
 厦门卫视,http://bztv.tvbus.cc:8081/cdnlive/xmws.m3u8
-厦门卫视,http://123.234.2.58/sccucc-livod.tx-cdn.gitv.tv/gitv_live/G_XIAMEN/G_XIAMEN.m3u8
+厦门卫视,http://po.sdmdpx.com:5140/%E5%8D%AB%E8%A7%86%E9%A2%91%E9%81%93/%E5%8E%A6%E9%97%A8%E5%8D%AB%E8%A7%86
 四川卫视,http://107.150.60.122/live/scwshd.m3u8
 四川卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=scwshd
 四川卫视,https://www.yangshipin.cn/tv/home?pid=600002516
@@ -680,7 +684,7 @@ CCTV1港澳版,https://cdn6.cc.cd/163189/cctv1
 文物宝库,https://dxtx.hntv.tv/live/wwbk.m3u8?txSecret=317b89626134fd6bea6e129455b5ff18&txTime=7C4C635C&wsSecret=823b06939f54c50f7750a00e35ae7196&wsTime=1782993623
 文物宝库,https://dxtx.hntv.tv/live/wwbk.m3u8?txSecret=317b89626134fd6bea6e129455b5ff18&txTime=7C4C635C&wsSecret=24b9dabf5366bc5454189408be7c822d&wsTime=1784836801
 文物宝库,http://1.94.31.214/php/hntv.php?id=wwbk
-文物宝库,http://qwrt.ansun.de5.net:7088/%E4%B8%93%E4%B8%9A/%E6%96%87%E7%89%A9%E5%AE%9D%E5%BA%93
+文物宝库,http://po.sdmdpx.com:5140/%E5%85%B6%E4%BB%96%E9%A2%91%E9%81%93/%E6%96%87%E7%89%A9%E5%AE%9D%E5%BA%93
 梨园,http://182.61.15.84:80/961930369
 梨园,http://dassby.qqff.top:99/live/梨园/index.m3u8
 梨园,http://47.104.178.59:3566/961930369
@@ -696,7 +700,7 @@ CCTV1港澳版,https://cdn6.cc.cd/163189/cctv1
 武术世界,http://1.94.31.214/php/hntv.php?id=wspd
 武术世界,http://mg.cttv.vip/958475359
 武术世界,http://wfenf.x3322.net:7788/958475359
-武术世界,http://qwrt.ansun.de5.net:7088/%E4%B8%93%E4%B8%9A/%E6%AD%A6%E6%9C%AF%E4%B8%96%E7%95%8C
+武术世界,http://po.sdmdpx.com:5140/%E5%85%B6%E4%BB%96%E9%A2%91%E9%81%93/%E6%AD%A6%E6%9C%AF%E4%B8%96%E7%95%8C
 新闻综合,http://t.061899.xyz/tl/tl.php?id=shxwzh
 新闻综合,http://182.61.15.84:80/651632657
 新闻综合,http://47.104.178.59:3566/651632657
@@ -745,6 +749,7 @@ CCTV1港澳版,https://cdn6.cc.cd/163189/cctv1
 五星体育,http://live.xmcdn.com/live/57/64.m3u8
 五星体育,https://cdn15.163189.xyz/163189/wxty
 五星体育,http://38.75.136.137:98/gslb/dsdqpub/wxtyhd.m3u8?auth=testpub
+五星体育,http://www.kooca.cn:5140/%E4%B8%8A%E6%B5%B7%E6%96%87%E5%B9%BF/%E4%BA%94%E6%98%9F%E4%BD%93%E8%82%B2
 海峡卫视,http://38.64.72.148:80/hls/modn/list/4009/playlist.m3u8
 海峡卫视,http://38.64.72.148:80/hls/modn/list/4009/chunklist0.m3u8
 海峡卫视,http://38.64.72.148:80/hls/modn/list/4009/chunklist1.m3u8
@@ -776,7 +781,7 @@ CCTV16,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
 广东体育,http://r.jdshipin.com/LiYdg
 纬来体育,http://8.138.7.223/【公众号：榴芒电视】/wlty.m3u8
 纬来体育,http://dassby.qqff.top:99/live/辽宁体育/index.m3u8
-纬来体育,http://www.kaniptv.cn/uadl.php?etoken=ZngQEnWH%2FmxRFCYqvL7ndsI32pS3DOCvq4%2FRduSfl35ntl2ps2TBP0hgujY8LaE8W4qfG%2Ff3HcCrPGm5T%2BuVXpAfzdRCeBZYq54R4VaPFBGwO2vOlP3N%2FqmuPupGPoGujwDUOCMqgsO%2FDtt7D5zkwaQvNf92A27rGqLU%2FgNkrJYU%2BHjRVhJ0CV9FmDP0jpMvqjwa84a799vTyKkyJq5qo%2FHvt9CJSrh2Wmdodr7WQU8yjkD4TE%2BgeYZXZvkfG53zGGibY8M1xjJvQpVGYyQrJufV6%2BnQwVifsUGPFrHJXKugWeELAd4lTLLzCRcRSOoAFKiC81oI%2BtyYCujhclX4yPzHLGQ9ozwcGan9e0JZXXsSteQaUEfzfWxy367QrUJZ%2BMSSWSjrpgNuIc7V4vd8Cg%3D%3D
+纬来体育,http://139.159.221.112:80/today/hm.php?id=fba2aafc1808c8e3793a37d0a035ba30&key=***
 辽宁体育,http://120.76.248.139/live/bfgd/4200000611.m3u8
 风云足球,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=fyzq
 风云足球,https://epg.pw/stream/6d7bf281e3d739806a73f5373acaa6e01988ec9739f5ac1355ce54b47a928472.m3u8
@@ -814,11 +819,9 @@ Big3专场,https://live.ottiptv.cc/huya/30847442
 睛彩篮球,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226952/1.m3u8
 睛彩篮球,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226966/1.m3u8
 睛彩篮球,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226994/1.m3u8
-睛彩篮球,http://60.177.201.148:9999/%E4%BB%98%E8%B4%B9/%E7%9D%9B%E5%BD%A9%E7%AF%AE%E7%90%83
 睛彩竞技,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226870/1.m3u8
 睛彩竞技,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226969/1.m3u8
 睛彩竞技,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226988/1.m3u8
-睛彩竞技,http://60.177.201.148:9999/%E4%BB%98%E8%B4%B9/%E7%9D%9B%E5%BD%A9%E7%AB%9E%E6%8A%80
 
 
 新闻,#genre#
@@ -845,7 +848,7 @@ CCTV13,http://38.75.136.137:98/gslb/dsdqbv/cctv13hd.m3u8?auth=test20251009
 凤凰香港,http://122.152.202.33/s/81a8a44f/index.m3u8?id=fhhk
 东森财经新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV03.m3u8
 三立新闻iNEWS,http://4gtv.cnlive.club/channel/4fa717ad/index.m3u8?q=1782639885837
-寰宇新闻台湾,http://www.kaniptv.cn/uadl.php?etoken=zZMfUdsy%2FU633r%2FiLSC81vz8cic9hhaMbGLdTMl5l8XUHCMPscORcXdd5AvQ2IFo%2FZea7L0Wm9Pk7w3cZsFmosxD22CGwvENMywXR6CST18rOZ7AhrX8gOgNW%2B6187wqGKhgD1XJZ5NV3r%2FfFfEJT67j8flitVFt6f2xNo3hkKxD73kHVHvV63DY5%2F7Bf0pBl04r%2BYqwXWzDUpv4wDJeL300vDmGVGWOvfyvg3HGtr1WMvxKBQvE4A754F5HBlNGosAJnV9z5rfjRYHd365X0toy6LHo%2BfibHiU5Obmt1MlCoSs4Xo7O3PDZIrQwQBzT0SQicOZksCn7cYaNv1S6aZqTju7Vi%2B4%2FGlRvA7JwBJwuI%2BW6eBIe%2BKgRNfDRTr474YWImzq1TwOlnrRHeeTmDNkav%2B%2FLhIgarAzhuX4q73VzawrEcSG%2Fsfok5nzHp97n
+寰宇新闻台湾,http://139.159.221.112:80/today/hm.php?id=937d64cf20c64d94627818fcaddcb027c981975b202968096e843dad73ffafcd&key=***
 BBCNews,https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8
 ABCNewsLive,https://aegis-cloudfront-1.tubi.video/33c5cde2-7a0c-4dd4-8dd2-edd99dbf1427/index.m3u8
 CBSNews24/7,https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8648e8f134e82a470f83d562deeca/master_24.m3u8
@@ -900,14 +903,14 @@ CGTN,http://t.061899.xyz/tl/tl.php?id=cgtn
 无线新闻台,https://cdn6.cc.cd/163189/wxxw
 无线新闻台,https://cdn6.cc.cd/163189/wxxwt
 NOW新闻台,https://fast.hidns.vip/163189/now
-NOW新闻台,http://www.kaniptv.cn/uadl.php?etoken=KQaJrZanymF7QwE0BastLUxKCG76r5x8zoOuT%2F5rq3mxN6Uql4Zh7JCpxU42aVnTPHk0erqqTOeBaNaFfe%2B7H%2BVaK1iEeMeKYRfBO4GGMj4n7b6tW4AVuFShGsH7tNwbMtIyYCkd3L8Ka6IsNNNsOKQdWikE3WezWkS3GTvry4gV1l6F4HRbJ696fkafH%2BLyHFgcO0KZakjeXomUvi0FuD%2BnG5urwgYCjtZ6lJnbld9gpGp0D9CzovxZv7hzpppuqSdv4cKdT32JDYvcItumIsPRdSjg4rGNgy7uf7gblma57IMHvQpkW%2B2IgLk%2BB%2FYYvgOZs0aIPRVjEPaKF5w7jWjHvVh2bVZX9IOgaN04tuNfupdZLQlIIaH5Mf%2FEMHxVImUWF9AUugIZ%2BbYv%2Byr6BQ%3D%3D
-Now财经台,http://www.kaniptv.cn/uadl.php?etoken=%2FIWFA4m6kFXVTjLfVU%2BrPuCrC%2Bqr1IpRKWAJK1khGQN0jLASZ70C5vSyLgb%2FoHscMDL3QAXAHFN7dp1M%2By7X%2BJKNvXdvLs0aZez2z36YkYL4rGhaxeJzhizwnP%2BkRVGueJUC05kvf8k%2BK0WXc2LmGjCZRb9aODJaQPBdsReXbM8hViCiexWnxFWn5DxNdSNtsJjUVGN2fcMhWQswnhJjfew9nAvm%2BBPou7skriJtIUbxdFy2ebM15c%2BpNn1hTVgcMbRlesi8MXUdEzH9bYa04UmFGD2nLO7JIWBXSOqCVkSh2eTitIADdaHhIZQQT15BFN2uva0xwjgZN6ioqzECWWhBwFvf%2BIKDz6ljjTfA37C82oddIyOtH0oCWyVx7U1Ymu8VRd6%2Fi9602AkMfFwhPg%3D%3D
+NOW新闻台,http://139.159.221.112:80/today/hm.php?id=ed03576d8bd06a8438f6d80541510c57&key=***
+Now财经台,http://139.159.221.112:80/today/hm.php?id=a67fb53895ec0f713a3907741c87be6c&key=***
 HOY国际财经台,https://cdn11.163189.xyz/163189/hoy76
 HOY资讯台,https://fast.hidns.vip/163189/hoy78
-壹新闻,http://www.kaniptv.cn/uadl.php?etoken=BU64pcwPRi5K%2B8YBRuv05qoBlrMBV8Rnb%2F%2FS2ESOMyAlnw9vRaLvOgKykkKWsRFhHtbfHlsfVWXwZk9if%2FxJ5JagIfhG8GGtcL8%2FIALEo6sSsOjlH0bdEkACrYhOlPnq4qKJNHYZUF1K6AYseF36gfiMb%2FR4bgf%2FhZKTNo0wJmZfq3t0LW52kRWsGIS%2BJF1G3CAO9n9FqfdMbmSUGkA8kcvjBri%2Bu1fn7BMmQbnVuDYaW6aSXB%2B%2Bzqx6RvYrg3XlnpLUJYJXBRdf4knhCA6caanOCYseCIIqP%2BpOlSyGOkhKmGdmUQJHKOCKcH%2BYZGftxB70Ukx%2FvLgS2w5hrv3QS23bcHOUqEKBuz0%2BUHn3hDolYluk5oE8H9fWPXnp71dD0IuzLcNa1AKyw0AkzNnPZA%3D%3D
-非凡新闻,http://www.kaniptv.cn/uadl.php?etoken=PjCdsvYh2Q0%2BmjZP52efmVvEfiGAmSgnlcSkP1siywpaYfVX4YvYhlLl2C5osJ0f9YDaDgt4RoJ0a3UNi1LdM%2FHLJaZzsfJW2j0unI9SiDHxgfTunScv%2FgvCKQQ42MNiZTTslurtIdqVWAQ8MnN6JPWCtq0Zm7aWD3KRuNXpYXoqVYqSzaVj97gyajbi4c1DWkWwqL1vuq1L9yHtLUlOmDylg%2FoaHp2qq%2Fct7%2BUhR4XlQnDijk4HyZkJxZ6uxHN0KNJ8eM2JxJFK2t%2BdlbOEu33Aeqm5pLae9CphGXdFvU9Mvgpj5%2BEQoh323LUOCYEWe%2FjBZIh5RWvBHYxpWcW9gbG04KRYA0SrJQE%2BLaSzUiPM3CtSh5xRhW9rpWnHBPKh7slsmzi2DVR%2FB2li7dks9w%3D%3D
+壹新闻,http://139.159.221.112:80/today/hm.php?id=af3dca7857c0459fabbca55f374a9ea9&key=***
+非凡新闻,http://139.159.221.112:80/today/hm.php?id=8ae49b78e43530c9b5d7937d3c0ba944&key=***
 TVBS,http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1782639885837
-TVBS,http://www.kaniptv.cn/uadl.php?etoken=Gs4KUEQvGkyA2Ptz9%2FdetLAW3p1FnCKEODzlLHAb4BSuaN5BhpcVWXUQmjz%2FB3ppqKx2%2Btc8z4ciPWapuIl9NzbRxe8KtxPVCir%2Fyd1EK0muPc087wUHsbNhDI31fDuZjQc0PuBVnTODsjYfFevFprSP6ku7naWHDGlAJnnTZgR0314SH%2FTvOg4r047%2FAuKyPT2uSw5Vun0n%2Bq0cFI6ePbbIl6Nmki9N6If4mWHycIVLZidjSWQsqWQasye5gzZUgXlWxb7Ow2P7Xjx2vVWXlXLKyH1e0n7ogr7xekLp3q78MqEkwRo9bzir77AC%2FwAL5fk2PvuM58Rey9LyfroO%2F87eUtrGJnA3Ok9vCzmx3G31G9Oh1%2BSkB2aSEInSA66AG17dzA8w%2FtComr7AdRuQ1g%3D%3D
+TVBS,http://139.159.221.112:80/today/hm.php?id=867cfd1862a07bb25bbde345cc6ce78f&key=***
 耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
 
 
@@ -980,13 +983,13 @@ MovieSphere,https://plexaaaaa-moviesphere-plex-efzys.amagi.tv/playlist/plexaaaaa
 天映经典,https://epg.pw/stream/cb817875cf26eb683af274dd8cdf7f559a71353d9565c32447c8d98894bc8095.ctv
 天映经典,https://10.fast.hidns.vip/163189/ccm/
 天映经典,https://cdn3.indevs.in/stream/live/ccm/
-天映经典,http://www.kaniptv.cn/uadl.php?etoken=noZjvr3W4W231fiK5HdD0QclzxODx5xaSvEy1QrPXSTcAscFg%2BAoAVJxlpGmxzKkM%2BSGmQpxoO9fUmeHQsmekydG0rDh8hhS%2Fc9B3yrEdJnF%2BRFZZrIg0R%2BROnkr87QEj0F4IEOqk5uSRqfysXuqW%2BcCuDIXD2dsFCy8w7Vjkt8afGNRzrsv0MaS%2Fsfv2dpYCh9alQzAt0iLtQrptfdVTVlkUlUmnonrWLpKTlstfPfVu325fYGwefmQCZmnMpVqTL2WAvh444DODCjtJohNcahY4alR2gTUvxk209XBOPJ5RSgcZTBB0w%2Fs8M%2Bsk%2FILzZG7cVhAVq10EDGCeCXWeb4GHacUqhJj0ZpBxWyQcqsmaPSCqE4v85A79eccWOhNy9RyHyU134EiCr5YCh3log%3D%3D
+天映经典,http://139.159.221.112:80/today/hm.php?id=7d139ef4db6d5fddf03135281164d482&key=***
 天映新加坡,https://10.fast.hidns.vip/163189/typd/
 天映频道,http://o11.163189.xyz/stream/live/typd/
 天映频道,https://cdn3.indevs.in/stream/live/typd/
 天映频道,http://173.208.234.146/live/typd.m3u8
-好莱坞电影,http://www.kaniptv.cn/uadl.php?etoken=T4eRdP%2BIadK8d%2FSRDjUIauoszVrGBbjxecEHSpcuNQARG87N9tOmoTwQoJaLqCsBPaqraDbE0GqXB4qYSY%2FybCIAKBTOpDljMVOJ255Yzr3Ch8jNLniwmd6Ta2O%2FbhXPEwFJhs7nBMkpPa5cAOqDTh83I6p3QWztVP%2FGm%2FwR3VlzAoehiJ4mu2iY8i%2F6edq0jsF4rCdZUi%2F8l3uKg%2BhTE0IeKtrJgtIjwNsriVUub2FwID4y5ViNsbc5wvoa3nYN4%2BOJCyt9sZmrZrfPrenaG6qH2cdQ4ry1Umjnz2a5EOEK9QARq%2FXuf2BfgYkJFyU95cUx731oBPTgVbsP8INRmb%2BFRSvDptnJlGTLbQM2cxnRptw3rF4SF%2BVathhw0SyPx7QOx1RqjDlnhv%2FMIwEEzQ%3D%3D
-POPC,http://www.kaniptv.cn/uadl.php?etoken=%2BtQ%2F%2FtwlYRLs%2FzUuFzh%2BsLBh5P9M%2FR4QeHTmAX72V5gNP1zBH3FoYxGLdxLRbD57WpkAvgQV0H8mVudrMH1YL8BRHD8jV4mi1joSpj0Cphyl%2BXbf%2F5ujKoBgQBoEJsOfD3IdZZGFLzqJ9wxvM5pZXmANerYUdAmJjRZW0YLkpHcjLpVkjqHqd61bzzvSBf8FY%2FSG7mmPBf1ZUJFvKDIn4U9Y5CR3XbZAVx4TCc9u3899ZHGHqmApI1b7JcZTPpyLlFF4k2xFHO%2B3Dgx%2FK7%2Bd4Si%2B1y%2F5h4kcUv%2Fi7hA2E99XMPdXyWEVRgKVkFgt0XzoPdL1Kc878XC3C5wznSFxZbnG2WqOiK7GTjr0V14HYLi71TIKTjeM8NojEQqdJHw3RDCS%2FxtH6N46R3oZMA452g%3D%3D
+好莱坞电影,http://139.159.221.112:80/today/hm.php?id=74ec01bbb71753891a7ccd5596124652&key=***
+POPC,http://139.159.221.112:80/today/hm.php?id=9a123886f108a829a2d307bcee9d2960&key=***
 TVB星河,http://r.jdshipin.com/Voac4
 TVB星河,http://o11.163189.xyz/stream/live/tvbxh/
 TVB星河,http://aktv.top/AKTV/live/aktv2/tvb/AKTV.m3u8
@@ -1024,7 +1027,7 @@ RTHK32,https://fast.hidns.vip/163189/rthk32
 澳门莲花,http://anren.live/HK/BiIOU11uLA.m3u8
 澳门莲花,http://anren.live/HK/BiIOU11uLA.m3u8?zgangd
 澳门莲花,https://cdn6.cc.cd/163189/amlh
-澳门莲花,http://www.kaniptv.cn/uadl.php?etoken=IQ1I77o8ydN2Au6jyuJiInV5W2I6XAXEb5m4NFJa2njINxtGFFVPhPplv0qFpQEh0VfImelJy%2BUh2lxmjXR6v2%2FKGUCPQ4%2FGATgomDgydsHfuH20uFB0dmV0zAtJc9aT9Mbd1o2n63nqB3kOXbZ%2B3JvsPny91m72NqcHj3kr2rahYcVEd5dflJXdMNNMB6Too58%2FVNhTDSesNFxJvGakRdUfLiLDuwRJbIyltytS8ZtdMCPqEi263pHSRDUHL41ize9Ey%2Ffv8HoeiopPSm%2FAPmGaKp62FS4%2FYAbaNfMBudePcIiEIcqKS0xaxYIqOoQqGbkiUiQf76%2B4e3euJSmiZRWIL3ap%2BTRiz7TVWi7sVOrBANf55wv%2FnxUqIRDw4%2Bj4nrpMmL2Mo0ZiM2Qa%2BGBXUQ%3D%3D
+澳门莲花,http://139.159.221.112:80/today/hm.php?id=3378e5be1fd3aca5be5435be65e42f20&key=***
 重温经典,http://php.jdshipin.com/TVOD/iptv.php?id=cwjd
 凤凰资讯,http://r.jdshipin.com/0Rp07
 凤凰资讯,http://php.jdshipin.com/TVOD/iptv.php?id=fhzx
@@ -1046,11 +1049,11 @@ CH5,https://cdn6.cc.cd/163189/ch5
 CH8,https://cdn6.cc.cd/163189/ch8
 CHU,https://cdn6.cc.cd/163189/chu
 龙华经典,https://8.fast.hidns.vip/163189/lhjd
-龙华经典,http://www.kaniptv.cn/uadl.php?etoken=t%2FhpugHOlpqYPv374zVEyuIdcKs%2B7Zb%2FjX00Tv4RlrDamXFsngpeJrFlcXlkdZsgNuUTAxLn4pkumDAHML8iUSTI1%2FXfcZPqNMq1pgtjodZOcM9pCJYK1EddxOndMrnuPc6DpsX3ahKn2bU0z40bCB3UGSJ1oNkvEPK4sn3KWaOdmZr8QAiQo%2BA3Einnb91gzGItT%2FW3jlQjnqrpmhEe1paQn1aAKEfsr3ivqSxHQcuV8JQmsQTOmW6fFOfAEzJe9eYFGMWXlZX2Y6%2FqehS%2Fx3vjRE%2FmRmyL2V3PbTZe8O2n7xuuhR8QpJf9oHQDI9%2BAil%2BnlvEI9zRd2spXD%2BQb5seGLoaqGLit9O1uUpxfVS%2BN1gBOLbeVrUgCeWJ3dPKL4X8D8rn2jB35oFaoCUzRyQ%3D%3D
+龙华经典,http://139.159.221.112:80/today/hm.php?id=57c4f660ef3719adcdbfd9446400d2bf&key=***
 龙华日韩,https://8.fast.hidns.vip/163189/lhrh
-龙华日韩,http://www.kaniptv.cn/uadl.php?etoken=Ao5ANhxLFzZdFb3q05KS1tOU9MwtNYXl0um4%2BF50eDUhbmXLGpprH4%2FyJJl23cNPLH%2BmSgQ5fYGguNcO0N12oDHHpbew0k2jNByEPwteOaGlyrIiZ1Wpmz7EpPycjkcdXSzxK2aGF5UxXw8UOyQiMhtDROEs%2FU281%2BknbZ0dZa8Yzkb0HgHyCjdHnaqpFHIeqm0Ehz2iwM7RYCoUYQTNy2upQkZaKceO72erPiNaKm3peLlMLvnIrQ1O8G1VN4ES10DNctp99KSJT%2BUeINNYxG%2F9eK6FoQiLCQ%2BBX1GIPwPecpluA5mSH5EQ1q9%2FMmlOzRS2Ca2kk9%2BkBY73dJAD%2BYbo5ocG5bJovFAPtSHC3O7xwmML4Ndo8Vd7lX1GNbXXZv0wJ39UCdevZKenKnOnfw%3D%3D
+龙华日韩,http://139.159.221.112:80/today/hm.php?id=20ea73ffe0df70e3c2eab8ca8a501997&key=***
 龙华戏剧,https://8.fast.hidns.vip/163189/lhxj
-龙华戏剧,http://www.kaniptv.cn/uadl.php?etoken=k7crBKPkot6rhHxC2v5zG6Nqxfez2jUa31E8wmLES4OqqVfz2NPNhAdn5u%2BmHhfI0gYbULtqqZF7XNp%2BYNLjS7AnHTqILX3AZbJh0Ty6Lj%2FPtBEexyuNJ3YS8NoBlAKtpjVABQymxmkHzo%2B3ArDM7bjh9H1A0QMP5ChLP7FN6xc33l5str6mkRljpezQeriT2KtDnqDdbs9ICbwMrnWsPiLwFQI056JSHh7HWLzkG3njF4D0Wl8P8zSNgxzsDdpkE4XHSMswQ8HI%2BmrnCVbegTuhwD%2F97980HDAviR4xAS0d3eos203KGIg%2BsQQWzk8YiwrhGQuoiNisXaIp6WHAFmhnoNEtGEGevr6HWVzT5zVGD9TVpb0%2FEVPsSTluRYSy%2BP%2FhcY%2FQJsCed3WfQXl%2BFw%3D%3D
+龙华戏剧,http://139.159.221.112:80/today/hm.php?id=3edbc1c3be5b34ea1c8eda4b7966fd42&key=***
 华丽翡翠台,http://cdn9.163189.xyz/smt1.1.php?id=Tvbjade
 华丽翡翠台,http://php.jdshipin.com/TVOD/iptv.php?id=huali2
 华丽翡翠台,http://r.jdshipin.com/thuYX
@@ -1077,18 +1080,18 @@ AstroQJ,https://o11.163189.xyz/stream/live/qj/
 AstroQJ,https://cdn3.indevs.in/stream/live/qj/
 Astro欢喜台,https://o11.163189.xyz/stream/live/hxt/
 Astro欢喜台,https://cdn3.indevs.in/stream/live/hxt/
-黄金华剧台,http://www.kaniptv.cn/uadl.php?etoken=ULN%2BqROGNDmSIH3q5I3yMBo7958KceMlrwXyCCqln0PWVTmBXQOKCkBUHXq5qN9eZ%2BKcli78wS%2BW8wrKRiha6cvDQ3NySwlOr6luB40CcCbfhQ0Cs5R9W5gsXz%2BETuxJ8wsStZ9dvo%2Bn1BzcH0rW6LVU4Em9OhVEfASvNY3Se%2Be6sC2OeQNrHvL%2BhYbNmUTjgQEwi46GCI4KDSdJue8UgosnGDz3YzuRnX%2BcLCN8HF4EwnT8zGjjM6952mh1T5mJpL%2F6FpQkpRkrUU7qrJMMBbD1fHF70VkzFLJqZMKH7jPI9znnk2RJsFn6894x09JOOv3Zl30slGVoY%2FYYcEdPVZ1BhQFwJffjYEtuFoWEhBLcATg0Jc4WQbl4Tw2%2BCCEbfTzfoqso5zNuaZNAcVSxNg%3D%3D
+黄金华剧台,http://139.159.221.112:80/today/hm.php?id=53a581fc37864a03d0c64e30cf05ed93&key=***
 民视影剧台,https://cdn12.178.indevs.in/163189/msyj
-民视影剧台,http://www.kaniptv.cn/uadl.php?etoken=pea27WRCj6XZlIpBrCKD4q2Oyp5j7RrCq74HD9bS1lEzqXEyu5K0X31tmkMxfi%2F13gY1ML6cOhgzFRgmx1bwJrN%2BIx4O3OaqeOnsSQ7HPis%2B2JbvFzizCkXdy%2BfajvqRNspcCHKlzXhaAdP8mSJP6Fx5GeuhhPsV3KRVgaDug20ykuGj%2BBxAIMutkiV8XBJBmcBgyx2loMRn62aClFXnTlt2t7G5%2FUenqtI8vhKRxQK4OG2kzlYLyWEYe1aBula%2FGOwfLMCHE6ik%2BOD7SxeGbhTCzCSOpohr5iHHU34utmDUgAnFxumHkjJOJzi2YVbjOLS6NCgoJabAiC3GBhSAKCXSBu8WRDakn5UcoecT9ZbkLIqqevkIsz542m%2F1cRxmDCI8mT%2Fe1bktcbQqRbb7sw%3D%3D
+民视影剧台,http://139.159.221.112:80/today/hm.php?id=a50d0e624166a8047f8b372860e2879a&key=***
 MyCinemaEurope,https://op-group1-densxvisionhd-1.dens.tv/h/h18/index.m3u8
 MyCinemaEurope,https://cdn12.178.indevs.in/163189/mce
 纬来戏剧台,https://smt.1678520.xyz/163189/wlxj
 纬来体育台,https://smt.1678520.xyz/163189/wlty
 龙祥时代,https://smt.1678520.xyz/163189/lxsd
-龙祥时代,http://www.kaniptv.cn/uadl.php?etoken=lHi7lQMSYWpGwuixXOMMBiIY1mWDMcYFJaZhsr0355r4Zi%2Bj%2Bowxo6u6KjTj2ktaLLDgfkXvwfCcNgn%2FuIhOcveu9HkJXUI%2B4fBiPZwuOdV5scjNnIxnDZ8FHQ2iQrA%2BafE8gOy6I31dM82RhzffIfdnjhO2WdpnpTsNgIr3ZYQgoUAgkzNie1uHh22%2BH9PjtR2%2BtqMY7sCBc334mU7anynLC4UV7aedp34tP8IFW%2B86BU0GkqfEuOMWswGTC%2BNm%2Fb%2BD5FMEOQoRWI7OLQL7nJZIFNAZIQCZbDu1SV%2BOywj9xqO4bT5sgCAUgdd4Qb3KNFs%2BMjBJitjOFkVOgI%2BLIwnB6qXNB%2FaWBLs5gjjAEI5fUAFRo7VjNP30N5JtmECQYuBCrQlEY1%2F95eXNwaDviA%3D%3D
+龙祥时代,http://139.159.221.112:80/today/hm.php?id=5c07c923d6a57ccf332e72cfe83d7960&key=***
 东森洋片,https://live.catvod.com/live.php?id=ettvwestern
 东森洋片,https://smt.1678520.xyz/163189/dsyp
-东森洋片,http://www.kaniptv.cn/uadl.php?etoken=Attpcl7q%2BFfhztfgMO%2FnBxNItk76NyAdfLLOie%2BtptylcyJO8XAwQK%2BceH1ojJXqG9eYGXRX5jFqw3B0KszAfcaLgSQPG4e5baSAA9LJ9O8RpVafvlduCS65ArhQ5o5BS%2Bd0Xd%2F6O%2BAy8O8PmttMLqsyS2MNifjil1jny9krsNhJz56qAzDz%2FaGMmfFZzdfMiSoGcc0bKTUdtAVmej1lHEtYBxPL3mfj%2F3lbcXu%2FAPaY8%2B1kvvNHwgcD5k%2FMjU%2FVzdhcHzOJsOfUR9cZcEjeeReVmtcTBUvpqLKLZIikbn7g3ZPf38kN06SAYR3XVj3aN4Ue8bvjVq5qnYMYPi%2BefbnQDxYI8%2B34FpoP0qSWd8B4z9%2BFNPWdmi6qagwHtihZZtSl5hqIxBfMl3HUGxHDGA%3D%3D
+东森洋片,http://139.159.221.112:80/today/hm.php?id=8dcb6691e442bb73ea934fc67139ad3a&key=***
 香港C+,http://ottproxy2.ist.ooo/livehls/MOB-U1-NO/index.m3u8
 香港32台,https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream2/streamPlaylist.m3u8
 香港33台,https://rthktv33-live.akamaized.net/hls/live/2101641/RTHKTV33/stream03/streamPlaylist.m3u8
@@ -1096,7 +1099,7 @@ MyCinemaEurope,https://cdn12.178.indevs.in/163189/mce
 娱乐新闻,http://v2hcdn.jdshipin.com/enew/enew.stream/chunklist_w103.m3u8
 中视,http://220.135.241.47:8301/0.ts
 中视,http://4gtv.cnlive.club/channel/n722644d8/index.m3u8?q=1782639885837
-中视,http://www.kaniptv.cn/uadl.php?etoken=XyAuUBXoTWSxx1rU071ex0JH7xAc2HF%2BE46%2FAIj8%2FM6Cj6vDYvxO6AaiqDiHPDk7N28iC%2FE0nIMx3RambJ2hILzjtdB1xdQdXYSMZxfxqmB0JmVGGf3jiKpgvFFhfTQDmD17Ji3sI%2BL6GiWS37CGMhxXmceM89mKFHbN5hZTm541qvd%2F4dmsiX4d68qBnleadj%2BbkCO8ENDOjKrOInfpMZP3evh4VqZJP3272HusI%2BqkF%2BhCdK4au8Oe1JUFsMn%2FR%2FhH0ZBC36KD70M4fZJvNfdqPaJddhJUpr6gUpoMXsBJQBPTYPWLWVXJFJqbYclumVvpGHKtauhsHwNcwnvq0ayYLWUN1hc3z53IRipxpcK77V9AjgVHnPYIwrV%2FSU0sb6u%2BsKW5XtWsjzM%2FfunRNA%3D%3D
+中视,http://139.159.221.112:80/today/hm.php?id=8eadb0e8fa8c66e5092cfac44966dfbd&key=***
 八大综艺台,http://4gtv.cnlive.club/channel/662e9334/index.m3u8?q=1782639885837
 靖天综合台,http://4gtv.cnlive.club/channel/3f6ecb92/index.m3u8?q=1782639885837
 靖天日本台,http://4gtv.cnlive.club/channel/3f1816f7/index.m3u8?q=1782639885837
@@ -1114,7 +1117,7 @@ DreamWorks梦工厂动画,http://4gtv.cnlive.club/channel/n451655ef/index.m3u8?q
 中视新闻,http://220.135.241.47:8302/0.ts
 中视新闻,https://d2jc41c1shgcol.cloudfront.net/live/ctvnewsqt/playlist.m3u8
 中视新闻,http://4gtv.cnlive.club/channel/7e6461d6/index.m3u8?q=1782639885837
-中视新闻,http://www.kaniptv.cn/uadl.php?etoken=%2FZmIpAbIAPHU8yRciCc9KwpdyT8RfX%2F5O0eoai1AruYEaEOPX7ds1fH3w9V6ToeRLDmCxjksl82VgnutTr2QF04EJlgjIBszV5%2FRb8cP0nYj16upVHFo8ktMwz5iAVQGZZil7bFpuy3AXuxXsk2RZ4WpDgD0MXYR2N1tUDuvgFVWkpdShg9Mz90lHawAdqKc1E8UkZNFHux3k6BvEYltOolhHU4xNuOi%2FdZCfGLNCxvqWdJ4Qd3MNmVwyX%2BW%2FF9NCE6U%2F0koToHQBq%2B09gR9dOxryWRxWStOLu2UCcb0%2Bwjx2GGQzjC4mWkxlL1%2BlbmCEsTR3xc5LnsxSKB8NXOaBZbayIyv%2FUNBQQIP2bH82ttjNJe2%2B1VotGpcVQVKz9hF3L1EFU5AecPiEL6EFhJrAQ%3D%3D
+中视新闻,http://139.159.221.112:80/today/hm.php?id=0a040187cc4277d2da9dfe23dbd33c80&key=***
 KLT-靖天国际台,http://4gtv.cnlive.club/channel/n481b36ac/index.m3u8?q=1782639885837
 NiceTV靖天欢乐台,http://4gtv.cnlive.club/channel/n122ce57e/index.m3u8?q=1782639885837
 八大精彩台,http://4gtv.cnlive.club/channel/6626a9ca/index.m3u8?q=1782639885837
@@ -1126,7 +1129,7 @@ TVBPlus,http://r.jdshipin.com/Nr5jq
 TVBPlus,http://r.jdshipin.com/ndGgS
 TVBPlus,http://php.jdshipin.com/TVOD/iptv.php?id=tvbp
 TVBPlus,https://smt.1678520.xyz/163189/tvbp
-TVBPlus,http://www.kaniptv.cn/uadl.php?etoken=DkTxM1bWmOF7ONY1WGvFGVSM36KL5qOJwi%2BrMjXR94M1R4lDBibFRw51SNCMdSN9E%2B35A4GobDwb%2FsyaOzMJ3Ez4hqEusz9qqeRiTiUUvoYJL7StM%2F%2F2sJKT989G7tWF2NLSuPGoZdaTGCWVeeqTzq%2Biw5BCp88NW9J1tG9%2FyItL%2FUsGiVyqFU686djbNBVwEhW2qBNnmwc40NOGjY3Kdu6mAEcIbRm5q3b0zrFihuBN8Nxjl3pJJavFyzJ3R7zrgJxt8%2FAcHV4Ol9M2KdYQFFGKbwhT1NQ8u%2FgvYC3V0VvofO1fvB8crZcnLW1rohFIaecVbHzIFlMK7vDgs9LYhH6d1IXxNgII59oXMVDOK5lp86iS4fjcAydKfDmCwPGvx13pe8DhCI0bOhqMOvquIw%3D%3D
+TVBPlus,http://139.159.221.112:80/today/hm.php?id=2fff0e795ee22d45e03703a8ef6198dc&key=***
 无线新闻台,http://r.jdshipin.com/CkuBd
 无线新闻台,http://php.jdshipin.com/TVOD/iptv.php?id=wxxw
 凤凰中文,http://cdn.132.us.kg/live/fhzw/stream.m3u8
@@ -1150,7 +1153,7 @@ TVB1,https://cdn6.cc.cd/163189/tvb1
 HOY77,http://67.220.71.199:2347/livehttpplay?channel_id=20152
 HOY77,http://cdn.163189.xyz/163189/hoy
 HOY77,https://cdn.163189.xyz/live/hoy/stream.m3u8
-HOY77,http://www.kaniptv.cn/uadl.php?etoken=WEJ8mjL2mLk%2Fu0XQMmVpEpMQ2vPpL7jhCvCYVXbjvlwLMxd%2FLRNseuaF%2Fp2iJP%2BKZoOw9Cs53xc5WwOwO%2F6UUnZFeqn0qZHnmZGUi9qY1MZJSx8N%2BBTzPoTYtjYRvGpxY5zvH%2FwbnNdk6scV9Ns%2FSKtVoFfauLJSev%2BrMMuDoVIwDNn5m6DkwmxF0MgUgTfhO6yjGEbb9cyuznYPRH0Y2Ppt0wqnGe%2Fkhvj2nVntrtnIMfmB2rtZYHMwI2%2FJibjqDVSAPhN%2Fl3Q1aRQEb4%2B5jCzanP1T4p6PIx46W3DY2b2ss5xYCLpZ3qolOfXUMFqjFWYYCDXrF1cfQZm7gBX%2FQycSHMJiHfpb%2BX%2FjKVNGKQzHlbNZJ98rsjijBm1CXZmwTHLsg77mZ6lh2%2FLgGeXiLw%3D%3D
+HOY77,http://139.159.221.112:80/today/hm.php?id=966a7f0965bae1cfc1888dda4490ba4a&key=***
 RTHK31,http://67.220.71.199:2347/livehttpplay?channel_id=30066
 RTHK31,http://cdn.163189.xyz/163189/rthk31
 RTHK31,http://php.jdshipin.com/TVOD/iptv.php?id=rthk31
@@ -1165,26 +1168,26 @@ TVB娱乐新闻,http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
 民视,http://37.27.111.214:8080/live/6/hls.m3u8
 民视,http://220.135.241.47:8308/0.ts
 民视,http://4gtv.cnlive.club/channel/n7222a63c/index.m3u8?q=1782639885837
-民视,http://www.kaniptv.cn/uadl.php?etoken=OUTwJJItGI%2FdI9EisiGkie9MijPAk4OjB8JHWMWHUuyCnwmrzCTVKdCU6YLF1mQqSi8Aq6WgHkZxyCBDygUZig5nlMVodTpnHHYo9jwuuTU8cnkScCDQ85Xz6aIHmfTTPnfp7r6PPRiki73CJmFoSRhoFFijGHmfcf9UvTjslucUHb3%2FJj8Wy%2F8eTsCcyul79mKXAW5cVRHc4JguhJStLCgQdj%2Bd9GZMdu3wHlKZVPe6VBfqLcqpHGa1vxuCWqyo2tzook2la5ehTElX3YcTvQZ3GXS2SEgGzpBhUZhJeHfDjlXOGaj7nb%2FI9xZJtGIrMTPuCwFJMqwIBapmZExGPqeNXlMgNltLJJcKJEDN5ohxuicdRETWL9g8N1sYrRcNfnGp6wRuXeytYxLwloe33A%3D%3D
+民视,http://139.159.221.112:80/today/hm.php?id=55430c3fdec136ddc68c6732218dd434&key=***
 靖天电影,https://aktv.top/AKTV/live/aktv/null6/AKTV.m3u8
 TVBS精采,http://4gtv.cnlive.club/channel/49d50255/index.m3u8?q=1782639885837
-TVBS精采,http://www.kaniptv.cn/uadl.php?etoken=ENSb6sHf6WZRwupzrsIYhW3dlmv%2B41jmf18GFTOK4yzQKpgDRXr%2BAj9T1XA3iIc9vUHsq7KHfWc9iLvnwQEOdiy%2FhFdd7PLdUSppO%2FZ4wZxc3iIIEhFcuMZACAxf3duiwm6HbESi9XcHrOvFD83MXTYyxLSBivbJWPOEGOQn3MhxXqClIuneWXT%2BsHzve5NDmkaFwc6rKrWLB86ibddJCxS8xlcHA7ENk3jm%2FsYAJFDWtgo8VcDkN4V%2Bhvlw1vVX9flsTd5PKOmxCBEy9asn9d94D0euDOkOndkbW0ELhqoo4DEPqQwRfjHKSDD25Ue%2FRC%2F2xRvBaBrCnn8xqVJiOfAJ4np9Lz7WmhFS1zx4WG6UvKJ%2BbgEbsbDK4eAlV84JvWYvd8EqZ8zO%2BVq7pnhCLA%3D%3D
+TVBS精采,http://139.159.221.112:80/today/hm.php?id=0ce2004aff1976994d7485fb8322517c&key=***
 八度空间,http://8.138.7.223/【公众号：榴芒电视】/8tv.m3u8
 八度空间,https://cdn6.cc.cd/163189/8tv
 东森戏剧,https://smt.1678520.xyz/163189/dsxj
-东森戏剧,http://www.kaniptv.cn/uadl.php?etoken=wufDERwUryjBMtfRh%2BM321SB5lXPoMyggZtpp%2FbciaOBfiIlCgvdsl%2F%2FC8ltBnmwt8C8GkzeUr4QjV0nNZgE0EgHDK2oIH%2F0FSMA3nRNe89mVOEcFNL1RTr0GFb%2BSPz5H61avp5rDfOXicC8ZgHd3dfL4XaSZzuvBwTNP0oKUPQ46AUHdIUZVyJPHHOJDA38KjbrWlO4di3fSxZcwTgGgAWzsB8tU8gf9qcEzXCeUsYe0GjczaUOVikAGdvXRvUVow5inNVOoUgCXn9JHzxnLxfBTKfHzIc1jMXlgNJedZM8VvthQtVTr3UyRnhjSFH4MY7CYwxA%2FB9Zl1v5Ywo25IHi1UjtCPO46oAggWTXCixS9qW7HbHf%2FjW6kGWsDgCb77H4P80ltx%2Fbn54aSnApbA%3D%3D
+东森戏剧,http://139.159.221.112:80/today/hm.php?id=a2c01c5bfc4aa559208354ba7558d82c&key=***
 八大综合台,http://61.221.215.25:8800/hls/56/index.m3u8
 八大戏剧台,http://61.221.215.25:8800/hls/39/index.m3u8
-纬来综合,http://www.kaniptv.cn/uadl.php?etoken=EX93d8WpeN85h4nlV2WhQOH3OSd48WQBAnkiyk4HNVFBsWnn8oIKvy4%2BRcoL5aXQj%2FQymcq7PZ2RVoSJ1dyI1itV%2BzesLjEy8RLHGZfuB6ohAzBiWDzNiG9eIrUMQIBiyeVexDbsRm%2B%2BbwQKS4aDhCLHglthC2xGrH2i2aMLiSZ6OQWzQfp0A9As2jmfe%2BrusVyPqG2Xh8UpnzFHDXDByQ07%2FYQa%2BKhagjKJrQ2b31Wnev9WyPh6PVNc%2BgcJeGqk%2BF2L82Cxxdb7aJK5JqneFMhxVrwsjuNZidDH1ID6v0zn6htrnsI84GjXr6aeiM8msHhsIgJiRzrQGFaB%2FHM9aFT47zMxBt0KSODWYXW5ot2KfjQ58cOepiBYn5XQhG92YczclPK1di1OLGTdCpVINQ%3D%3D
-三立都会,http://www.kaniptv.cn/uadl.php?etoken=g7qeZjfIBecshhutF4GeOSeD%2BR0IcsobH%2F0emZ9IjRa3yKEJ%2BiipcZ03vrPsjJSf6WYkXlLphuLGmlYzWxOzz4UV4cMR%2FWY5FDirCXTkwJGfZddFSYDUu44k%2FQDOrXxTMqAoo7TYaAQIAHkuavQineMK7b2%2BnwBaaZMCV6pOhsISC0npEXHNd3dlEUch3VDBL0qthgYqK1Gg3pS2g7FamdlRYuZuL%2BDJcc%2BElw7JCUXKJk%2BYu4JuNa1yJD%2BVSgG5QDsxDZ0z54%2BWn8rZQG4RQAUdoI17a1hWBb9HI%2B4Gh0%2BTa8vttfXm6JJPBshcBMHmmqY7fV99aslmtuesbqTWqQ8N5Cr1eQHO%2BriLfKfA5r5uaJq67ARxssW%2FE8K8VcT%2BCT0tvcmDfpePbQu9GFcZ9A%3D%3D
+纬来综合,http://139.159.221.112:80/today/hm.php?id=12a094911dc584b37b0c1a7233ddc19f&key=***
+三立都会,http://139.159.221.112:80/today/hm.php?id=cec8b919c1499655c2def14dad2cc0a0&key=***
 三立台湾,http://zb.xmzb.xyz/123.php?id=⚽马上oppppp一三立台湾
-三立台湾,http://www.kaniptv.cn/uadl.php?etoken=Gc84Dz8rv76fh100x6Vo1j8tfCmQfzccNyB4ka6TCDOLpVtgVlLDKKc4gh57xvWi0qGrCkGKYLvIdmkZJEFMIHnOnqkrixa2tix89S69HtlTN6axZuUhT98GH4qM4nPbWunyZfl2z7cxgIgEc6RXsYRLeAlKq%2FswDJ7MqSPbE5KxP8kUTZMbLIrlLEPDmbFwouu4aMHgosLjn2lxkVKDcgViu3TqNzBCWPNkmGRrFYvACCr45Esx8VDvQCSBJo9Bl3Zsfptk4zB4tKPnDHlPo5P2Sy55Gs8Ggx6duGYHJaBRLPB7keitURNUHPxZhezJw1mdJBQC%2FShjMLTIQiGvW1iNcuN2HUsoN4%2BzPrbq3v836n4WqFgUu4zYU1Q9l6OMrGF08r5%2FBXNVnVG0PhxF2A%3D%3D
+三立台湾,http://139.159.221.112:80/today/hm.php?id=085e32d72f0375646fd572fa083eca49&key=***
 龙华偶像,https://8.fast.hidns.vip/163189/lhox
-龙华偶像,http://www.kaniptv.cn/uadl.php?etoken=VcNbXLP9sbFxAqwepS5hl6jPwFWgyilwAcwc8u1RCQqQK4pgbrs7QjDheWvPf8sRo9XUzxsMRAeBYtAOcj9dPYoy5qg0orBX0Y8jrYPbk8NB%2F8vzcEDA5%2FL7P8TkKomrOJ2gRkUTzpwxG7LD3BSw6DXxJb80Q0vuuef7D0E6OgSqmwWBMxdW5iwC0jkftt0ORGsHiHn8OKx%2FccA2%2FlUW%2FAgx%2FKAKXZ3jPlg0tRu975MPTVzXEpcw3aEX0SQUT1ZBdRYzLwRRPLS8ju3Cg%2Blu8G0hTJYDdDbeormugfnDQlYE85LJ5UjSJHBhgqH6fHInMIFk6QL9VxLd%2Bb1B34OGbSd389yf2MUj%2BYE7C2mSnaDaEeJuvDvini2N05Q5APnRpVqt1MIrFKVbBUxNR7iE5g%3D%3D
-中天综合,http://www.kaniptv.cn/uadl.php?etoken=eAS4oij%2FrLM%2B84qH%2FiwOH6uLclAyydSbNTRd8A8i8gx4fogf5AlXK1qo6HUV6Z4sOlu05TkzjvwgPAbMroxH3UGp7v2Hchyb2sxPfEYz2XbOZALuefabRceV9DEBy4eX3rWiLiX%2BzpTjrNdfFFCwx80cwSc5T0bFCfV%2FM6YjAbtfuMzDiHKtwm5%2B1qN%2BxXM6KjGxBhMKtDEE%2FPaWgvAq6umAHg2XAWKTcJpicyPxJDc%2FFhW%2FfDA7o90P1uKgr9i6qeMHBLVQEuYMSIiW1qAzPBpktC8o3gU2genkA8ONOlHTYtlmBgwPRHO54ItLUkF0nd1wp%2BU9PWsGiEHIa8MndBJOvreF5Uiyfl6Ce%2BSfENFJzivzzHIv0va1SqbLIqNst1esIL7Khgu8DeFek2QaLw%3D%3D
+龙华偶像,http://139.159.221.112:80/today/hm.php?id=02c4011cec9b8f58cfefae74a63b6651&key=***
+中天综合,http://139.159.221.112:80/today/hm.php?id=ed3b013b5943d806b3f768f01dd00097&key=***
 八大第一,http://61.221.215.25:8800/hls/55/index.m3u8
-八大第一,http://www.kaniptv.cn/uadl.php?etoken=GKLzfHcIIqM7w269Mgkc4K3yWku8PxH1IyH8pVFmvpSpN29ApyHUCaWnkk9%2BLlkVK58k2o0wK7X0mq%2BYRy6D76Edd9z%2F5VCFM%2BGzY4pXl4g%2FqRXBYVcWpLrhZEqusR1S2Z7fATHcUW%2B6VVdROv2lwqpR8W2qA5eNY5ikTGGlBlaZumiXLqDeT8ol0UTchtCaVeaEe9gIohOAo%2F2AGiZcYoGstrtW%2BSY0CXRCgHuInQwqf0Vll7Avm%2BLfQyS09LWgxl9J6dFWH9X173bjvL1t3i1yvDpbw5o7hnu5egm1HaZ%2F5ZemOB2hpYsv%2FZ8XU%2B3zyjyVMKTA%2FtcR4%2B5ViiA6hKG%2Facvv975LFLZTeZScqxCkFu%2FitVwjs6KoQESaCGNLgatLRXyUao9EeZdxhgrcRw%3D%3D
+八大第一,http://139.159.221.112:80/today/hm.php?id=605ddce1b1ff4493852133c6c6b609fc&key=***
 台视,http://220.135.241.47:8313/0.ts
-台视,http://www.kaniptv.cn/uadl.php?etoken=FcfdlcC1e63PrA%2FgRbG1jFp2SYGxv4g5YkjZ0d5pCFF06lN8jpEl4oUSITPNd1YPrBUyZRORrJ9rcaLKaFYdKG8KBHH%2B5jsLVSt3rHm5Pbgpcyhnf9g1e5HaRqs3KhM7mEivZppIs%2BP0w%2FLFVe2RVDMzr5d0yADml3sVJmAtNBHhYxnkYO2HpMME4sd3xFrCkPsWLKx8pwjGrLMZVsTqzJyZSlEhMRXRLXL55hr8stiT8TW8cQVo5a57XTOHjv0msUg756tzDpDReBGSbeC1IqRRs0d2BImvZTkwXQOtkxDYzSIn4NRB53Fa7he99USZkDx2yytzdHV1UX6Y1PtdhF2iLhG9mooxgMBhrpQby7cwkUnRvDuxKcN6a8yXwxBoHumeGvUW7wmSBS%2BI%2FzAwxQ%3D%3D
+台视,http://139.159.221.112:80/today/hm.php?id=8c1a9a9920c0239ccfcc8e6109ffb762&key=***
 公视,http://220.135.241.47:8305/0.ts
-公视,http://www.kaniptv.cn/uadl.php?etoken=R2FhhnrZBtDk1I3c7b5ma31QeMu7AhRICQBU7F%2FxtAJe6bfGdBLlX6ujqXUeVHLwOVOYK%2FGMh%2BZUG7rWOAdnBzaLgbofJJhhpV%2FfITq6UqNsc%2BqG%2Bn9iRH7XXnIcjwPkF9kr9bAs4xDtMXRLaPKhCBcLwFqPD5WLNuzstRzKYk49%2B0jEtcGMq%2BIoNpt%2FEFDScMiUmcl9zxlvbQYnhetVpnD3OTATuU8ZNIDoAjEd%2FHXJkGCwSWwRr6e6aJMUz0fOT%2F8rkFjChP6mSs9kcnLHYMvBW6UTTXfwZfHzCwX1W9F1NMRn1LPGSAtbfqfDa2TcUy09n%2BMvQMtuwFo7DuE1srAWMx2UOh4Fpw%2B11uCZT4ZWHwQFeMzifpfQsNweNS6fEKyvsJu%2BjH5uJ7FpTEzQGA%3D%3D
+公视,http://139.159.221.112:80/today/hm.php?id=9b5a0d72799fec3eac8bc084c27d407b&key=***

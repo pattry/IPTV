@@ -21208,6 +21208,7 @@ TV9,https://cdn4.skygo.mn/live/disk1/TV9HD/DASH-FTA/TV9HD.mpd
 TVArad,https://live.djemba.ro/memfs/1b01c281-126d-4787-9d51-9e06c96bb9f9.m3u8
 TVRipollès,https://liveingesta318.cdnmedia.tv/tvripolleslive/smil:live.smil/playlist.m3u8?DVR=
 TVSabadell-Vallès,https://ingest1-video.streaming-pro.com/canaltaronja/sabadell/playlist.m3u8
+TVTodayJanakpur,https://tvtoday.rpmc.com.np/hls/bipashatech/1_2/index.m3u8
 TVN[Not24/7],https://5790d294af2dc.streamlock.net/tvn/tvn/playlist.m3u8
 TVNBN,https://cdn.jmvstream.com/w/LVW-8410/LVW8410_uiZOVm6vz1/playlist.m3u8
 TVRI[Geo-blocked],https://op-group1-swiftservesd-1.dens.tv/s/s11/index.m3u8
@@ -21217,6 +21218,7 @@ UnitelSantaCruz,https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d
 UTVAfrica,https://oqgdro3xd4rm-hls-live.5centscdn.com/tfmediacastlivestreamUTV/8f263182c36c7e5c56a986bf770091e3.sdp/playlist.m3u8
 UVATV[Not24/7],https://www.uvatvhd.com/hls.php?file=live.m3u8
 VinhLongTV1(576p)[Not24/7],http://125hvt.ddns.net:21585/thvl1/playlist.m3u8
+Vision(576p),http://103.85.204.205:1935/VISIONMEDIA/live/playlist.m3u8
 VivaTV,http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/vivatv.stream/playlist.m3u8
 WataVision,https://live20.bozztv.com/giatv/giatv-watavision/watavision/chunks.m3u8
 WedoTVAmor,https://amg00735-videosolutions-amg00735c15-wedotv-eu-1915.playouts.now.amagi.tv/playlist/amg00735-videosolutionsagfast-wedoamor-wedotveu/playlist.m3u8

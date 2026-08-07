@@ -21007,6 +21007,7 @@ ANTV,http://103.58.160.157:8278/720-ANTV/playlist.m3u8
 ArirangTV,http://45.162.64.114/ARIRANG/index.m3u8
 Armenia1,https://ifl01eu-new.bozztv.com/am1abr/index.m3u8
 Armenia1America,https://amtvusdvr.tulix.tv/am4abr/index.m3u8
+ArmeniaTV,http://starcius-cinema.com/20690/index.m3u8
 ArmeniaTVSatellite(576p),http://stream.mcquack.net/175/index.m3u8
 ARTNTV[Not24/7],https://streamer1.connectto.com/ARTN_mobile/index.m3u8
 ATV,http://stream.mcquack.net/36/index.m3u8
@@ -21058,9 +21059,8 @@ Digital15,https://live4.telemicro.com.do/live/digital15cast_1080p/playlist.m3u8
 DragonTVInternational[Geo-blocked],https://op-group1-swiftservesd-1.dens.tv/s/s29/index.m3u8
 Duna,http://88.212.15.19/live/duna_hun/index.m3u8
 DunaWorld,http://88.212.15.19/live/duna_world_hun/index.m3u8
-EInternational(576p),https://gist.githubusercontent.com/iptvonlinetv/cf56ccf36d1c0827e4dc470db7b7912d/raw/066b1c9755b2496805575f16d413bd1207ca8117/udp120.510.450:6060.m3u8
 EInternationalAsia(576p),https://gist.githubusercontent.com/iptvonlinetv/cf56ccf36d1c0827e4dc470db7b7912d/raw/066b1c9755b2496805575f16d413bd1207ca8117/udp315.520.789:8060.m3u8
-EInternationalEurope(576p),https://gist.githubusercontent.com/iptvonlinetv/cf56ccf36d1c0827e4dc470db7b7912d/raw/066b1c9755b2496805575f16d413bd1207ca8117/udp410.310.578:2020.m3u8
+EInternationalEurope(576p),https://gist.githubusercontent.com/iptvonlinetv/cf56ccf36d1c0827e4dc470db7b7912d/raw/066b1c9755b2496805575f16d413bd1207ca8117/udp120.510.450:6060.m3u8
 El9TV,https://liveingesta318.cdnmedia.tv/9tvlive/smil:live.smil/playlist.m3u8?DVR=
 EntunoTV[Not24/7],https://soportedvb.click:3442/live/entunotvlive.m3u8
 ETVTerramar,https://liveingesta318.cdnmedia.tv/tvetvlive/smil:rtmp01.smil/playlist.m3u8
@@ -21180,6 +21180,7 @@ TeleBilbao(384p),https://tbilbo.dyndns.org/hls/stream.m3u8
 Telecafe,https://liveingesta318.cdnmedia.tv/telecafelive/smil:rtmp01.smil/playlist.m3u8
 Telecaribe,https://liveingesta118.cdnmedia.tv/telecaribetvlive/smil:rtmp01.smil/playlist.m3u8
 TelecaribePlus,https://liveingesta118.cdnmedia.tv/telecaribetvlive/smil:rtmp02.smil/playlist.m3u8
+Telecentro[Not24/7],https://streamtv.intervenhosting.net:3531/live/telecentrovelive.m3u8
 Telecolor,https://cloud.livescast.com:19360/telecolor/telecolor.m3u8
 Telecosta,https://telecosta.botlife.app/memfs/6ba9dc9a-aff4-4e4e-9466-a9f0c714b60b.m3u8
 Telemedellin,https://liveingesta118.cdnmedia.tv/tvtelemedellinlive/smil:rtmp01.smil/playlist.m3u8

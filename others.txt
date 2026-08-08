@@ -21000,14 +21000,13 @@ https://live.iptv-free.com/iptv/categories/general.m3u,#genre#
 AdessoTV,https://cdn.jmvstream.com/w/LVW-9715/LVW9715_12B26T62tm/playlist.m3u8
 Afontovo,https://stream.afontovo.ru/hd.m3u8
 AlacantíTV(576p)[Not24/7],https://streaming01.gestec-video.com/hls/artequatreAlacanti.m3u8
-Amara(576p),https://gist.githubusercontent.com/iptvonlinetv/23a95454a8469d86beac39e49e1b35c1/raw/b981f54ad2df25069b0524b07378d56e3deb608e/udp250.110.700:5100.m3u8
 AmgaTV[Not24/7],https://streamer1.connectto.com/AMGA_WEB_1202/playlist.m3u8
 Antena1,http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/antenauno.stream/playlist.m3u8
+AntenaInternational(720P),https://stream1.antenaplay.ro/as/asrolive1/playlist.m3u8
 ANTV,http://103.58.160.157:8278/720-ANTV/playlist.m3u8
 ArirangTV,http://45.162.64.114/ARIRANG/index.m3u8
 Armenia1,https://ifl01eu-new.bozztv.com/am1abr/index.m3u8
 Armenia1America,https://amtvusdvr.tulix.tv/am4abr/index.m3u8
-ArmeniaTV,http://starcius-cinema.com/20690/index.m3u8
 ArmeniaTVSatellite(576p),http://stream.mcquack.net/175/index.m3u8
 ARTNTV[Not24/7],https://streamer1.connectto.com/ARTN_mobile/index.m3u8
 ATV,http://stream.mcquack.net/36/index.m3u8
@@ -21038,6 +21037,7 @@ CDN(576p),http://190.61.90.17:40000/play/a03p/index.m3u8
 CekmeköyTV,https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1080p/playlist.m3u8
 CentralTV,https://cdn4.skygo.mn/live/disk1/Ekh_Oron/DASH-FTA/Ekh_Oron.mpd
 Channel5,https://xemzi.short.gy/1000030
+Channel7Melbourne,http://44.32.200.142:5004/auto/v7
 Channel8Krasnoyarsk,https://tshift-1.telecoma.tv/8channel/tracks-v1a1/mono.ts.m3u8
 Channel8Novosibirsk(480i),https://live-8knsk.cdnvideo.ru/8knsk/stream1/playlist.m3u8
 Channel11,https://cdn4.skygo.mn/live/disk1/Channel11/DASH-FTA/Channel11.mpd
@@ -21047,6 +21047,7 @@ CharoenCable37TV,http://www5.cabletv.co.th/StreamToCTV/cablechannel/playlist.m3u
 CinturaoVerde,https://play.redecinturaoverde.com.br/playlist.m3u8
 CiudadMagazine,http://190.7.19.197:232/play/a04l/index.m3u8
 ColorVision,https://cdn3.wind.do/streams/colorvision/colorvision_master.m3u8
+ColorsRishteyAmericas(396p),https://manatv.akamaized.net/090823/smil:ristheyamerica.smil/playlist.m3u8
 CostaNoroesteTV[Not24/7],https://limited31.todostreaming.es/live/noroestetv-livestream.m3u8
 CTTCanal49[Not24/7],https://cdnfox.hostlagarto.com/cct49/index.m3u8
 CugatTV,https://liveingesta318.cdnmedia.tv/cugatcatlive/smil:rtmp01.smil/playlist.m3u8
@@ -21070,10 +21071,10 @@ Fox[Geo-blocked],https://messi.damitv.st/papi/ts/fox-usa/playlist.m3u8
 France3,http://85.14.32.26:8800/udp/239.100.10.144:5000
 France3Coted'Azur,http://89.187.185.76:8080/France3/index.m3u8
 France3Lorraine,http://5.180.164.197:8080/FRANCE3/index.m3u8
-Galavision,http://200.39.57.254:8008/play/a00v/index.m3u8
 Galaxy4,https://budapest-cache-1.antik.sk/live/test_galaxy_4_atk_1200/playlist.m3u8
 GlobalSocialTV[Not24/7],https://stream.castr.com/6809124f3f3e7e594c63cf15/live_8e5d0b50206a11f08690576446b3c082/index.fmp4.m3u8
 GlobalTV,http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/global.stream/playlist.m3u8
+Globovision(576p),http://181.78.8.199:8000/play/a09k/index.m3u8
 GrooviaKanal(576p),https://gist.githubusercontent.com/iptvonlinetv/02d209207082846012c15305f7471c55/raw/4439b54b986e696e6fcfba7a53380d85b27bbbc1/udp450.500.723:6050.m3u8
 Groznyj,https://balancer.facecast.io/evacoder_hls_hi/UUMLQVAYVlZyH14GRENQVV0G/2/720-3.m3u8
 365TV,https://s2.netstreaming.eu/hd365.m3u8
@@ -21148,6 +21149,7 @@ PROFI24TV,https://live.ro24tv.ro/hls/stream.m3u8
 Qazaqstan,https://vs137.vcdn.biz/6aa0d03eb8d337c5a12c8275477af53a_megogo/live/hls/b/700_2490_4000/u_sid/0/o/229009131/rsid/15fbd560-a86a-45ca-8058-baf9f5f61c8e/u_uid/0/u_vod/0/u_device/cms_webandroid/u_devicekey/_site_mobile/lip/45.80.208.174*asn/u_srvc/84416/u_did/web_MjE7M10AtBKsWN3CHzhzNBgiG7LkULPx/type.live/chunklist-sid8840242905769027046-b4000000.m3u8
 QazaqstanInternational,https://stream8.cinerama.uz/1431/tracks-v1a1/mono.m3u8
 QubTV,https://live.djemba.ro/memfs/474f9942-f72b-4130-817a-435cd54b2c36.m3u8
+QuranRadio,https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/playlist.m3u8
 RajdhaniTV,https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
 RBTV,https://video.hostingcaaguazu.com:19360/rbtv/rbtv.m3u8
 RBATV,https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8
@@ -21186,9 +21188,10 @@ Telecosta,https://telecosta.botlife.app/memfs/6ba9dc9a-aff4-4e4e-9466-a9f0c714b6
 Telemedellin,https://liveingesta118.cdnmedia.tv/tvtelemedellinlive/smil:rtmp01.smil/playlist.m3u8
 Telemicro,https://live2.telemicro.com.do/live/55/playlist.m3u8
 Telemundo,http://45.190.13.8/TelemundoHD/index.m3u8
-TelemundoWest[Geo-blocked],https://messi.damitv.st/papi/ts/telemundo-usa/playlist.m3u8
+TelemundoWest,http://181.119.108.43:9001/play/a044/index.m3u8
 TeleQuindio,https://live20.bozztv.com/akamaissh101/ssh101/telequindio/playlist.m3u8
 Telesistema11,https://cdn3.wind.do/streams/telesistema/telesistema_master.m3u8
+Televen(576p),http://181.78.8.199:8000/play/a09j/index.m3u8
 Telever[Not24/7],https://soportedvb.click:3413/live/televerlive.m3u8
 TeleviaductoCanal3[Not24/7],https://stream.castr.com/5da89a909db964293ad13301/live_d8372fa07fcb11f18271bf033930834b/index.fmp4.m3u8
 TeleviaductoCanal14[Not24/7],https://stream.castr.com/5ec16b5935bd933ad25fdd37/live_b78ea1b07fcc11f1a8c6adcd20e04bb9/index.fmp4.m3u8
@@ -21217,6 +21220,7 @@ UNIANSerial,http://stream.mcquack.net/341/index.m3u8
 UnitelSantaCruz,https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8
 UTVAfrica,https://oqgdro3xd4rm-hls-live.5centscdn.com/tfmediacastlivestreamUTV/8f263182c36c7e5c56a986bf770091e3.sdp/playlist.m3u8
 UVATV[Not24/7],https://www.uvatvhd.com/hls.php?file=live.m3u8
+VenezolanadeTelevision(576p),http://181.78.8.199:8000/play/a091/index.m3u8
 VinhLongTV1(576p)[Not24/7],http://125hvt.ddns.net:21585/thvl1/playlist.m3u8
 Vision(576p),http://103.85.204.205:1935/VISIONMEDIA/live/playlist.m3u8
 VivaTV,http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/vivatv.stream/playlist.m3u8

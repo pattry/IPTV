@@ -21038,6 +21038,7 @@ CekmeköyTV,https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1
 CentralTV,https://cdn4.skygo.mn/live/disk1/Ekh_Oron/DASH-FTA/Ekh_Oron.mpd
 Channel5,https://xemzi.short.gy/1000030
 Channel7Melbourne,http://44.32.200.142:5004/auto/v7
+Channel8,https://cdn.qd.je/163189/ch8
 Channel8Krasnoyarsk,https://tshift-1.telecoma.tv/8channel/tracks-v1a1/mono.ts.m3u8
 Channel8Novosibirsk(480i),https://live-8knsk.cdnvideo.ru/8knsk/stream1/playlist.m3u8
 Channel11,https://cdn4.skygo.mn/live/disk1/Channel11/DASH-FTA/Channel11.mpd
@@ -21101,6 +21102,7 @@ KhanhHoaTV,https://cdnbaokhanhhoa.com/live/1332e3a79e27.m3u8?vhost=video
 KocaeliTV,https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 KoreanCentralTelevision(KCTV)(576p),https://streamer.nknews.org/tvdash/stream.mpd
 KTK(576p),http://stream.mcquack.net/26/index.m3u8
+La1U(2160p),http://185.47.212.25:8080/tdp_HD/index.m3u8
 La8Mediterraneo,https://newscript.gestec-video.com/hls/8TVEVENTOS.m3u8
 LaNacion+(576p),http://playcom.trapemn.tv:1935/transcoderip/lanacionplus.stream/playlist.m3u8
 Latina,https://redirector.rudo.video/hls-video/567ffde3fa319fadf3419efda25619456231dfea/latina/latina.smil/playlist.m3u8
@@ -21130,6 +21132,8 @@ MRTV,https://mrtvott.com/cache/MRTV-HD/master.m3u8
 MusawaChannel[Not24/7],https://pbc.furrera.ps/musawahd/index.m3u8
 MyUkraina+,https://api-tv.ipnet.ua/api/v1/manifest/2118742680.m3u8
 NBC,http://stream.cammonitorplus.net/1785/index.m3u8
+NBT2,https://cdn-edge.iiptvcdn.com/live_event/smil:f180-054a-38d7-ce66-f7cf.smil/playlist.m3u8
+NBTWorld,https://cdn-edge.iiptvcdn.com/live_event/smil:d36f-93c1-9c58-fdcc-427f.smil/playlist.m3u8
 NinhThuanTV,https://cdnbaokhanhhoa.com/live/90405a889081.m3u8?vhost=video
 Notele(576p)[Not24/7],https://streaming01.divercom.be/notele_live/direct.stream/playlist.m3u8
 Nova,http://213.91.179.28:8000/play/a03l

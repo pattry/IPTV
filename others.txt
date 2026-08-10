@@ -14839,17 +14839,6 @@ TVBS台劇台,http://4gtv.cnlive.club/channel/49342c47/index.m3u8?q=178263988583
 经典卡通-FastTV飞速看,http://4gtv.cnlive.club/channel/53488299/index.m3u8?q=1782639885837
 经典迪士尼-FastTV飞速看,http://4gtv.cnlive.club/channel/n4ae53aed/index.m3u8?q=1782639885837
 东离剑游纪-FastTV飞速看,http://4gtv.cnlive.club/channel/nb3eed91/index.m3u8?q=1782639885837
-鳳凰中文,http://49.232.143.177:80/pyxg/hmy.php?id=鳳凰中文備&key=***
-華視,http://49.232.143.177:80/pyxg/hmy.php?id=華視&key=***
-中天新聞,http://49.232.143.177:80/pyxg/hmy.php?id=中天新聞備&key=***
-東森新聞,http://49.232.143.177:80/pyxg/hmy.php?id=東森新聞備&key=***
-台视新闻,http://49.232.143.177:80/pyxg/hmy.php?id=台視新聞&key=***
-民视新闻,http://49.232.143.177:80/pyxg/hmy.php?id=民視新聞&key=***
-TVBS新聞,http://49.232.143.177:80/pyxg/hmy.php?id=TVBS新聞&key=***
-三立新聞iNEWS,http://49.232.143.177:80/pyxg/hmy.php?id=三立新聞&key=***
-年代新闻,http://49.232.143.177:80/pyxg/hmy.php?id=年代新聞&key=***
-鏡電視新聞台,http://49.232.143.177:80/pyxg/hmy.php?id=鏡新聞&key=***
-寰宇新聞台灣台,http://49.232.143.177:80/pyxg/hmy.php?id=環宇台灣&key=***
 DHE,http://108.181.23.41:80/livehttpplay?channel_id=23504
 SEÑALCOLOMBIA,http://108.181.23.41:80/livehttpplay?channel_id=23510
 CARACOLCOLOMBIA,http://108.181.23.41:80/livehttpplay?channel_id=23513
@@ -21102,6 +21091,7 @@ KhanhHoaTV,https://cdnbaokhanhhoa.com/live/1332e3a79e27.m3u8?vhost=video
 KocaeliTV,https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
 KoreanCentralTelevision(KCTV)(576p),https://streamer.nknews.org/tvdash/stream.mpd
 KTK(576p),http://stream.mcquack.net/26/index.m3u8
+La1,https://7nyaler.streamhostingcdn.top/stream/40/index.m3u8
 La1U(2160p),http://185.47.212.25:8080/tdp_HD/index.m3u8
 La8Mediterraneo,https://newscript.gestec-video.com/hls/8TVEVENTOS.m3u8
 LaNacion+(576p),http://playcom.trapemn.tv:1935/transcoderip/lanacionplus.stream/playlist.m3u8
@@ -21140,6 +21130,7 @@ Nova,http://213.91.179.28:8000/play/a03l
 OlotTV,https://liveingesta118.cdnmedia.tv/olottvlive/smil:live.smil/playlist.m3u8?DVR=
 OnePlanet,http://stream.mcquack.net/448/index.m3u8
 ONTV,https://cdn4.skygo.mn/live/disk1/ONTV/DASH-FTA/ONTV.mpd
+ORF1,https://7nyaler.streamhostingcdn.top/stream/50/index.m3u8
 ORTBTV(1080i),https://strhls.streamakaci.tv/ortb/ortb1-multi/playlist.m3u8
 PalenqueTV(576p),http://15.204.246.24:8080/PalenqueTVSD/index.m3u8
 PalestineMubasher,https://pbc.furrera.ps/palestinelivehd/index.m3u8
@@ -21163,6 +21154,7 @@ RedeTV!Mais,https://cdn.live.br1.jmvstream.com/webtv/AVJ-15235/playlist/playlist
 RomanticaTV,https://stream10.xdevel.com/video0s977363-1901/stream/playlist_dvr.m3u8
 Rossiya1Vainah(576i),https://live.chechensoft.ru/vainahtv/ngrp:vaynahtv_all/playlist.m3u8
 RTI1,https://video1.getstreamhosting.com:1936/8336/8336/playlist.m3u8
+RTLClub,https://7nyaler.streamhostingcdn.top/stream/65/index.m3u8
 RTVi(576p),https://shift03.isp.bg/RTVi/index.m3u8
 Russia-1,https://vgtrkregion-reg.cdnvideo.ru/vgtrk/9/russia1-hd/index.m3u8
 Russia-1+4,https://vgtrkregion-reg.cdnvideo.ru/vgtrk/4/russia1-hd/index.m3u8
@@ -21170,6 +21162,7 @@ Russia-1+5,https://vgtrkregion-reg.cdnvideo.ru/vgtrk/5/russia1-hd/index.m3u8
 Russia-1+6,https://vgtrkregion-reg.cdnvideo.ru/vgtrk/6/russia1-hd/index.m3u8
 Russia-1+7,https://vgtrkregion-reg.cdnvideo.ru/vgtrk/7/russia1-hd/index.m3u8
 Russia-1+8,https://vgtrkregion-reg.cdnvideo.ru/vgtrk/8/russia1-hd/index.m3u8
+RwenzoriTV,https://stream.rwenzoritv.com:3232/live/rwenzoritvlive.m3u8
 SBN,https://cdn4.skygo.mn/live/disk1/SBN/DASH-FTA/SBN.mpd
 SBTInterior,https://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
 SCTV[Geo-blocked],https://op-group1-swiftservehd-1.dens.tv/h/h217/index.m3u8
@@ -21223,6 +21216,7 @@ UBS,https://cdn4.skygo.mn/live/disk1/UBSHD/DASH-FTA/UBSHD.mpd
 UNIANSerial,http://stream.mcquack.net/341/index.m3u8
 UnitelSantaCruz,https://mdstrm.com/live-stream-playlist/692b7e7ac84183fcf9e3462d.m3u8
 UTVAfrica,https://oqgdro3xd4rm-hls-live.5centscdn.com/tfmediacastlivestreamUTV/8f263182c36c7e5c56a986bf770091e3.sdp/playlist.m3u8
+UTVPalakkad,https://em4qj6nedyvg-hls-live.wmncdn.net/liveunit/89b1e919eed04e59383cf820d644c20e.sdp/playlist.m3u8
 UVATV[Not24/7],https://www.uvatvhd.com/hls.php?file=live.m3u8
 VenezolanadeTelevision(576p),http://181.78.8.199:8000/play/a091/index.m3u8
 VinhLongTV1(576p)[Not24/7],http://125hvt.ddns.net:21585/thvl1/playlist.m3u8

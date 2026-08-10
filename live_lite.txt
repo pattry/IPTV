@@ -1,5 +1,5 @@
 更新时间,#genre#
-20260810 00:03,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
+20260811 02:00,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 
 
 央视,#genre#
@@ -892,10 +892,7 @@ CGTN,http://t.061899.xyz/tl/tl.php?id=cgtn
 NOW新闻台,https://fast.hidns.vip/163189/now
 HOY国际财经台,https://cdn11.163189.xyz/163189/hoy76
 HOY资讯台,https://fast.hidns.vip/163189/hoy78
-壹新闻,http://49.232.143.177:80/pyxg/hmy.php?id=壹新聞&key=***
-非凡新闻,http://49.232.143.177:80/pyxg/hmy.php?id=非凡新聞&key=***
 TVBS,http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1782639885837
-TVBS,http://49.232.143.177:80/pyxg/hmy.php?id=TVBS備&key=***
 耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
 
 
@@ -1073,7 +1070,6 @@ MyCinemaEurope,https://cdn12.178.indevs.in/163189/mce
 娱乐新闻,http://v2hcdn.jdshipin.com/enew/enew.stream/chunklist_w103.m3u8
 中视,http://220.135.241.47:8301/0.ts
 中视,http://4gtv.cnlive.club/channel/n722644d8/index.m3u8?q=1782639885837
-中视,http://49.232.143.177:80/pyxg/hmy.php?id=中視&key=***
 八大综艺台,http://4gtv.cnlive.club/channel/662e9334/index.m3u8?q=1782639885837
 靖天综合台,http://4gtv.cnlive.club/channel/3f6ecb92/index.m3u8?q=1782639885837
 靖天日本台,http://4gtv.cnlive.club/channel/3f1816f7/index.m3u8?q=1782639885837
@@ -1086,13 +1082,11 @@ DreamWorks梦工厂动画,http://4gtv.cnlive.club/channel/n451655ef/index.m3u8?q
 华视新闻,http://37.27.111.214:8080/live/8/hls.m3u8
 华视新闻,https://d2jc41c1shgcol.cloudfront.net/live/ctsnewsqt/playlist.m3u8
 华视新闻,http://4gtv.cnlive.club/channel/n692bc32c/index.m3u8?q=1782639885837
-华视新闻,http://49.232.143.177:80/pyxg/hmy.php?id=華視新聞&key=***
 三立新闻iNEWS,http://4gtv.cnlive.club/channel/4fa717ad/index.m3u8?q=1782639885837
 中视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV09.m3u8
 中视新闻,http://220.135.241.47:8302/0.ts
 中视新闻,https://d2jc41c1shgcol.cloudfront.net/live/ctvnewsqt/playlist.m3u8
 中视新闻,http://4gtv.cnlive.club/channel/7e6461d6/index.m3u8?q=1782639885837
-中视新闻,http://49.232.143.177:80/pyxg/hmy.php?id=中視新聞&key=***
 KLT-靖天国际台,http://4gtv.cnlive.club/channel/n481b36ac/index.m3u8?q=1782639885837
 NiceTV靖天欢乐台,http://4gtv.cnlive.club/channel/n122ce57e/index.m3u8?q=1782639885837
 八大精彩台,http://4gtv.cnlive.club/channel/6626a9ca/index.m3u8?q=1782639885837
@@ -1149,9 +1143,7 @@ TVBS精采,http://4gtv.cnlive.club/channel/49d50255/index.m3u8?q=1782639885837
 八大综合台,http://61.221.215.25:8800/hls/56/index.m3u8
 八大戏剧台,http://61.221.215.25:8800/hls/39/index.m3u8
 三立台湾,http://zb.xmzb.xyz/123.php?id=⚽马上oppppp一三立台湾
-三立台湾,http://49.232.143.177:80/pyxg/hmy.php?id=三立台灣&key=***
 龙华偶像,https://8.fast.hidns.vip/163189/lhox
 八大第一,http://61.221.215.25:8800/hls/55/index.m3u8
 台视,http://220.135.241.47:8313/0.ts
-台视,http://49.232.143.177:80/pyxg/hmy.php?id=台視&key=***
 公视,http://220.135.241.47:8305/0.ts

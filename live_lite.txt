@@ -1,5 +1,5 @@
 更新时间,#genre#
-20260811 02:00,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
+20260812 02:07,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 
 
 央视,#genre#
@@ -850,6 +850,7 @@ SkyNews,https://xemzi.short.gy/1000018
 FoxWeather,https://247wlive.foxweather.com/stream/index_1280x720.m3u8
 NBC,http://206.212.244.63/127/index.m3u8
 NBC,http://stream.cammonitorplus.net/1785/index.m3u8
+NBC,http://190.11.225.124:5000/live/nbc_hd/playlist.m3u8
 CNBC,https://gpuserver3.tier1streams.com/CNBC/index.m3u8
 CNBC,https://amg01079-nbcuuk-amg01079c2-samsung-gb-1258.playouts.now.amagi.tv/playlist.m3u8
 EntertainmentTonight,https://enterbcef94b.airspace-cdn.cbsivideo.com/master.m3u8
@@ -1084,8 +1085,8 @@ DreamWorks梦工厂动画,http://4gtv.cnlive.club/channel/n451655ef/index.m3u8?q
 华视新闻,http://4gtv.cnlive.club/channel/n692bc32c/index.m3u8?q=1782639885837
 三立新闻iNEWS,http://4gtv.cnlive.club/channel/4fa717ad/index.m3u8?q=1782639885837
 中视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV09.m3u8
-中视新闻,http://220.135.241.47:8302/0.ts
 中视新闻,https://d2jc41c1shgcol.cloudfront.net/live/ctvnewsqt/playlist.m3u8
+中视新闻,http://220.135.241.47:8302/0.ts
 中视新闻,http://4gtv.cnlive.club/channel/7e6461d6/index.m3u8?q=1782639885837
 KLT-靖天国际台,http://4gtv.cnlive.club/channel/n481b36ac/index.m3u8?q=1782639885837
 NiceTV靖天欢乐台,http://4gtv.cnlive.club/channel/n122ce57e/index.m3u8?q=1782639885837

@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://ghfast.top/https://github.com/CCSH/IPTV/raw/refs/heads/main/e.xml.gz"
-#EXTINF:-1  tvg-name="20260811 02:00" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/20260811 02:00.png"  group-title="更新时间",20260811 02:00
+#EXTINF:-1  tvg-name="20260812 02:07" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/20260812 02:07.png"  group-title="更新时间",20260812 02:07
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 #EXTINF:-1  tvg-name="CCTV4K超" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CCTV4K超.png"  group-title="央视",CCTV4K超
 http://107.150.60.122/live/cctv4k.m3u8
@@ -1677,6 +1677,8 @@ https://247wlive.foxweather.com/stream/index_1280x720.m3u8
 http://206.212.244.63/127/index.m3u8
 #EXTINF:-1  tvg-name="NBC" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/NBC.png"  group-title="新闻",NBC
 http://stream.cammonitorplus.net/1785/index.m3u8
+#EXTINF:-1  tvg-name="NBC" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/NBC.png"  group-title="新闻",NBC
+http://190.11.225.124:5000/live/nbc_hd/playlist.m3u8
 #EXTINF:-1  tvg-name="CNBC" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CNBC.png"  group-title="新闻",CNBC
 https://gpuserver3.tier1streams.com/CNBC/index.m3u8
 #EXTINF:-1  tvg-name="CNBC" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CNBC.png"  group-title="新闻",CNBC
@@ -2134,9 +2136,9 @@ http://4gtv.cnlive.club/channel/4fa717ad/index.m3u8?q=1782639885837
 #EXTINF:-1  tvg-name="中视新闻" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/中视新闻.png"  group-title="港澳台",中视新闻
 https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV09.m3u8
 #EXTINF:-1  tvg-name="中视新闻" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/中视新闻.png"  group-title="港澳台",中视新闻
-http://220.135.241.47:8302/0.ts
-#EXTINF:-1  tvg-name="中视新闻" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/中视新闻.png"  group-title="港澳台",中视新闻
 https://d2jc41c1shgcol.cloudfront.net/live/ctvnewsqt/playlist.m3u8
+#EXTINF:-1  tvg-name="中视新闻" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/中视新闻.png"  group-title="港澳台",中视新闻
+http://220.135.241.47:8302/0.ts
 #EXTINF:-1  tvg-name="中视新闻" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/中视新闻.png"  group-title="港澳台",中视新闻
 http://4gtv.cnlive.club/channel/7e6461d6/index.m3u8?q=1782639885837
 #EXTINF:-1  tvg-name="KLT-靖天国际台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/KLT-靖天国际台.png"  group-title="港澳台",KLT-靖天国际台
@@ -2663,6 +2665,8 @@ http://40.160.24.55/USA_NETWORK/index.m3u8
 https://bl.rutube.ru/livestream/c37cd74192c6bc3d6cd6077c0c4fd686/index.m3u8?e=2077050299&s=HSWg81JrQ3OqmwuWkEIDAQ&scheme=https
 #EXTINF:-1  tvg-name="NTV" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/NTV.png"  group-title="国外",NTV
 https://cdn.livespanel.com/nossatv/nossatv/playlist.m3u8
+#EXTINF:-1  tvg-name="NTV" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/NTV.png"  group-title="国外",NTV
+https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
 #EXTINF:-1  tvg-name="NTV" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/NTV.png"  group-title="国外",NTV
 https://cdn4.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd
 #EXTINF:-1  tvg-name="NTV" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/NTV.png"  group-title="国外",NTV

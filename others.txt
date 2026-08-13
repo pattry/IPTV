@@ -21510,7 +21510,6 @@ Telever[Not24/7],https://soportedvb.click:3413/live/televerlive.m3u8
 TeleviaductoCanal3[Not24/7],https://stream.castr.com/5da89a909db964293ad13301/live_d8372fa07fcb11f18271bf033930834b/index.fmp4.m3u8
 TeleviaductoCanal14[Not24/7],https://stream.castr.com/5ec16b5935bd933ad25fdd37/live_b78ea1b07fcc11f1a8c6adcd20e04bb9/index.fmp4.m3u8
 TelevizePrerov[Geo-blocked],https://173.212.247.21/live/tvprerov.m3u8
-TelewizjaNarew,https://lowa8026-cmyk.github.io/PL/TVNAREW.php.m3u8
 TenGerTV,https://cdn4.skygo.mn/live/disk1/VTV/DASH-FTA/VTV.mpd
 TGRTBelgeselTV(576p)[Not24/7],https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8
 TMTV,https://cdn4.skygo.mn/live/disk1/TM/DASH-FTA/TM.mpd

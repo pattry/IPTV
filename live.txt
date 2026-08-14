@@ -1,5 +1,5 @@
 更新时间,#genre#
-20260814 02:09,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
+20260815 02:07,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 
 
 央视,#genre#
@@ -936,6 +936,7 @@ CGTN,http://t.061899.xyz/tl/tl.php?id=cgtn
 无线新闻台,https://cdn6.cc.cd/163189/wxxw
 无线新闻台,https://cdn6.cc.cd/163189/wxxwt
 NOW新闻台,https://fast.hidns.vip/163189/now
+NOW新闻台,http://psyl11.dyndns.tv:35451/live/axdynowtream/fSlawNmh15/23.ts
 HOY国际财经台,https://cdn11.163189.xyz/163189/hoy76
 HOY资讯台,https://fast.hidns.vip/163189/hoy78
 TVBS,http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1782639885837

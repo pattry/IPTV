@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://ghfast.top/https://github.com/CCSH/IPTV/raw/refs/heads/main/e.xml.gz"
-#EXTINF:-1  tvg-name="20260814 02:09" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/20260814 02:09.png"  group-title="更新时间",20260814 02:09
+#EXTINF:-1  tvg-name="20260815 02:07" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/20260815 02:07.png"  group-title="更新时间",20260815 02:07
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 #EXTINF:-1  tvg-name="CCTV4K超" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CCTV4K超.png"  group-title="央视",CCTV4K超
 http://107.150.60.122/live/cctv4k.m3u8
@@ -1849,6 +1849,8 @@ https://cdn6.cc.cd/163189/wxxw
 https://cdn6.cc.cd/163189/wxxwt
 #EXTINF:-1  tvg-name="NOW新闻台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/NOW新闻台.png"  group-title="新闻",NOW新闻台
 https://fast.hidns.vip/163189/now
+#EXTINF:-1  tvg-name="NOW新闻台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/NOW新闻台.png"  group-title="新闻",NOW新闻台
+http://psyl11.dyndns.tv:35451/live/axdynowtream/fSlawNmh15/23.ts
 #EXTINF:-1  tvg-name="HOY国际财经台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/HOY国际财经台.png"  group-title="新闻",HOY国际财经台
 https://cdn11.163189.xyz/163189/hoy76
 #EXTINF:-1  tvg-name="HOY资讯台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/HOY资讯台.png"  group-title="新闻",HOY资讯台

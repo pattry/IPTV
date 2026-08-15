@@ -1,5 +1,5 @@
 更新时间,#genre#
-20260815 02:07,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
+20260815 23:44,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 
 
 央视,#genre#
@@ -183,7 +183,7 @@ CCTV17,http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv17
 中国教育1,http://39.165.39.49:85/tsfile/live/1090_1.m3u8?key=txiptv&playlive=0&authid=0
 中国教育1,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226673/1.m3u8
 中国教育1,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226712/1.m3u8
-中国教育1,http://wfenf.x3322.net:7788/923287154
+中国教育1,http://116.147.111.62:7788/923287154
 中国教育1,http://www.ikerobot.com:1234/923287154
 中国教育2,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cetv2
 中国教育2,http://60.168.105.138:5008/923287211
@@ -212,8 +212,6 @@ CCTV17,http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv17
 中国教育4,http://27.12.12.189:1234/923287339
 早期教育,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=zqjy
 早期教育,http://38.75.136.137:98/gslb/dsdqpub/zqjy.m3u8?auth=testpub
-早期教育,http://115.29.208.41:29995/180000001001/32023060222354368427501888132813/1.m3u8
-早期教育,http://115.29.208.41:29995/180000001002/32023060222354368427501888132813/1.m3u8
 CHC家庭影院,http://192.151.150.154/live/chcjt.m3u8
 CHC家庭影院,http://107.150.60.122/live/chcjt.m3u8
 CHC家庭影院,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=chcjt
@@ -248,17 +246,13 @@ IPTV谍战剧场,rtsp://183.59.56.116:554/PLTV/88888905/224/3221227158/100001000
 国学频道,http://38.75.136.137:98/gslb/dsdqpub/gxpd.m3u8?auth=testpub
 国学频道,http://107.150.60.122/live/gxpd.m3u8
 国学频道,http://192.151.150.154/live/gxpd.m3u8
-国学频道,http://115.29.208.41:29995/180000001002/32022110411133186725376756113972/1.m3u8
-国学频道,http://115.29.208.41:29995/180000001001/32022110411133186725376756113972/1.m3u8
 天元围棋,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gztywq
 天元围棋,http://120.76.248.139/live/bfgd/4200000633.m3u8
 天元围棋,http://38.75.136.137:98/gslb/dsdqpub/gztywq.m3u8?auth=testpub
 天元围棋,http://107.150.60.122/live/gztywq.m3u8
 天元围棋,http://192.151.150.154/live/gztywq.m3u8
-天元围棋,http://115.29.208.41:29995/180000001001/00000001000000000010000000040365/1.m3u8
-天元围棋,http://115.29.208.41:29995/180000001002/00000001000000000010000000040365/1.m3u8
-天元围棋,http://115.29.208.41:23001/live/1731.m3u8
-天元围棋,http://115.29.208.41:23001/live/1942.m3u8
+天元围棋,http://115.29.208.41:23002/live/1731.m3u8
+天元围棋,http://115.29.208.41:23002/live/1942.m3u8
 优漫卡通,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ymkt
 优漫卡通,http://111.231.6.102:1234/626064703
 优漫卡通,http://60.168.105.138:5008/626064703
@@ -284,38 +278,22 @@ CCTV1港澳版,https://cdn6.cc.cd/163189/cctv1
 湖南卫视,http://t.061899.xyz/tl/tl.php?id=hunws
 湖南经视,http://116.128.243.121:85/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南经视,http://218.77.84.102:85/tsfile/live/146/2002_1.m3u8?key=txiptv
-湖南经视,http://115.29.208.41:29995/180000001002/00000001000000000002000000113182/1.m3u8
-湖南经视,http://115.29.208.41:29995/180000001001/00000001000000000002000000113182/1.m3u8
 湖南都市,http://218.77.84.102:85/tsfile/live/147/2003_1.m3u8?key=txiptv
 湖南都市,http://116.128.243.121:85/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
-湖南都市,http://115.29.208.41:29995/180000001001/00000001000000000007000000001249/1.m3u8
-湖南都市,http://115.29.208.41:29995/180000001002/00000001000000000007000000001249/1.m3u8
 湖南娱乐,http://218.77.84.102:85/tsfile/live/151/2007_1.m3u8?key=txiptv
 湖南娱乐,http://116.128.243.121:85/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
 湖南娱乐,http://107.150.60.122/live/hnyl.m3u8
 湖南娱乐,http://192.151.150.154/live/hnyl.m3u8
-湖南娱乐,http://115.29.208.41:29995/180000001001/00000001000000000007000000001248/1.m3u8
-湖南娱乐,http://115.29.208.41:29995/180000001002/00000001000000000007000000001248/1.m3u8
 湖南电视剧,http://175.155.106.72:89/live1/live1.m3u8?zsicd 72.会东新闻
 湖南电视剧,http://218.77.84.102:85/tsfile/live/148/2004_1.m3u8?key=txiptv
-湖南电视剧,http://115.29.208.41:29995/180000001001/00000001000000000007000000001245/1.m3u8
-湖南电视剧,http://115.29.208.41:29995/180000001002/00000001000000000007000000001245/1.m3u8
 湖南电影,http://218.77.84.102:85/tsfile/live/149/2005_1.m3u8?key=txiptv
-湖南电影,http://115.29.208.41:29995/180000001002/00000001000000000007000000001246/1.m3u8
-湖南电影,http://115.29.208.41:29995/180000001001/00000001000000000007000000001246/1.m3u8
 湖南爱晚,http://218.77.84.102:85/tsfile/live/150/2006_1.m3u8?key=txiptv
-湖南爱晚,http://115.29.208.41:29995/180000001001/00000001000000000008000000047425/1.m3u8
-湖南爱晚,http://115.29.208.41:29995/180000001002/00000001000000000008000000047425/1.m3u8
 湖南国际,http://192.151.150.154/live/hngj.m3u8
-湖南国际,http://115.29.208.41:29995/180000001002/00000001000000000008000000047426/1.m3u8
-湖南国际,http://115.29.208.41:29995/180000001001/00000001000000000008000000047426/1.m3u8
 金鹰纪实,http://183.11.239.36:808/hls/171/index.m3u8
 金鹰纪实,http://58.57.40.22:9901/tsfile/live/1070_1.m3u8
 金鹰纪实,http://218.77.84.102:85/tsfile/live/152/2008_1.m3u8?key=txiptv
 金鹰纪实,http://111.29.9.33:6610/000000001000/5000000011000031203/index.m3u8?channel-id=bestzb&Contentid=5000000011000031203&livemode=1&stbId=3
 金鹰纪实,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226667/1.m3u8
-金鹰纪实,http://115.29.208.41:29995/180000001001/00000001000000000016000000007228/1.m3u8
-金鹰纪实,http://115.29.208.41:29995/180000001002/00000001000000000016000000007228/1.m3u8
 金鹰卡通,http://183.11.239.36:808/hls/69/index.m3u8
 金鹰卡通,http://113.15.109.216:59901/tsfile/live/1012_1.m3u8?key=txiptv&playlive=1&authid=0
 金鹰卡通,http://218.77.84.102:85/tsfile/live/153/2009_1.m3u8?key=txiptv
@@ -335,12 +313,6 @@ CCTV1港澳版,https://cdn6.cc.cd/163189/cctv1
 快乐垂钓,http://47.104.178.59:3566/961930263
 快乐垂钓,http://27.12.12.189:1234/961930263
 长沙新闻,http://ls.qingting.fm/live/4877.m3u8
-长沙新闻,http://115.29.208.41:29995/180000001001/00000001000000000008000000047429/1.m3u8
-长沙新闻,http://115.29.208.41:29995/180000001002/00000001000000000008000000047429/1.m3u8
-长沙政法,http://115.29.208.41:29995/180000001002/00000001000000000008000000047430/1.m3u8
-长沙政法,http://115.29.208.41:29995/180000001001/00000000000000020000000000182540/1.m3u8
-长沙政法,http://115.29.208.41:29995/180000001002/00000000000000020000000000182540/1.m3u8
-长沙政法,http://115.29.208.41:29995/180000001001/00000001000000000008000000047430/1.m3u8
 苏州4K,https://live-auth.51kandianshi.com/szgd/csztv4k_hd.m3u8
 苏州4K,https://tylive.kan0512.com/norecord/csztv4k_4k.m3u8
 河北4K,https://event.pull.hebtv.com:443/live/live101.m3u8
@@ -576,7 +548,6 @@ CCTV1港澳版,https://cdn6.cc.cd/163189/cctv1
 厦门卫视,http://110.80.17.38:9999/tsfile/live/0128_1.m3u8?key=txiptv&playlive=1&authid=0
 厦门卫视,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226695/1.m3u8
 厦门卫视,http://bztv.tvbus.cc:8081/cdnlive/xmws.m3u8
-厦门卫视,http://115.29.208.41:29995/180000001002/00000001000000000022000000381023/1.m3u8
 四川卫视,http://107.150.60.122/live/scwshd.m3u8
 四川卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=scwshd
 四川卫视,https://www.yangshipin.cn/tv/home?pid=600002516
@@ -707,9 +678,7 @@ CCTV1港澳版,https://cdn6.cc.cd/163189/cctv1
 文物宝库,https://dxtx.hntv.tv/live/wwbk.m3u8?txSecret=317b89626134fd6bea6e129455b5ff18&txTime=7C4C635C&wsSecret=823b06939f54c50f7750a00e35ae7196&wsTime=1782993623
 文物宝库,https://dxtx.hntv.tv/live/wwbk.m3u8?txSecret=317b89626134fd6bea6e129455b5ff18&txTime=7C4C635C&wsSecret=24b9dabf5366bc5454189408be7c822d&wsTime=1784836801
 文物宝库,http://1.94.31.214/php/hntv.php?id=wwbk
-文物宝库,http://115.29.208.41:29995/180000001002/00000001000000000064000000308848/1.m3u8
-文物宝库,http://115.29.208.41:29995/180000001001/00000001000000000064000000308848/1.m3u8
-文物宝库,http://115.29.208.41:23001/live/1939.m3u8
+文物宝库,http://115.29.208.41:23002/live/1939.m3u8
 梨园,http://182.61.15.84:80/961930369
 梨园,http://dassby.qqff.top:99/live/梨园/index.m3u8
 梨园,http://47.104.178.59:3566/961930369
@@ -718,16 +687,15 @@ CCTV1港澳版,https://cdn6.cc.cd/163189/cctv1
 梨园,https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=ffccfd1fc4dcd105f6f0287716680d5a&wsTime=1784836801
 梨园,https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=a649337986517d656181a89c75312c33&wsTime=1782993623
 梨园,http://183.196.87.176:880/hls/57/index.m3u8
-梨园,http://wfenf.x3322.net:7788/961930369
+梨园,http://116.147.111.62:7788/961930369
 梨园,http://www.ikerobot.com:1234/961930369
 武术世界,http://47.104.178.59:3566/958475359
 武术世界,http://39.165.39.49:85/tsfile/live/1121_1.m3u8?key=txiptv&playlive=0&authid=0
 武术世界,http://1.94.31.214/php/hntv.php?id=wspd
-武术世界,http://wfenf.x3322.net:7788/958475359
+武术世界,http://116.147.111.62:7788/958475359
 武术世界,http://www.ikerobot.com:1234/958475359
-武术世界,http://115.29.208.41:29995/180000001002/00000001000000000064000000308859/1.m3u8
-武术世界,http://115.29.208.41:29995/180000001001/00000001000000000064000000308859/1.m3u8
-武术世界,http://115.29.208.41:23001/live/1938.m3u8
+武术世界,http://111.76.18.39:1234/958475359
+武术世界,http://115.29.208.41:23002/live/1938.m3u8
 新闻综合,http://t.061899.xyz/tl/tl.php?id=shxwzh
 新闻综合,http://182.61.15.84:80/651632657
 新闻综合,http://47.104.178.59:3566/651632657
@@ -771,8 +739,8 @@ CCTV1港澳版,https://cdn6.cc.cd/163189/cctv1
 广州新闻,https://tencentplaygsm.gztv.com/live/xinwen.m3u8?txTime=6594e9c2&txSecret=c5a1adcdef8653b7d9c228d3905b414f
 广州新闻,https://168.sryze.cc/163189/gzxw
 广州新闻,rtsp://183.59.131.100:554/PLTV/88888905/224/3221230113/453206913.smil?0&accountinfo=%7E%7EV2.0%7E0SFQT4d134tJBYGpDmeXDQ%7EzJeEdQQK6GK7r2Q5jZjxjKYhZiHklGs8wg1XyXUSKdk5d8f2s2AYjzO2-qcyDeaExan3Pra4cuU_Whoju6BKGf666OGX7-GKwJrfpZjwyfM~ExtInfoWNHSPSTb+3AG0FnUkYLPMw=-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2CEND&GuardEncType=2
-广州新闻,http://115.29.208.41:23001/live/2002.m3u8
-广州新闻,http://115.29.208.41:23001/live/1433.m3u8
+广州新闻,http://115.29.208.41:23002/live/2002.m3u8
+广州新闻,http://115.29.208.41:23002/live/1433.m3u8
 五星体育,https://cdn.qd.je/163189/wxty
 五星体育,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=wxtyhd
 五星体育,http://live.xmcdn.com/live/57/64.m3u8
@@ -805,8 +773,8 @@ CCTV16,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
 劲爆体育,http://183.237.95.108:9901/tsfile/live/1074_1.m3u8?key=txiptv&playlive=0&authid=0
 劲爆体育,http://120.238.94.82:9901/tsfile/live/1086_1.m3u8
 劲爆体育,http://m.061899.xyz/mg/jbty
-劲爆体育,http://115.29.208.41:23001/live/1505.m3u8
-劲爆体育,http://115.29.208.41:23001/live/1711.m3u8
+劲爆体育,http://115.29.208.41:23002/live/1505.m3u8
+劲爆体育,http://115.29.208.41:23002/live/1711.m3u8
 广东体育,http://cdn2.163189.xyz/live/gdty/stream.m3u8
 广东体育,http://r.jdshipin.com/LiYdg
 纬来体育,http://8.138.7.223/【公众号：榴芒电视】/wlty.m3u8
@@ -825,10 +793,8 @@ CCTV16,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
 魅力足球,http://t.061899.xyz/tl/tl.php?id=mlzq
 魅力足球,http://dassby.qqff.top:99/live/快乐垂钓/index.m3u8
 魅力足球,http://111.29.9.33:6610/000000001000/5000000011000031207/index.m3u8?channel-id=bestzb&Contentid=5000000011000031207&livemode=1&stbId=3
-魅力足球,http://115.29.208.41:29995/180000001001/32024042209535166598016957159953/1.m3u8
-魅力足球,http://115.29.208.41:29995/180000001002/32024042209535166598016957159953/1.m3u8
-魅力足球,http://115.29.208.41:23001/live/1508.m3u8
-魅力足球,http://115.29.208.41:23001/live/1737.m3u8
+魅力足球,http://115.29.208.41:23002/live/1508.m3u8
+魅力足球,http://115.29.208.41:23002/live/1737.m3u8
 羽毛球专场,https://live.ottiptv.cc/huya/30806115
 篮球专场,https://live.ottiptv.cc/huya/27949551
 乒乓球专场,https://live.ottiptv.cc/huya/23505696
@@ -1140,8 +1106,8 @@ NiceTV靖天欢乐台,http://4gtv.cnlive.club/channel/n122ce57e/index.m3u8?q=178
 CinemaWorld,https://cdn.qd.je/163189/cinemaworld
 明珠台,http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
 明珠台,http://111.221.137.234:44330/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0
-明珠台,http://115.29.208.41:23001/live/1351_7500.m3u8
-明珠台,http://115.29.208.41:23001/live/1304.m3u8
+明珠台,http://115.29.208.41:23002/live/1351_7500.m3u8
+明珠台,http://115.29.208.41:23002/live/1304.m3u8
 TVBPlus,https://o11.163189.xyz/stream/tvb/tvbp/
 TVBPlus,http://r.jdshipin.com/Nr5jq
 TVBPlus,http://r.jdshipin.com/ndGgS
@@ -1181,8 +1147,8 @@ TVB娱乐新闻,http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
 澳视澳门,http://php.jdshipin.com/TVOD/iptv.php?id=asam
 澳视澳门,https://cdn.qd.je/163189/asam
 澳视澳门,https://cdn6.cc.cd/163189/asam
-澳视澳门,http://115.29.208.41:23001/live/1321.m3u8
-澳视澳门,http://115.29.208.41:23001/live/1352.m3u8
+澳视澳门,http://115.29.208.41:23002/live/1321.m3u8
+澳视澳门,http://115.29.208.41:23002/live/1352.m3u8
 民视,http://37.27.111.214:8080/live/6/hls.m3u8
 民视,http://220.135.241.47:8308/0.ts
 民视,http://4gtv.cnlive.club/channel/n7222a63c/index.m3u8?q=1782639885837

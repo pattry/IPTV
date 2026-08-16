@@ -1,5 +1,5 @@
 更新时间,#genre#
-20260815 23:44,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
+20260816 23:47,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 
 
 央视,#genre#
@@ -1388,6 +1388,8 @@ NTV,https://tvsen5.aynaott.com/xV4jEKf3D9zc/index.m3u8
 NTV,https://cdn4.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd
 NTV,https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
 ABC,http://190.11.225.124:5000/live/abc_hd/playlist.m3u8
+NHKBS,https://streams.comclark.com/pknsd/nhk_bs1/playlist.m3u8
+BSFuji,https://streams.comclark.com/pknsd/fuji/playlist.m3u8
 DisneyChannel,http://206.212.244.63/650/index.m3u8
 DisneyChannel,http://151.80.18.177:86/Disney_Channel_HD/index.m3u8
 DisneyChannel,http://88.212.15.19/live/test_disney/playlist.m3u8

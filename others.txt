@@ -21250,6 +21250,7 @@ AlacantíTV(576p)[Not24/7],https://streaming01.gestec-video.com/hls/artequatreAl
 AliwChannel23[Not24/7],https://streams.comclark.com/pknsd/aliw/playlist.m3u8
 AmgaTV[Not24/7],https://streamer1.connectto.com/AMGA_WEB_1202/playlist.m3u8
 Antena1,http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/antenauno.stream/playlist.m3u8
+Antena7[Not24/7][Geo-blocked],https://alba-do-antena7-antena7.stream.mediatiquestream.com/index.m3u8
 AntenaInternational(720P),https://stream1.antenaplay.ro/as/asrolive1/playlist.m3u8
 ANTV,http://103.58.160.157:8278/720-ANTV/playlist.m3u8
 ArirangTV,http://45.162.64.114/ARIRANG/index.m3u8
@@ -21393,6 +21394,7 @@ LNK,http://stream.mcquack.net/30/index.m3u8
 LotusMacau720p,https://cdn4.skygo.mn/live/disk1/Lotus/HLSv3-FTA/Lotus.m3u8
 LRTTV,http://stream.mcquack.net/31/index.m3u8
 LTV1,http://stream.mcquack.net/34/index.m3u8
+ManielTV[Not24/7],https://mp.panelchs.com/hls/8024/8024.m3u8
 MarlaVision(576p)[Not24/7],https://soportedvb.click:3877/live/merlavisionlive.m3u8
 MataróTelevisió,https://liveingesta318.cdnmedia.tv/m1tvlive/smil:live.smil/playlist.m3u8?DVR=
 MBCBrasilTV,https://play.mbcbrasil.tv.br/playlist.m3u8
@@ -21407,7 +21409,7 @@ MNB,https://cdn4.skygo.mn/live/disk1/MNB/DASH-FTA/MNB.mpd
 MNBWorld,https://cdn4.skygo.mn/live/disk1/MNB_World/DASH-FTA/MNB_World.mpd
 MNCTV,https://mncmedia.malingtv.workers.dev/mnctv.m3u8
 MNTV,https://www.khuwemultimedia.com/hls/mntv/mntv.m3u8
-MocaVisionCanal48[Not24/7],https://stream.castr.com/5da89a909db964293ad13301/live_2da463407fcc11f19ca8e70e403e6b54/index.fmp4.m3u8
+MocaVisionCanal48[Not24/7],https://stream.castr.com/5da89a909db964293ad13301/live_aa3888e0926511f1af7f414b985a2475/index.fmp4.m3u8
 Moji[Geo-blocked],https://op-group1-swiftservehd-1.dens.tv/h/h207/index.m3u8
 MontecristiDigital8[Geo-blocked],https://soportedvb.click:3400/live/montecristitvlive.m3u8
 MRTV,https://mrtvott.com/cache/MRTV-HD/master.m3u8
@@ -21500,15 +21502,15 @@ TeleQuindio,https://live20.bozztv.com/akamaissh101/ssh101/telequindio/playlist.m
 Telesistema11,https://cdn3.wind.do/streams/telesistema/telesistema_master.m3u8
 Televen(576p),http://181.78.8.199:8000/play/a09j/index.m3u8
 Telever[Not24/7],https://soportedvb.click:3413/live/televerlive.m3u8
-TeleviaductoCanal3[Not24/7],https://stream.castr.com/5da89a909db964293ad13301/live_d8372fa07fcb11f18271bf033930834b/index.fmp4.m3u8
-TeleviaductoCanal14[Not24/7],https://stream.castr.com/5ec16b5935bd933ad25fdd37/live_b78ea1b07fcc11f1a8c6adcd20e04bb9/index.fmp4.m3u8
+TeleviaductoCanal3[Not24/7],https://stream.castr.com/5da89a909db964293ad13301/live_fcf05c9091cd11f1af7f414b985a2475/index.fmp4.m3u8
+TeleviaductoCanal14[Not24/7],https://stream.castr.com/5ec16b5935bd933ad25fdd37/live_62c23ce08a8b11f1a955e58b585fd65f/index.fmp4.m3u8
 TelevizePrerov[Geo-blocked],https://173.212.247.21/live/tvprerov.m3u8
 TenGerTV,https://cdn4.skygo.mn/live/disk1/VTV/DASH-FTA/VTV.mpd
 TGRTBelgeselTV(576p)[Not24/7],https://b01c02nl.mediatriple.net/videoonlylive/mtsxxkzwwuqtglive/broadcast_5fe462afc6a0e.smil/playlist.m3u8
 TMTV,https://cdn4.skygo.mn/live/disk1/TM/DASH-FTA/TM.mpd
 TMC,http://151.80.18.177:86/TMC/index.m3u8
 TN8,https://streamingcws30.com/tn8/videotn8/playlist.m3u8
-TNECanal58[Not24/7],https://stream.castr.com/5da89a909db964293ad13301/live_8361cf307fcb11f18638734c8e2b001b/index.fmp4.m3u8
+TNECanal58[Not24/7],https://stream.castr.com/5da89a909db964293ad13301/live_85f2053091cd11f1a5e59d9ec0f6bd3a/index.fmp4.m3u8
 Trece,https://liveingesta118.cdnmedia.tv/trecetvlive/smil:rtmp01.smil/playlist.m3u8
 Trivision36,https://liveingesta118.cdnmedia.tv/trivisionlive/rtmp01-900/chunklist.m3u8?DVR=
 Trivu,http://190.93.224.42/TRIVU-TV/index.m3u8

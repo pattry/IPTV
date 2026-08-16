@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://ghfast.top/https://github.com/CCSH/IPTV/raw/refs/heads/main/e.xml.gz"
-#EXTINF:-1  tvg-name="20260815 23:44" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/20260815 23:44.png"  group-title="更新时间",20260815 23:44
+#EXTINF:-1  tvg-name="20260816 23:47" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/20260816 23:47.png"  group-title="更新时间",20260816 23:47
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 #EXTINF:-1  tvg-name="CCTV4K超" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CCTV4K超.png"  group-title="央视",CCTV4K超
 http://107.150.60.122/live/cctv4k.m3u8
@@ -2717,6 +2717,10 @@ https://cdn4.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd
 https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
 #EXTINF:-1  tvg-name="ABC" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/ABC.png"  group-title="国外",ABC
 http://190.11.225.124:5000/live/abc_hd/playlist.m3u8
+#EXTINF:-1  tvg-name="NHKBS" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/NHKBS.png"  group-title="国外",NHKBS
+https://streams.comclark.com/pknsd/nhk_bs1/playlist.m3u8
+#EXTINF:-1  tvg-name="BSFuji" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/BSFuji.png"  group-title="国外",BSFuji
+https://streams.comclark.com/pknsd/fuji/playlist.m3u8
 #EXTINF:-1  tvg-name="DisneyChannel" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/DisneyChannel.png"  group-title="国外",DisneyChannel
 http://206.212.244.63/650/index.m3u8
 #EXTINF:-1  tvg-name="DisneyChannel" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/DisneyChannel.png"  group-title="国外",DisneyChannel

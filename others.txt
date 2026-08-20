@@ -14773,6 +14773,7 @@ TVB翡翠台,http://gd.wsd.gd.cn:1698/hls/92/index.m3u8
 TVB翡翠台,http://116.77.239.26:44300/tsfile/live/0141_1.m3u8
 TVB翡翠台,http://211.97.63.3:3443/hls/541/index.m3u8
 TVB翡翠台,http://everydaytv.top/live/ggiptv/jade/playlist.m3u8
+鳳凰中文,http://bobohome.ignorelist.com:20247/fengshows?id=2.m3u8
 中天新聞,http://173.208.234.146/live/ctinews.m3u8
 NOW星影台,http://173.208.234.146/live/nowxy.m3u8
 三立新聞iNEWS,https://d2jc41c1shgcol.cloudfront.net/live/iNEWS/playlist.m3u8
@@ -21195,6 +21196,7 @@ C1,https://cdn4.skygo.mn/live/disk1/C1/DASH-FTA/C1.mpd
 Canal1[Geo-blocked],https://mdstrm.com/live-stream-playlist/5a5e1c2568b1910913db5fe2.m3u8
 Canal2[Not24/7],https://telecorporacion-es.cdn.vustreams.com/live/d3e259fa-736d-46b0-b1c9-71caf946ace9/live.isml/live.m3u8
 Canal6[Not24/7],https://telecorporacion.cdn.vustreams.com/live/b164ebe7-decf-4a5a-8aea-5bb56fb92dfc/live.isml/live.m3u8
+Canal8SanJuan[Not24/7],https://live20.bozztv.com/akamaissh101/ssh101/canal8sanjuan/playlist.m3u8
 Canal13,http://15.204.246.24:8080/Canal13HD/index.m3u8
 CanalReusTV,https://liveingesta318.cdnmedia.tv/canalreustvlive/smil:live.smil/playlist.m3u8
 CanalTaronjaComarquesCentrals[Not24/7],https://ingest1-video.streaming-pro.com/canaltaronja/central/playlist.m3u8
@@ -21218,6 +21220,7 @@ ChileVision,http://15.204.246.24:8080/CHVHD/index.m3u8
 CinturaoVerde,https://play.redecinturaoverde.com.br/playlist.m3u8
 ColorVision,https://cdn3.wind.do/streams/colorvision/colorvision_master.m3u8
 ColorsRishteyAmericas(396p),https://manatv.akamaized.net/090823/smil:ristheyamerica.smil/playlist.m3u8
+Coral39[Not24/7],https://hls.tvabierta.net/hls/039.m3u8
 CostaNoroesteTV[Not24/7],https://limited31.todostreaming.es/live/noroestetv-livestream.m3u8
 CTTCanal49[Not24/7],https://cdnfox.hostlagarto.com/cct49/index.m3u8
 CTV8,https://ip.pdtvhd.com/Khmer/streams/CTV8HD.m3u8
@@ -21230,6 +21233,7 @@ DeenTV(576p),https://cd198.anystream.uk:9092/iqapp/d33ntv/playlist.m3u8
 DerTV,https://stream.berosat.live/hls/der-tv/der-tv.m3u8
 DienBienTV,https://stream.langsontv.vn/live/2855dfeccb7f49a41a2b0441b3bfeda413c/playlist.m3u8
 Digital15,https://live2.telemicro.com.do/live/digital15cast_1080p/playlist.m3u8
+DongNaiTV1,https://vtvgolive-ott3.vtvdigital.vn/live/dongnai1tv/chunklist_2.m3u8
 DragonTVInternational[Geo-blocked],https://op-group1-swiftservesd-1.dens.tv/s/s29/index.m3u8
 Duna,http://88.212.15.19/live/duna_hun/index.m3u8
 DunaWorld,http://88.212.15.19/live/duna_world_hun/index.m3u8
@@ -21265,6 +21269,11 @@ HaTinhTV,https://cohauw9bgpvod.vcdn.cloud/httv1/index.m3u8
 HOTZone,http://stream.mcquack.net/379/index.m3u8
 HRT1,https://webtvstream.bhtelecom.ba/hrt1.m3u8
 HRT2,https://webtvstream.bhtelecom.ba/hrt2.m3u8
+HTV1,https://dethich.pw/htv1/index.m3u8
+HTV2,https://dethich.pw/htv2/index.m3u8
+HTV3,https://dethich.pw/htv3/index.m3u8
+HTV7,https://dethich.pw/htv7/index.m3u8
+HTV9,https://dethich.pw/htv9/index.m3u8
 IgniteTelevision[Not24/7],https://rpn.bozztv.com/ignitelive/ignitetv/ignitetv/tracks-v1a1/mono.m3u8
 Inter,http://stream.mcquack.net/174/index.m3u8
 Italia1[Geo-blocked],https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(i1)/index.m3u8
@@ -21377,13 +21386,17 @@ Russia-1+5,https://vgtrkregion-reg.cdnvideo.ru/vgtrk/5/russia1-hd/index.m3u8
 Russia-1+6,https://vgtrkregion-reg.cdnvideo.ru/vgtrk/6/russia1-hd/index.m3u8
 Russia-1+7,https://vgtrkregion-reg.cdnvideo.ru/vgtrk/7/russia1-hd/index.m3u8
 Russia-1+8,https://vgtrkregion-reg.cdnvideo.ru/vgtrk/8/russia1-hd/index.m3u8
+Ruta66TV[Not24/7],https://edge.livestreaminggroup.info/ruta66tvlive/index.m3u8
 RwenzoriTV,https://stream.rwenzoritv.com:3232/live/rwenzoritvlive.m3u8
+SPremium!(360p),https://vodcdn.bamboo-cloud.com/livehls/68d0876e06304461862415b2/master.m3u8
 SBN,https://cdn4.skygo.mn/live/disk1/SBN/DASH-FTA/SBN.mpd
 SBTInterior,https://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
 SCTV[Geo-blocked],https://op-group1-swiftservehd-1.dens.tv/h/h217/index.m3u8
 SILTV,https://live20.bozztv.com/giatv/giatv-SilTvOnline/SilTvOnline/playlist.m3u8
 SimaVisionTV,https://soportedvb.click:3668/live/simavisiontvlive.m3u8
+SiTV[Not24/7],http://190.122.104.210:5080/LiveApp/streams/sitv2.m3u8
 SNT,https://d3epa8orr2qy3m.cloudfront.net/ts:abr.m3u8
+SozcuTV,http://5.178.103.239:55/yt1/szctv.m3u8
 StarTV,https://cdn4.skygo.mn/live/disk1/Star/DASH-FTA/Star.mpd
 Studio+TV,https://cloudvideo.servers10.com:8081/8184/index.m3u8
 STV(360p),https://vodcdn.bamboo-cloud.com/livehls/6a81edf1063044437202e65c/master.m3u8
@@ -21391,9 +21404,11 @@ SuperDigitalTV[Not24/7],https://mp.panelchs.com/hls/8032/8032.m3u8
 SuramTV,https://us.streaminghd.cl/suramtv/index.m3u8
 Suspilne.Krym,http://stream.mcquack.net/436/index.m3u8
 Svit+,http://stream.mcquack.net/358/index.m3u8
+TBC1,https://tbc.maintek.co/LiveApp/streams/YF43nTzH0duMyUA2130641323343587.m3u8
 TCTelevision,http://45.224.97.181:9999/TC/index.m3u8
 Tele7,https://ingest2-video.streaming-pro.com/tele7_ABR/stream/playlist.m3u8
 TéléCongo,http://51.254.199.122:8080/telecongo/index.m3u8
+TeleDajabonTV[Not24/7],https://5790d294af2dc.streamlock.net/dajabon/dajabon/playlist.m3u8
 Teleantioquia,https://liveingesta118.cdnmedia.tv/teleantioquialive/smil:dvrlive.smil/playlist.m3u8
 Telearuba[Not24/7],https://backend-server-dot-telearuba-app.appspot.com/media/livestream13/playlist.m3u8
 TeleBilbao(384p),https://tbilbo.dyndns.org/hls/stream.m3u8
@@ -21405,6 +21420,7 @@ Telecosta,https://telecosta.botlife.app/memfs/6ba9dc9a-aff4-4e4e-9466-a9f0c714b6
 Telefe,http://201.190.41.246:8822/play/a036/index.m3u8
 Telelima,http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/telelima.stream/playlist.m3u8
 Telemedellin,https://liveingesta118.cdnmedia.tv/tvtelemedellinlive/smil:rtmp01.smil/playlist.m3u8
+TelemediosCanal8[Not24/7],https://hls.tvabierta.net/hls/008.m3u8
 Telemicro,https://live2.telemicro.com.do/live/55/playlist.m3u8
 Telemundo,http://190.11.225.124:5000/live/telemundo_hd/playlist.m3u8
 TelemundoEast,http://45.190.13.8/TelemundoHD/index.m3u8
@@ -21452,6 +21468,7 @@ UTVAfrica,https://oqgdro3xd4rm-hls-live.5centscdn.com/tfmediacastlivestreamUTV/8
 UTVPalakkad,https://em4qj6nedyvg-hls-live.wmncdn.net/liveunit/89b1e919eed04e59383cf820d644c20e.sdp/playlist.m3u8
 UVATV[Not24/7],https://www.uvatvhd.com/hls.php?file=live.m3u8
 VinhLongTV1(576p)[Not24/7],http://125hvt.ddns.net:21585/thvl1/playlist.m3u8
+VinhLongTV1,https://dethich.pw/thvl1/index.m3u8
 Vision(576p),http://103.85.204.205:1935/VISIONMEDIA/live/playlist.m3u8
 VivaNicaraguaCanal13,https://cdn.vivamediosni.com/viva_720p/index.m3u8
 VivaTV,http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/vivatv.stream/playlist.m3u8

@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://ghfast.top/https://github.com/CCSH/IPTV/raw/refs/heads/main/e.xml.gz"
-#EXTINF:-1  tvg-name="20260821 00:04" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/20260821 00:04.png"  group-title="更新时间",20260821 00:04
+#EXTINF:-1  tvg-name="20260822 00:03" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/20260822 00:03.png"  group-title="更新时间",20260822 00:03
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 #EXTINF:-1  tvg-name="CCTV4K超" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CCTV4K超.png"  group-title="央视",CCTV4K超
 http://107.150.60.122/live/cctv4k.m3u8
@@ -1761,6 +1761,8 @@ http://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
 https://cdn6.cc.cd/163189/wxxw
 #EXTINF:-1  tvg-name="无线新闻台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/无线新闻台.png"  group-title="新闻",无线新闻台
 https://cdn6.cc.cd/163189/wxxwt
+#EXTINF:-1  tvg-name="无线新闻台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/无线新闻台.png"  group-title="新闻",无线新闻台
+https://ktpremium.world/live/LT1976F/A9177/492389.ts
 #EXTINF:-1  tvg-name="NOW新闻台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/NOW新闻台.png"  group-title="新闻",NOW新闻台
 https://fast.hidns.vip/163189/now
 #EXTINF:-1  tvg-name="NOW新闻台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/NOW新闻台.png"  group-title="新闻",NOW新闻台
@@ -2083,6 +2085,8 @@ https://cdn3.indevs.in/stream/live/qj/
 https://o11.163189.xyz/stream/live/hxt/
 #EXTINF:-1  tvg-name="Astro欢喜台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/Astro欢喜台.png"  group-title="港澳台",Astro欢喜台
 https://cdn3.indevs.in/stream/live/hxt/
+#EXTINF:-1  tvg-name="黄金华剧台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/黄金华剧台.png"  group-title="港澳台",黄金华剧台
+https://play.wenxiang.cn/live/6071069c620fa62c961d173617efbc33.flv
 #EXTINF:-1  tvg-name="民视影剧台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/民视影剧台.png"  group-title="港澳台",民视影剧台
 https://cdn12.178.indevs.in/163189/msyj
 #EXTINF:-1  tvg-name="MyCinemaEurope" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/MyCinemaEurope.png"  group-title="港澳台",MyCinemaEurope
@@ -2169,6 +2173,8 @@ http://r.jdshipin.com/ndGgS
 http://php.jdshipin.com/TVOD/iptv.php?id=tvbp
 #EXTINF:-1  tvg-name="TVBPlus" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBPlus.png"  group-title="港澳台",TVBPlus
 https://smt.1678520.xyz/163189/tvbp
+#EXTINF:-1  tvg-name="TVBPlus" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/TVBPlus.png"  group-title="港澳台",TVBPlus
+http://play.wenxiang.cn/live/5ec77f27f37babab48d60b879fde862a.flv
 #EXTINF:-1  tvg-name="无线新闻台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/无线新闻台.png"  group-title="港澳台",无线新闻台
 http://r.jdshipin.com/CkuBd
 #EXTINF:-1  tvg-name="无线新闻台" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/无线新闻台.png"  group-title="港澳台",无线新闻台
@@ -2215,6 +2221,8 @@ http://67.220.71.199:2347/livehttpplay?channel_id=20152
 http://cdn.163189.xyz/163189/hoy
 #EXTINF:-1  tvg-name="HOY77" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/HOY77.png"  group-title="港澳台",HOY77
 https://cdn.163189.xyz/live/hoy/stream.m3u8
+#EXTINF:-1  tvg-name="HOY77" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/HOY77.png"  group-title="港澳台",HOY77
+http://play.wenxiang.cn/live/43dc6fc9b1af5af8ec332f3c88b95e4a.flv
 #EXTINF:-1  tvg-name="RTHK31" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/RTHK31.png"  group-title="港澳台",RTHK31
 http://67.220.71.199:2347/livehttpplay?channel_id=30066
 #EXTINF:-1  tvg-name="RTHK31" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/RTHK31.png"  group-title="港澳台",RTHK31

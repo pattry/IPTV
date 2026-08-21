@@ -1,5 +1,5 @@
 更新时间,#genre#
-20260821 00:04,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
+20260822 00:03,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 
 
 央视,#genre#
@@ -892,6 +892,7 @@ CGTN,http://t.061899.xyz/tl/tl.php?id=cgtn
 无线新闻台,http://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
 无线新闻台,https://cdn6.cc.cd/163189/wxxw
 无线新闻台,https://cdn6.cc.cd/163189/wxxwt
+无线新闻台,https://ktpremium.world/live/LT1976F/A9177/492389.ts
 NOW新闻台,https://fast.hidns.vip/163189/now
 NOW新闻台,http://psyl11.dyndns.tv:35451/live/axdynowtream/fSlawNmh15/23.ts
 HOY国际财经台,https://cdn11.163189.xyz/163189/hoy76
@@ -1059,6 +1060,7 @@ AstroQJ,https://o11.163189.xyz/stream/live/qj/
 AstroQJ,https://cdn3.indevs.in/stream/live/qj/
 Astro欢喜台,https://o11.163189.xyz/stream/live/hxt/
 Astro欢喜台,https://cdn3.indevs.in/stream/live/hxt/
+黄金华剧台,https://play.wenxiang.cn/live/6071069c620fa62c961d173617efbc33.flv
 民视影剧台,https://cdn12.178.indevs.in/163189/msyj
 MyCinemaEurope,https://op-group1-densxvisionhd-1.dens.tv/h/h18/index.m3u8
 MyCinemaEurope,https://cdn12.178.indevs.in/163189/mce
@@ -1102,6 +1104,7 @@ TVBPlus,http://r.jdshipin.com/Nr5jq
 TVBPlus,http://r.jdshipin.com/ndGgS
 TVBPlus,http://php.jdshipin.com/TVOD/iptv.php?id=tvbp
 TVBPlus,https://smt.1678520.xyz/163189/tvbp
+TVBPlus,http://play.wenxiang.cn/live/5ec77f27f37babab48d60b879fde862a.flv
 无线新闻台,http://r.jdshipin.com/CkuBd
 无线新闻台,http://php.jdshipin.com/TVOD/iptv.php?id=wxxw
 凤凰中文,http://cdn.132.us.kg/live/fhzw/stream.m3u8
@@ -1125,6 +1128,7 @@ TVB1,https://cdn6.cc.cd/163189/tvb1
 HOY77,http://67.220.71.199:2347/livehttpplay?channel_id=20152
 HOY77,http://cdn.163189.xyz/163189/hoy
 HOY77,https://cdn.163189.xyz/live/hoy/stream.m3u8
+HOY77,http://play.wenxiang.cn/live/43dc6fc9b1af5af8ec332f3c88b95e4a.flv
 RTHK31,http://67.220.71.199:2347/livehttpplay?channel_id=30066
 RTHK31,http://cdn.163189.xyz/163189/rthk31
 RTHK31,http://php.jdshipin.com/TVOD/iptv.php?id=rthk31

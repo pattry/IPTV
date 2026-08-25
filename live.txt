@@ -1,5 +1,5 @@
 更新时间,#genre#
-20260825 01:04,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
+20260825 23:42,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 
 
 央视,#genre#
@@ -184,7 +184,7 @@ CCTV17,http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv17
 中国教育1,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226673/1.m3u8
 中国教育1,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226712/1.m3u8
 中国教育1,http://116.147.111.62:7788/923287154
-中国教育1,http://www.ikerobot.com:1234/923287154
+中国教育1,http://mg.cttv.vip/923287154
 中国教育2,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cetv2
 中国教育2,http://60.168.105.138:5008/923287211
 中国教育2,http://182.61.15.84:80/923287211
@@ -685,14 +685,13 @@ CCTV1港澳版,https://cdn6.cc.cd/163189/cctv1
 梨园,https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=a649337986517d656181a89c75312c33&wsTime=1782993623
 梨园,http://183.196.87.176:880/hls/57/index.m3u8
 梨园,http://116.147.111.62:7788/961930369
-梨园,http://www.ikerobot.com:1234/961930369
+梨园,http://mg.cttv.vip/961930369
 武术世界,http://47.104.178.59:3566/958475359
 武术世界,http://39.165.39.49:85/tsfile/live/1121_1.m3u8?key=txiptv&playlive=0&authid=0
 武术世界,http://1.94.31.214/php/hntv.php?id=wspd
 武术世界,http://116.147.111.62:7788/958475359
-武术世界,http://www.ikerobot.com:1234/958475359
-武术世界,http://111.76.18.39:1234/958475359
 武术世界,http://mg.cttv.vip/958475359
+武术世界,http://nas.51pan.cn:8089/958475359
 新闻综合,http://t.061899.xyz/tl/tl.php?id=shxwzh
 新闻综合,http://182.61.15.84:80/651632657
 新闻综合,http://47.104.178.59:3566/651632657
@@ -1191,10 +1190,8 @@ TVBS精采,http://4gtv.cnlive.club/channel/49d50255/index.m3u8?q=1782639885837
 新动漫,http://182.61.15.84:80/961930269
 新动漫,http://47.104.178.59:3566/961930269
 新动漫,http://116.147.111.62:7788/961930269
-新动漫,http://www.ikerobot.com:1234/961930269
-新动漫,http://p.08top.top:8088/961930269
-新动漫,http://111.76.18.39:1234/961930269
 新动漫,http://mg.cttv.vip/961930269
+新动漫,http://nas.51pan.cn:8089/961930269
 蜡笔小新,https://www.goodiptv.club/huya/11352970
 
 

@@ -14855,6 +14855,7 @@ MYTV黃金翡翠,https://play.wenxiang.cn/live/0389d29514f0290d6c774eb18f0d604a.
 美亚电影台国,https://play.wenxiang.cn/live/d15690a84b5ad631f11228268ba8dca8.flv
 港台电视31,http://play.wenxiang.cn/live/0f4b100c9ed81fdd547ba0a1a20dea49.flv
 港台电视32,http://play.wenxiang.cn/live/1c84d2c289c82f92f588aaa566858174.flv
+CGTN1,https://live-stream.cgtn.com/event-live/CGTN_1_1PVvR6ZBAZ2/index.m3u8
 DHE,http://108.181.23.41:80/livehttpplay?channel_id=23504
 SEÑALCOLOMBIA,http://108.181.23.41:80/livehttpplay?channel_id=23510
 CARACOLCOLOMBIA,http://108.181.23.41:80/livehttpplay?channel_id=23513
@@ -21027,7 +21028,6 @@ AmgaTV[Not24/7],https://streamer1.connectto.com/AMGA_WEB_1202/playlist.m3u8
 Antena1,http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/antenauno.stream/playlist.m3u8
 Antena1,http://forever.megogo.xyz/iptv/QGB4M3H62GC7E3/7002/index.m3u8
 Antena7[Not24/7][Geo-blocked],https://alba-do-antena7-antena7.stream.mediatiquestream.com/index.m3u8
-AntenaInternational(720P),https://stream1.antenaplay.ro/as/asrolive1/playlist.m3u8
 ANTV,http://103.58.160.157:8278/720-ANTV/playlist.m3u8
 ArirangTV,http://45.162.64.114/ARIRANG/index.m3u8
 Armenia1,https://ifl01eu-new.bozztv.com/am1abr/index.m3u8

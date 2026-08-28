@@ -21197,7 +21197,6 @@ CDN(576p),http://190.61.90.17:40000/play/a03p/index.m3u8
 CekmeköyTV,https://cdn-cekmekoybeltv.yayin.com.tr/cekmekoybeltv/cekmekoybeltv_1080p/playlist.m3u8
 CentralTV,https://cdn4.skygo.mn/live/disk1/Ekh_Oron/DASH-FTA/Ekh_Oron.mpd
 ChadaTV,https://edge13.vedge.infomaniak.com/livecast/ik:chadatv/manifest.m3u8
-Channel5,https://xemzi.short.gy/1000030
 Channel7Melbourne,http://44.32.200.142:5004/auto/v7
 Channel8,https://cdn.qd.je/163189/ch8
 Channel8Krasnoyarsk,https://tshift-1.telecoma.tv/8channel/tracks-v1a1/mono.ts.m3u8
@@ -21219,6 +21218,7 @@ CugatTV,https://liveingesta318.cdnmedia.tv/cugatcatlive/smil:rtmp01.smil/playlis
 CulturaPara,http://170.84.165.204/CANAL_21_HD/index.m3u8
 CW[Geo-blocked],https://messi.damitv.st/papi/ts/cw-usa/playlist.m3u8
 ĐàNẵngTV2[Not24/7],https://live.mediatech.vn/live/2859145290d0d7947ef88b6240123b62474/chunklist.m3u8
+DaAi2,http://nmk.ioapk.com:5050/4gtv-live106/index.m3u8
 DeenTV(576p),https://cd198.anystream.uk:9092/iqapp/d33ntv/playlist.m3u8
 DerTV,https://stream.berosat.live/hls/der-tv/der-tv.m3u8
 DienBienTV,https://stream.langsontv.vn/live/2855dfeccb7f49a41a2b0441b3bfeda413c/playlist.m3u8
@@ -21269,7 +21269,6 @@ HTV9,https://dethich.pw/htv9/index.m3u8
 IgniteTelevision[Not24/7],https://rpn.bozztv.com/ignitelive/ignitetv/ignitetv/tracks-v1a1/mono.m3u8
 Inter,http://stream.mcquack.net/174/index.m3u8
 Italia1[Geo-blocked],https://live3-mediaset-it.akamaized.net/Content/hls_h0_clr_vos/live/channel(i1)/index.m3u8
-ITV1,https://xemzi.short.gy/1000011
 ITV2,https://xemzi.short.gy/1000012
 JanTV(576p),https://d1msejlow1t3l4.cloudfront.net/fta/jantv/playlist.m3u8
 JeremiahTV,https://x.streamablecloud.com/stream/hls/jeremiahtv/index.m3u8
@@ -21364,6 +21363,7 @@ QuranRadio,https://live.kwikmotion.com/sbrksaquranradiolive/srpksaquranradio/pla
 Radio1,https://live.vrtcdn.be/groupa/live/3c3a12b5-093d-4a19-ae1f-3e775433286e/live.isml/.m3u8
 Radio2,https://live.vrtcdn.be/groupa/live/66a9668e-b37b-4de2-878e-0218563b2dd2/live.isml/.m3u8
 RajdhaniTV,https://stream.shariarsuvo.com/hls5/rajdhanicable.m3u8
+RayTV(576p),https://streaming.tvnepal.com:19360/raynewsdaily/480p.m3u8
 RBTV,https://video.hostingcaaguazu.com:19360/rbtv/rbtv.m3u8
 RBATV,https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8
 RCTI,https://mncmedia.malingtv.workers.dev/rcti.m3u8
@@ -21409,6 +21409,7 @@ TCTelevision,http://45.224.97.181:9999/TC/index.m3u8
 Tele7,https://ingest2-video.streaming-pro.com/tele7_ABR/stream/playlist.m3u8
 TéléCongo,http://51.254.199.122:8080/telecongo/index.m3u8
 TeleDajabonTV[Not24/7],https://5790d294af2dc.streamlock.net/dajabon/dajabon/playlist.m3u8
+TelePosadas,https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8
 Teleantioquia,https://liveingesta118.cdnmedia.tv/teleantioquialive/smil:dvrlive.smil/playlist.m3u8
 Telearuba[Not24/7],https://backend-server-dot-telearuba-app.appspot.com/media/livestream13/playlist.m3u8
 TeleBilbao(384p),https://tbilbo.dyndns.org/hls/stream.m3u8

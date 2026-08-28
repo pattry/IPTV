@@ -1,5 +1,5 @@
 更新时间,#genre#
-20260827 00:17,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
+20260828 08:15,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 
 
 央视,#genre#
@@ -183,8 +183,8 @@ CCTV17,http://cdn6.bkpcp.top/tl/tuiliu.php?id=cctv17
 中国教育1,http://39.165.39.49:85/tsfile/live/1090_1.m3u8?key=txiptv&playlive=0&authid=0
 中国教育1,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226673/1.m3u8
 中国教育1,http://rrs03.hw.gmcc.net:8088/PLTV/651/224/3221226712/1.m3u8
-中国教育1,http://116.147.111.62:7788/923287154
-中国教育1,http://mg.cttv.vip/923287154
+中国教育1,http://smartzhu.cn:1234/923287154
+中国教育1,http://chen.ccwu.cc:1234/923287154
 中国教育2,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cetv2
 中国教育2,http://60.168.105.138:5008/923287211
 中国教育2,http://182.61.15.84:80/923287211
@@ -684,14 +684,14 @@ CCTV1港澳版,https://cdn6.cc.cd/163189/cctv1
 梨园,https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=ffccfd1fc4dcd105f6f0287716680d5a&wsTime=1784836801
 梨园,https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=a649337986517d656181a89c75312c33&wsTime=1782993623
 梨园,http://183.196.87.176:880/hls/57/index.m3u8
-梨园,http://116.147.111.62:7788/961930369
-梨园,http://mg.cttv.vip/961930369
+梨园,http://smartzhu.cn:1234/961930369
+梨园,http://chen.ccwu.cc:1234/961930369
 武术世界,http://47.104.178.59:3566/958475359
 武术世界,http://39.165.39.49:85/tsfile/live/1121_1.m3u8?key=txiptv&playlive=0&authid=0
 武术世界,http://1.94.31.214/php/hntv.php?id=wspd
-武术世界,http://116.147.111.62:7788/958475359
-武术世界,http://mg.cttv.vip/958475359
-武术世界,http://nas.51pan.cn:8089/958475359
+武术世界,http://smartzhu.cn:1234/958475359
+武术世界,http://chen.ccwu.cc:1234/958475359
+武术世界,http://2280.eu.org:1234/958475359
 新闻综合,http://t.061899.xyz/tl/tl.php?id=shxwzh
 新闻综合,http://182.61.15.84:80/651632657
 新闻综合,http://47.104.178.59:3566/651632657
@@ -771,6 +771,7 @@ CCTV16,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
 广东体育,http://r.jdshipin.com/LiYdg
 纬来体育,http://8.138.7.223/【公众号：榴芒电视】/wlty.m3u8
 纬来体育,http://dassby.qqff.top:99/live/辽宁体育/index.m3u8
+纬来体育,http://49.232.143.177:80/pyxg/hmy.php?id=緯來體育&key=***
 辽宁体育,http://120.76.248.139/live/bfgd/4200000611.m3u8
 风云足球,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=fyzq
 风云足球,https://epg.pw/stream/6d7bf281e3d739806a73f5373acaa6e01988ec9739f5ac1355ce54b47a928472.m3u8
@@ -891,10 +892,16 @@ CGTN,http://t.061899.xyz/tl/tl.php?id=cgtn
 无线新闻台,http://php.jdshipin.com/TVOD/iptv.php?id=tvbxw
 无线新闻台,https://cdn6.cc.cd/163189/wxxw
 无线新闻台,https://cdn6.cc.cd/163189/wxxwt
+无线新闻台,http://49.232.143.177:80/pyxg/hmy.php?id=無綫新聞_1&key=***
+无线新闻台,http://49.232.143.177:80/pyxg/hmy.php?id=無綫新聞備&key=***
 NOW新闻台,https://fast.hidns.vip/163189/now
 NOW新闻台,http://psyl11.dyndns.tv:35451/live/axdynowtream/fSlawNmh15/23.ts
+NOW新闻台,http://49.232.143.177:80/pyxg/hmy.php?id=Now新聞台&key=***
+Now财经台,http://49.232.143.177:80/pyxg/hmy.php?id=Now財經台&key=***
 HOY国际财经台,https://cdn11.163189.xyz/163189/hoy76
 HOY资讯台,https://fast.hidns.vip/163189/hoy78
+壹新闻,http://49.232.143.177:80/pyxg/hmy.php?id=壹新聞&key=***
+非凡新闻,http://49.232.143.177:80/pyxg/hmy.php?id=非凡新聞&key=***
 TVBS,http://4gtv.cnlive.club/channel/58f128b2/index.m3u8?q=1782639885837
 耀才财经,https://v3.mediacast.hk/webcast/bshdlive-pc/playlist.m3u8
 
@@ -964,14 +971,19 @@ MovieSphere,https://plexaaaaa-moviesphere-plex-efzys.amagi.tv/playlist/plexaaaaa
 热门港剧,http://www.goodiptv.club/douyu/5522351
 韩国电影1,https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
 韩国电影2,https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
+中国电影,http://49.232.143.177:80/pyxg/hmy.php?id=中國電影&key=***
 天映经典,http://o11.163189.xyz/stream/live/ccm/
 天映经典,https://epg.pw/stream/cb817875cf26eb683af274dd8cdf7f559a71353d9565c32447c8d98894bc8095.ctv
 天映经典,https://10.fast.hidns.vip/163189/ccm/
 天映经典,https://cdn3.indevs.in/stream/live/ccm/
+天映经典,http://49.232.143.177:80/pyxg/hmy.php?id=天映經典&key=***
 天映新加坡,https://10.fast.hidns.vip/163189/typd/
 天映频道,http://o11.163189.xyz/stream/live/typd/
 天映频道,https://cdn3.indevs.in/stream/live/typd/
 天映频道,http://173.208.234.146/live/typd.m3u8
+好莱坞电影,http://49.232.143.177:80/pyxg/hmy.php?id=好萊塢電影&key=***
+功夫台,http://49.232.143.177:80/pyxg/hmy.php?id=功夫台&key=***
+POPC,http://49.232.143.177:80/pyxg/hmy.php?id=POPC&key=***
 TVB星河,http://r.jdshipin.com/Voac4
 TVB星河,http://o11.163189.xyz/stream/live/tvbxh/
 TVB星河,http://aktv.top/AKTV/live/aktv2/tvb/AKTV.m3u8
@@ -1030,6 +1042,7 @@ CH5,https://cdn6.cc.cd/163189/ch5
 CH8,https://cdn6.cc.cd/163189/ch8
 CHU,https://cdn6.cc.cd/163189/chu
 龙华经典,https://8.fast.hidns.vip/163189/lhjd
+龙华经典,http://49.232.143.177:80/pyxg/hmy.php?id=龍華經典&key=***
 龙华日韩,https://8.fast.hidns.vip/163189/lhrh
 龙华戏剧,https://8.fast.hidns.vip/163189/lhxj
 华丽翡翠台,http://cdn9.163189.xyz/smt1.1.php?id=Tvbjade
@@ -1074,6 +1087,7 @@ MyCinemaEurope,https://cdn12.178.indevs.in/163189/mce
 娱乐新闻,http://v2hcdn.jdshipin.com/enew/enew.stream/chunklist_w103.m3u8
 中视,http://220.135.241.47:8301/0.ts
 中视,http://4gtv.cnlive.club/channel/n722644d8/index.m3u8?q=1782639885837
+中视,http://49.232.143.177:80/pyxg/hmy.php?id=中視&key=***
 八大综艺台,http://4gtv.cnlive.club/channel/662e9334/index.m3u8?q=1782639885837
 靖天综合台,http://4gtv.cnlive.club/channel/3f6ecb92/index.m3u8?q=1782639885837
 靖天日本台,http://4gtv.cnlive.club/channel/3f1816f7/index.m3u8?q=1782639885837
@@ -1086,22 +1100,27 @@ DreamWorks梦工厂动画,http://4gtv.cnlive.club/channel/n451655ef/index.m3u8?q
 华视新闻,http://37.27.111.214:8080/live/8/hls.m3u8
 华视新闻,https://d2jc41c1shgcol.cloudfront.net/live/ctsnewsqt/playlist.m3u8
 华视新闻,http://4gtv.cnlive.club/channel/n692bc32c/index.m3u8?q=1782639885837
+华视新闻,http://49.232.143.177:80/pyxg/hmy.php?id=華視新聞&key=***
 三立新闻iNEWS,http://4gtv.cnlive.club/channel/4fa717ad/index.m3u8?q=1782639885837
 中视新闻,https://raw.githubusercontent.com/ChiSheng9/iptv/master/TV09.m3u8
 中视新闻,https://d2jc41c1shgcol.cloudfront.net/live/ctvnewsqt/playlist.m3u8
 中视新闻,http://220.135.241.47:8302/0.ts
 中视新闻,http://4gtv.cnlive.club/channel/7e6461d6/index.m3u8?q=1782639885837
+中视新闻,http://49.232.143.177:80/pyxg/hmy.php?id=中視新聞&key=***
 KLT-靖天国际台,http://4gtv.cnlive.club/channel/n481b36ac/index.m3u8?q=1782639885837
 NiceTV靖天欢乐台,http://4gtv.cnlive.club/channel/n122ce57e/index.m3u8?q=1782639885837
 八大精彩台,http://4gtv.cnlive.club/channel/6626a9ca/index.m3u8?q=1782639885837
 CinemaWorld,https://cdn.qd.je/163189/cinemaworld
 明珠台,http://php.jdshipin.com/TVOD/iptv.php?id=mzt2
+明珠台,http://49.232.143.177:80/pyxg/hmy.php?id=明珠台&key=***
 TVBPlus,https://o11.163189.xyz/stream/tvb/tvbp/
 TVBPlus,http://r.jdshipin.com/Nr5jq
 TVBPlus,http://r.jdshipin.com/ndGgS
 TVBPlus,http://php.jdshipin.com/TVOD/iptv.php?id=tvbp
 TVBPlus,https://smt.1678520.xyz/163189/tvbp
 TVBPlus,http://play.wenxiang.cn/live/5ec77f27f37babab48d60b879fde862a.flv
+TVBPlus,http://49.232.143.177:80/pyxg/hmy.php?id=TVBPlus_1&key=***
+TVBPlus,http://49.232.143.177:80/pyxg/hmy.php?id=TVBPlus備&key=***
 无线新闻台,http://r.jdshipin.com/CkuBd
 无线新闻台,http://php.jdshipin.com/TVOD/iptv.php?id=wxxw
 凤凰中文,http://cdn.132.us.kg/live/fhzw/stream.m3u8
@@ -1126,6 +1145,7 @@ HOY77,http://67.220.71.199:2347/livehttpplay?channel_id=20152
 HOY77,http://cdn.163189.xyz/163189/hoy
 HOY77,https://cdn.163189.xyz/live/hoy/stream.m3u8
 HOY77,http://play.wenxiang.cn/live/43dc6fc9b1af5af8ec332f3c88b95e4a.flv
+HOY77,http://49.232.143.177:80/pyxg/hmy.php?id=HOYTV&key=***
 RTHK31,http://67.220.71.199:2347/livehttpplay?channel_id=30066
 RTHK31,http://cdn.163189.xyz/163189/rthk31
 RTHK31,http://php.jdshipin.com/TVOD/iptv.php?id=rthk31
@@ -1140,15 +1160,24 @@ TVB娱乐新闻,http://php.jdshipin.com/TVOD/iptv.php?id=tvbylxw
 民视,http://37.27.111.214:8080/live/6/hls.m3u8
 民视,http://220.135.241.47:8308/0.ts
 民视,http://4gtv.cnlive.club/channel/n7222a63c/index.m3u8?q=1782639885837
+民视,http://49.232.143.177:80/pyxg/hmy.php?id=民視&key=***
 靖天电影,https://aktv.top/AKTV/live/aktv/null6/AKTV.m3u8
 TVBS精采,http://4gtv.cnlive.club/channel/49d50255/index.m3u8?q=1782639885837
 八度空间,http://8.138.7.223/【公众号：榴芒电视】/8tv.m3u8
 八度空间,https://cdn6.cc.cd/163189/8tv
 东森戏剧,https://smt.1678520.xyz/163189/dsxj
 八大综合台,http://61.221.215.25:8800/hls/56/index.m3u8
+八大综合台,http://49.232.143.177:80/pyxg/hmy.php?id=八大綜合&key=***
 八大戏剧台,http://61.221.215.25:8800/hls/39/index.m3u8
+三立都会,http://49.232.143.177:80/pyxg/hmy.php?id=三立都會&key=***
 三立台湾,http://zb.xmzb.xyz/123.php?id=⚽马上oppppp一三立台湾
+三立台湾,http://49.232.143.177:80/pyxg/hmy.php?id=三立台灣&key=***
 龙华偶像,https://8.fast.hidns.vip/163189/lhox
+龙华偶像,http://49.232.143.177:80/pyxg/hmy.php?id=龍華偶像&key=***
+中天综合,http://49.232.143.177:80/pyxg/hmy.php?id=中天綜合&key=***
 八大第一,http://61.221.215.25:8800/hls/55/index.m3u8
+八大第一,http://49.232.143.177:80/pyxg/hmy.php?id=八大第一&key=***
 台视,http://220.135.241.47:8313/0.ts
+台视,http://49.232.143.177:80/pyxg/hmy.php?id=台視&key=***
 公视,http://220.135.241.47:8305/0.ts
+公视,http://49.232.143.177:80/pyxg/hmy.php?id=公視&key=***

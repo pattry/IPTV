@@ -1,5 +1,5 @@
 #EXTM3U x-tvg-url="https://ghfast.top/https://github.com/CCSH/IPTV/raw/refs/heads/main/e.xml.gz"
-#EXTINF:-1  tvg-name="20261121 06:10" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/20261121 06:10.png"  group-title="更新时间",20261121 06:10
+#EXTINF:-1  tvg-name="20261122 04:49" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/20261122 04:49.png"  group-title="更新时间",20261122 04:49
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226537/index.m3u8
 #EXTINF:-1  tvg-name="CCTV1" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/CCTV1.png"  group-title="央视",CCTV1
 http://198.204.240.250:82/live/cctv1.m3u8
@@ -348,11 +348,11 @@ http://39.165.39.49:85/tsfile/live/1090_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1  tvg-name="中国教育1" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/中国教育1.png"  group-title="央视",中国教育1
 http://38.75.136.137:98/gslb/dsdqpub/cetv1hd.m3u8?auth=testpub
 #EXTINF:-1  tvg-name="中国教育1" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/中国教育1.png"  group-title="央视",中国教育1
-http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv1/50/20240709/index.m3u8?msisdn=202611210602597e9862215946415692049008a75388eb&mdspid=&spid=699004&netType=0&sid=5910022150&pid=2028597139&timestamp=20261121060259&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287154&ParentNodeID=-99&assertID=5910022150&client_ip=171.8.79.254&SecurityKey=20261121060259&promotionId=&mvid=5900006636&mcid=500020&playurlVersion=WX-A1-9.11.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=3955d030f7d329106663d7298afb6f1f
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/cetv1/50/20240709/index.m3u8?msisdn=202611220202587c954b0b072a4b42913f314650c64a76&mdspid=&spid=699004&netType=0&sid=5910022150&pid=2028597139&timestamp=20261122020258&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=923287154&ParentNodeID=-99&assertID=5910022150&client_ip=171.8.79.254&SecurityKey=20261122020258&promotionId=&mvid=5900006636&mcid=500020&playurlVersion=WX-A1-9.11.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=f479ddcf8158380fb53f276f6f2c3663
 #EXTINF:-1  tvg-name="中国教育1" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/中国教育1.png"  group-title="央视",中国教育1
 http://42.94.209.140:7788/923287154
 #EXTINF:-1  tvg-name="中国教育1" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/中国教育1.png"  group-title="央视",中国教育1
-http://116.237.170.51:7788/923287154
+http://116.52.173.186:1234/923287154
 #EXTINF:-1  tvg-name="中国教育2" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/中国教育2.png"  group-title="央视",中国教育2
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cetv2
 #EXTINF:-1  tvg-name="中国教育2" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/中国教育2.png"  group-title="央视",中国教育2
@@ -480,7 +480,7 @@ http://112.27.235.94:8000/hls/50/index.m3u8
 #EXTINF:-1  tvg-name="国学频道" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/国学频道.png"  group-title="央视",国学频道
 http://183.11.239.36:808/hls/23/index.m3u8
 #EXTINF:-1  tvg-name="国学频道" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/国学频道.png"  group-title="央视",国学频道
-http://tvcdn.stream3.hndt.com/tv/647f9277018410008cf925e200000000_transios/playlist.m3u8?wsSecret=bc00a8990037dfe7fae51d18af9b6d0a&wsTime=1795226641
+http://tvcdn.stream3.hndt.com/tv/647f9277018410008cf925e200000000_transios/playlist.m3u8?wsSecret=05d22ca9347029188b8ea2b5fa51566f&wsTime=1795305791
 #EXTINF:-1  tvg-name="天元围棋" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/天元围棋.png"  group-title="央视",天元围棋
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gztywq
 #EXTINF:-1  tvg-name="天元围棋" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/天元围棋.png"  group-title="央视",天元围棋
@@ -956,9 +956,9 @@ http://113.15.109.216:59901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid
 #EXTINF:-1  tvg-name="山西卫视" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/山西卫视.png"  group-title="地方",山西卫视
 http://112.27.235.94:8000/hls/45/index.m3u8
 #EXTINF:-1  tvg-name="山西卫视" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/山西卫视.png"  group-title="地方",山西卫视
-http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel7/playlist.m3u8#http://119.39.9.8:9901/tsfile/live/0118_1.m3u8#https://t.freetv.fun/live/shan-xi-wei-shi-3-2.m3u8
+https://stream2.jlntv.cn/baicheng1/sd/live.m3u8
 #EXTINF:-1  tvg-name="山西卫视" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/山西卫视.png"  group-title="地方",山西卫视
-http://223.159.9.168:8099/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0,0.91,720x576
+http://124.90.45.52:9901/tsfile/live/0112_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1  tvg-name="甘肃卫视" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/甘肃卫视.png"  group-title="地方",甘肃卫视
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gswshd
 #EXTINF:-1  tvg-name="甘肃卫视" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/甘肃卫视.png"  group-title="地方",甘肃卫视
@@ -978,7 +978,7 @@ http://58.56.162.102:4466/newlive/live/hls/46/live.m3u8
 #EXTINF:-1  tvg-name="甘肃卫视" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/甘肃卫视.png"  group-title="地方",甘肃卫视
 http://113.25.252.226:9901/tsfile/live/1047_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1  tvg-name="甘肃卫视" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/甘肃卫视.png"  group-title="地方",甘肃卫视
-http://61.138.128.226:19901/tsfile/live/0141_1.m3u8?key=txiptv&playlive=1&authid=0#http://223.241.247.214:9901/tsfile/live/0141_1.m3u8#http://223.241.247.214:9901/tsfile/live/0141_1.m3u8?key=txiptv&playlive=1&authid=0#http://218.13.170.98:9901/tsfile/live/0141_1.m3u8#http://39.164.180.36:19901/tsfile/live/0141_1.m3u8?key=txiptv&playlive=0&authid=0#http://221.2.148.205:8154/tsfile/live/0141_1.m3u8?key=txiptv&playlive=1&authid=0#http://nas.hssvm.com:8888/udp/225.1.1.30:5002#http://qjrhc.jydjd.top:2911/udp/224.1.100.10:11111#http://124.128.73.58:9901/tsfile/live/0141_1.m3u8?key=txiptv&playlive=1&authid=0#http://124.128.73.58:9901/tsfile/live/0141_1.m3u8
+http://119.39.9.8:9901/tsfile/live/0141_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1  tvg-name="宁夏卫视" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/宁夏卫视.png"  group-title="地方",宁夏卫视
 http://192.151.150.154/live/nxws.m3u8
 #EXTINF:-1  tvg-name="宁夏卫视" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/宁夏卫视.png"  group-title="地方",宁夏卫视
@@ -1342,11 +1342,11 @@ https://dxtx.hntv.tv/live/wwbk.m3u8?txSecret=317b89626134fd6bea6e129455b5ff18&tx
 #EXTINF:-1  tvg-name="文物宝库" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/文物宝库.png"  group-title="地方",文物宝库
 http://1.94.31.214/php/hntv.php?id=wwbk
 #EXTINF:-1  tvg-name="文物宝库" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/文物宝库.png"  group-title="地方",文物宝库
-https://dxtx.hntv.tv/live/wwbk.m3u8?txSecret=317b89626134fd6bea6e129455b5ff18&txTime=7C4C635C&wsSecret=c85285bd184a12728e5caf583c0edd60&wsTime=1795226641
+https://dxtx.hntv.tv/live/wwbk.m3u8?txSecret=317b89626134fd6bea6e129455b5ff18&txTime=7C4C635C&wsSecret=0e11bc0270decbd342726b4ef0c575bc&wsTime=1795305791
 #EXTINF:-1  tvg-name="文物宝库" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/文物宝库.png"  group-title="地方",文物宝库
-https://dxtx.hntv.tv/live/wwbk.m3u8?txSecret=317b89626134fd6bea6e129455b5ff18&txTime=7C4C635C&wsSecret=b043918dfeb63a0a7244885f62230075&wsTime=1795154612
+https://dxtx.hntv.tv/live/wwbk.m3u8?txSecret=317b89626134fd6bea6e129455b5ff18&txTime=7C4C635C&wsSecret=abcc520ee31df54075e0d523716de70d&wsTime=1795241005
 #EXTINF:-1  tvg-name="文物宝库" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/文物宝库.png"  group-title="地方",文物宝库
-https://dxtx.hntv.tv/live/wwbk.m3u8?txSecret=317b89626134fd6bea6e129455b5ff18&txTime=7C4C635C&wsSecret=359c70f75338056ee787a8cb90402a4e&wsTime=1795161841
+https://dxtx.hntv.tv/live/wwbk.m3u8?txSecret=317b89626134fd6bea6e129455b5ff18&txTime=7C4C635C&wsSecret=8ca1584afe8d37fc4db6dabc72442995&wsTime=1795248238
 #EXTINF:-1  tvg-name="文物宝库" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/文物宝库.png"  group-title="地方",文物宝库
 http://e1.woc.iiiya.cn:8888/rtp/239.61.3.21:9646
 #EXTINF:-1  tvg-name="文物宝库" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/文物宝库.png"  group-title="地方",文物宝库
@@ -1368,9 +1368,9 @@ https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&tx
 #EXTINF:-1  tvg-name="梨园" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/梨园.png"  group-title="地方",梨园
 http://183.196.87.176:880/hls/57/index.m3u8
 #EXTINF:-1  tvg-name="梨园" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/梨园.png"  group-title="地方",梨园
-https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=d48b1609f77d57e50ef5cd813f7b80e9&wsTime=1795226641
+https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=34b440e37c6ec674c86550317849a5da&wsTime=1795305791
 #EXTINF:-1  tvg-name="梨园" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/梨园.png"  group-title="地方",梨园
-http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/ydcmc/50/20251225/index.m3u8?msisdn=2026112106030269e167e8956c4bb4aeb6a01510b93b5c&mdspid=&spid=600697&netType=0&sid=5910022344&pid=2028597139&timestamp=20261121060302&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=961930369&ParentNodeID=-99&assertID=5910022344&client_ip=171.8.79.254&SecurityKey=20261121060302&promotionId=&mvid=5900006785&mcid=500020&playurlVersion=WX-A1-9.11.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=46e1bfc6f39179440bf7d9c04c30bf41
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/ydcmc/50/20251225/index.m3u8?msisdn=202611220203019bb22809a4df452d9dc9c1528e0cf3b9&mdspid=&spid=600697&netType=0&sid=5910022344&pid=2028597139&timestamp=20261122020301&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=961930369&ParentNodeID=-99&assertID=5910022344&client_ip=171.8.79.254&SecurityKey=20261122020301&promotionId=&mvid=5900006785&mcid=500020&playurlVersion=WX-A1-9.11.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=46f49d291f81e9819fcec4d78e6d21e4
 #EXTINF:-1  tvg-name="武术世界" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/武术世界.png"  group-title="地方",武术世界
 http://47.104.178.59:3566/958475359
 #EXTINF:-1  tvg-name="武术世界" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/武术世界.png"  group-title="地方",武术世界
@@ -1378,15 +1378,15 @@ http://39.165.39.49:85/tsfile/live/1121_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1  tvg-name="武术世界" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/武术世界.png"  group-title="地方",武术世界
 http://1.94.31.214/php/hntv.php?id=wspd
 #EXTINF:-1  tvg-name="武术世界" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/武术世界.png"  group-title="地方",武术世界
-http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/wssj/50/20250915/index.m3u8?msisdn=2026112106025278720877f9e44fe68f968204fab2eefc&mdspid=&spid=600697&netType=0&sid=5910022201&pid=2028597139&timestamp=20261121060252&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=958475359&ParentNodeID=-99&assertID=5910022201&client_ip=171.8.79.254&SecurityKey=20261121060252&promotionId=&mvid=5900006724&mcid=500020&playurlVersion=WX-A1-9.11.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=dfad718e7193bad79c7c8c63d2286c24
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/wssj/50/20250915/index.m3u8?msisdn=20261122020251f2a8ba160206492c82ddd2257dedb56f&mdspid=&spid=600697&netType=0&sid=5910022201&pid=2028597139&timestamp=20261122020251&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=958475359&ParentNodeID=-99&assertID=5910022201&client_ip=171.8.79.254&SecurityKey=20261122020251&promotionId=&mvid=5900006724&mcid=500020&playurlVersion=WX-A1-9.11.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=d8d2a38fe4f6e4263fa878cfce942a63
 #EXTINF:-1  tvg-name="武术世界" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/武术世界.png"  group-title="地方",武术世界
 http://42.94.209.140:7788/958475359
 #EXTINF:-1  tvg-name="武术世界" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/武术世界.png"  group-title="地方",武术世界
 https://raw.githubusercontent.com/adminouyang/jy/refs/heads/main/migu/migu.js/958475359
 #EXTINF:-1  tvg-name="武术世界" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/武术世界.png"  group-title="地方",武术世界
-http://gslbmgsplive.miguvideo.com/migu/kailu/wssj/50/20250915/index.m3u8?msisdn=202611201138289a2d4bd15e1e406aa4d8ba43645e54d0&mdspid=&spid=600697&netType=0&sid=5910022201&pid=2028597139&timestamp=20261120113828&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=958475359&ParentNodeID=-99&assertID=5910022201&client_ip=2409:8a00:6033:3271:c076:1f92:ca51:920f&SecurityKey=20261120113828&promotionId=&mvid=5900006724&mcid=500020&playurlVersion=WX-A1-9.11.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=82a42465ed5eded0766af8bb39f0d087&ddCalcu=7882e0a2d48020f49635bebd85fead6e6d70
+http://gslbmgsplive.miguvideo.com/migu/kailu/wssj/50/20250915/index.m3u8?msisdn=2026112111221496e6992f93c44ae1ba40032fdd52cf58&mdspid=&spid=600697&netType=0&sid=5910022201&pid=2028597139&timestamp=20261121112214&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=958475359&ParentNodeID=-99&assertID=5910022201&client_ip=2409:8a00:6033:5361:fdc4:c50d:5309:6ee&SecurityKey=20261121112214&promotionId=&mvid=5900006724&mcid=500020&playurlVersion=ZQ-A1-9.11.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=fe74a9bf71e14165019ef65bfecf9196&ddCalcu=6f9ee172948fa0c9ebffb7516ef1e4911605
 #EXTINF:-1  tvg-name="武术世界" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/武术世界.png"  group-title="地方",武术世界
-http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/wssj/50/20250915/index.m3u8?msisdn=20261120100251eb815ed0279b4955bf91aa198ca1bccd&mdspid=&spid=600697&netType=0&sid=5910022201&pid=2028597139&timestamp=20261120100251&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=958475359&ParentNodeID=-99&assertID=5910022201&client_ip=171.8.79.254&SecurityKey=20261120100251&promotionId=&mvid=5900006724&mcid=500020&playurlVersion=WX-A1-9.11.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=91b23c0b51a123fba81f5a2fb6a376f4
+http://hlsztemgsplive.miguvideo.com:8080/migu/kailu/wssj/50/20250915/index.m3u8?msisdn=20261121100252212e088f74b04aefaf5096760c6b9c27&mdspid=&spid=600697&netType=0&sid=5910022201&pid=2028597139&timestamp=20261121100252&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=958475359&ParentNodeID=-99&assertID=5910022201&client_ip=171.8.79.254&SecurityKey=20261121100252&promotionId=&mvid=5900006724&mcid=500020&playurlVersion=WX-A1-9.11.1-RELEASE&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&encrypt=652799930f6b03f758949199ff9fc65b
 #EXTINF:-1  tvg-name="武术世界" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/武术世界.png"  group-title="地方",武术世界
 http://e1.woc.iiiya.cn:8888/rtp/239.61.3.22:9652
 #EXTINF:-1  tvg-name="武术世界" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/武术世界.png"  group-title="地方",武术世界
@@ -2726,6 +2726,8 @@ https://amg00106-france24-amg00106c1-plex-us-6491.playouts.now.amagi.tv/720p/ind
 #EXTINF:-1  tvg-name="France24" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/France24.png"  group-title="国外",France24
 http://primestreams.tv:826/live/1ARbE2L7ak/ezfQtdrB3J/119471.ts
 #EXTINF:-1  tvg-name="France24" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/France24.png"  group-title="国外",France24
+https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_5000.m3u8
+#EXTINF:-1  tvg-name="France24" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/France24.png"  group-title="国外",France24
 https://freem3u.xyz/api/live/play.m3u8?vid=10007
 #EXTINF:-1  tvg-name="Fuse" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/Fuse.png"  group-title="国外",Fuse
 http://23.237.104.106:8080/USA_FUSE/index.m3u8
@@ -2999,8 +3001,6 @@ http://jiaojirentv.top/2020/yy.php?id=1354143978
 http://173.208.234.146/live/lbkangxiwc.m3u8
 #EXTINF:-1  tvg-name="康熙王朝" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/康熙王朝.png"  group-title="轮播剧场",康熙王朝
 http://alist.xicp.fun:35455/yy/1382736818#https://live.metshop.top/yy/1382736818
-#EXTINF:-1  tvg-name="鬼吹灯之云南虫谷" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/鬼吹灯之云南虫谷.png"  group-title="轮播剧场",鬼吹灯之云南虫谷
-https://live.metshop.top/huya/11352898#http://cfss.cc/cdn/hy/11352898.flv
 #EXTINF:-1  tvg-name="楚汉骄雄" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/楚汉骄雄.png"  group-title="轮播剧场",楚汉骄雄
 https://live.metshop.top/huya/29465854
 #EXTINF:-1  tvg-name="楚汉骄雄" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/楚汉骄雄.png"  group-title="轮播剧场",楚汉骄雄
@@ -3067,6 +3067,8 @@ https://live.metshop.top/huya/21059581
 https://mursor.ottiptv.cc/yy/1354936131
 #EXTINF:-1  tvg-name="正阳门下" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/正阳门下.png"  group-title="轮播剧场",正阳门下
 http://alist.xicp.fun:35455/yy/1354931580#https://live.metshop.top/yy/1354931580
+#EXTINF:-1  tvg-name="无双花木兰" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/无双花木兰.png"  group-title="轮播剧场",无双花木兰
+https://mursor.ottiptv.cc/yy/1382749917
 #EXTINF:-1  tvg-name="王牌保镖在此" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/王牌保镖在此.png"  group-title="轮播剧场",王牌保镖在此
 https://mursor.ottiptv.cc/yy/1382749913
 #EXTINF:-1  tvg-name="宰相刘罗锅" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/宰相刘罗锅.png"  group-title="轮播剧场",宰相刘罗锅
@@ -3075,8 +3077,6 @@ http://jiaojirentv.top/2020/yy.php?id=1382745191
 http://alist.xicp.fun:35455/yy/1353892468#https://lunbo.freetv.top/yy/1353892468
 #EXTINF:-1  tvg-name="欢乐集结号-每天笑不停" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/欢乐集结号-每天笑不停.png"  group-title="轮播剧场",欢乐集结号-每天笑不停
 https://mursor.ottiptv.cc/yy/1382741642
-#EXTINF:-1  tvg-name="经典大片合集" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/经典大片合集.png"  group-title="轮播剧场",经典大片合集
-https://mursor.ottiptv.cc/yy/1382749895
 #EXTINF:-1  tvg-name="神探狄仁杰1" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/神探狄仁杰1.png"  group-title="轮播剧场",神探狄仁杰1
 https://mursor.ottiptv.cc/yy/1354930934
 #EXTINF:-1  tvg-name="智取威虎山" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/智取威虎山.png"  group-title="轮播剧场",智取威虎山
@@ -3089,14 +3089,10 @@ https://mursor.ottiptv.cc/yy/1382736821
 https://mursor.ottiptv.cc/yy/1354931582
 #EXTINF:-1  tvg-name="欢乐集结号" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/欢乐集结号.png"  group-title="轮播剧场",欢乐集结号
 https://mursor.ottiptv.cc/yy/1382735550
-#EXTINF:-1  tvg-name="张国荣与周润发的兄弟情" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/张国荣与周润发的兄弟情.png"  group-title="轮播剧场",张国荣与周润发的兄弟情
-https://mursor.ottiptv.cc/yy/1354930961
 #EXTINF:-1  tvg-name="伪装者" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/伪装者.png"  group-title="轮播剧场",伪装者
 http://jiaojirentv.top/2020/yy.php?id=1354936244
 #EXTINF:-1  tvg-name="伪装者" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/伪装者.png"  group-title="轮播剧场",伪装者
 http://alist.xicp.fun:35455/yy/1382851593#https://lunbo.freetv.top/yy/1382851593
-#EXTINF:-1  tvg-name="速度与激情全集" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/速度与激情全集.png"  group-title="轮播剧场",速度与激情全集
-https://mursor.ottiptv.cc/yy/1382749892
 #EXTINF:-1  tvg-name="妖神记" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/妖神记.png"  group-title="轮播剧场",妖神记
 https://mursor.ottiptv.cc/yy/1382745171
 #EXTINF:-1  tvg-name="宫锁珠帘" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/宫锁珠帘.png"  group-title="轮播剧场",宫锁珠帘
@@ -3107,16 +3103,14 @@ https://mursor.ottiptv.cc/yy/1354932375
 http://jiaojirentv.top/2020/yy.php?id=1354931585
 #EXTINF:-1  tvg-name="风筝" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/风筝.png"  group-title="轮播剧场",风筝
 https://mursor.ottiptv.cc/yy/1354931585
-#EXTINF:-1  tvg-name="院线动作大片" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/院线动作大片.png"  group-title="轮播剧场",院线动作大片
-https://mursor.ottiptv.cc/yy/1382736900
 #EXTINF:-1  tvg-name="非常保镖-经典港剧" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/非常保镖-经典港剧.png"  group-title="轮播剧场",非常保镖-经典港剧
 https://mursor.ottiptv.cc/yy/1382736903
+#EXTINF:-1  tvg-name="欢乐集结号3" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/欢乐集结号3.png"  group-title="轮播剧场",欢乐集结号3
+https://mursor.ottiptv.cc/yy/1382736822
 #EXTINF:-1  tvg-name="炊事班的故事" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/炊事班的故事.png"  group-title="轮播剧场",炊事班的故事
 https://mursor.ottiptv.cc/yy/1382749901
 #EXTINF:-1  tvg-name="大汉贤后卫子夫" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/大汉贤后卫子夫.png"  group-title="轮播剧场",大汉贤后卫子夫
 https://mursor.ottiptv.cc/yy/1382735569
-#EXTINF:-1  tvg-name="电影百团大战" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/电影百团大战.png"  group-title="轮播剧场",电影百团大战
-https://mursor.ottiptv.cc/yy/1382736871
 #EXTINF:-1  tvg-name="我的前半生" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/我的前半生.png"  group-title="轮播剧场",我的前半生
 http://jiaojirentv.top/2020/yy.php?id=1382735564
 #EXTINF:-1  tvg-name="仙剑奇侠传" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/仙剑奇侠传.png"  group-title="轮播剧场",仙剑奇侠传
@@ -3127,64 +3121,40 @@ https://mursor.ottiptv.cc/yy/1382736876
 https://mursor.ottiptv.cc/yy/1382735555
 #EXTINF:-1  tvg-name="精彩动作电影享不停" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/精彩动作电影享不停.png"  group-title="轮播剧场",精彩动作电影享不停
 https://mursor.ottiptv.cc/yy/1382736809
-#EXTINF:-1  tvg-name="国产大片电影" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/国产大片电影.png"  group-title="轮播剧场",国产大片电影
-https://mursor.ottiptv.cc/yy/1354926655
-#EXTINF:-1  tvg-name="叛逆者" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/叛逆者.png"  group-title="轮播剧场",叛逆者
-https://mursor.ottiptv.cc/yy/1382736868
-#EXTINF:-1  tvg-name="复仇者联盟全季" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/复仇者联盟全季.png"  group-title="轮播剧场",复仇者联盟全季
-https://mursor.ottiptv.cc/yy/1354936167
-#EXTINF:-1  tvg-name="侏罗纪世界" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/侏罗纪世界.png"  group-title="轮播剧场",侏罗纪世界
-https://mursor.ottiptv.cc/yy/1382736851
 #EXTINF:-1  tvg-name="海洋幻梦-泰剧" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/海洋幻梦-泰剧.png"  group-title="轮播剧场",海洋幻梦-泰剧
 https://mursor.ottiptv.cc/yy/1382749889
-#EXTINF:-1  tvg-name="本山快乐营" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/本山快乐营.png"  group-title="轮播剧场",本山快乐营
-https://mursor.ottiptv.cc/yy/1354933529
-#EXTINF:-1  tvg-name="俺娘田小草" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/俺娘田小草.png"  group-title="轮播剧场",俺娘田小草
-https://mursor.ottiptv.cc/yy/1382741638
 #EXTINF:-1  tvg-name="新世界" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/新世界.png"  group-title="轮播剧场",新世界
 https://mursor.ottiptv.cc/yy/1382736850
-#EXTINF:-1  tvg-name="加勒比海盗系列" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/加勒比海盗系列.png"  group-title="轮播剧场",加勒比海盗系列
-https://mursor.ottiptv.cc/yy/1382749914
+#EXTINF:-1  tvg-name="金玉满堂：精彩港剧" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/金玉满堂：精彩港剧.png"  group-title="轮播剧场",金玉满堂：精彩港剧
+https://mursor.ottiptv.cc/yy/1382736881
+#EXTINF:-1  tvg-name="回家的诱惑" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/回家的诱惑.png"  group-title="轮播剧场",回家的诱惑
+https://mursor.ottiptv.cc/yy/1354658043
 #EXTINF:-1  tvg-name="回家的诱惑" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/回家的诱惑.png"  group-title="轮播剧场",回家的诱惑
 https://mursor.ottiptv.cc/yy/1354658048
 #EXTINF:-1  tvg-name="陪你一起看好剧" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/陪你一起看好剧.png"  group-title="轮播剧场",陪你一起看好剧
 https://mursor.ottiptv.cc/yy/1354932359
 #EXTINF:-1  tvg-name="钟馗传说" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/钟馗传说.png"  group-title="轮播剧场",钟馗传说
 http://alist.xicp.fun:35455/yy/1382736839#https://live.metshop.top/yy/1382736839
-#EXTINF:-1  tvg-name="精彩动作电影" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/精彩动作电影.png"  group-title="轮播剧场",精彩动作电影
-https://mursor.ottiptv.cc/yy/1382736823
-#EXTINF:-1  tvg-name="港剧-警犬巴打" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/港剧-警犬巴打.png"  group-title="轮播剧场",港剧-警犬巴打
-https://mursor.ottiptv.cc/yy/1354932397
 #EXTINF:-1  tvg-name="国内科幻片来袭" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/国内科幻片来袭.png"  group-title="轮播剧场",国内科幻片来袭
 https://mursor.ottiptv.cc/yy/1354930821
 #EXTINF:-1  tvg-name="深海利剑" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/深海利剑.png"  group-title="轮播剧场",深海利剑
 https://mursor.ottiptv.cc/yy/1382736906
+#EXTINF:-1  tvg-name="永远的经典系列" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/永远的经典系列.png"  group-title="轮播剧场",永远的经典系列
+https://mursor.ottiptv.cc/yy/1354930204
 #EXTINF:-1  tvg-name="明天和你-韩剧" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/明天和你-韩剧.png"  group-title="轮播剧场",明天和你-韩剧
 https://mursor.ottiptv.cc/yy/1382749905
-#EXTINF:-1  tvg-name="飓风营救" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/飓风营救.png"  group-title="轮播剧场",飓风营救
-https://mursor.ottiptv.cc/yy/1382735547
-#EXTINF:-1  tvg-name="最美的青春" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/最美的青春.png"  group-title="轮播剧场",最美的青春
-https://mursor.ottiptv.cc/yy/1382745116
 #EXTINF:-1  tvg-name="最美的青春" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/最美的青春.png"  group-title="轮播剧场",最美的青春
 https://mursor.ottiptv.cc/yy/1382851530
 #EXTINF:-1  tvg-name="国外经典—小鬼当家" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/国外经典—小鬼当家.png"  group-title="轮播剧场",国外经典—小鬼当家
 https://mursor.ottiptv.cc/yy/1354658064
-#EXTINF:-1  tvg-name="国内喜剧" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/国内喜剧.png"  group-title="轮播剧场",国内喜剧
-https://mursor.ottiptv.cc/yy/1382735563
-#EXTINF:-1  tvg-name="国内喜剧" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/国内喜剧.png"  group-title="轮播剧场",国内喜剧
-https://mursor.ottiptv.cc/yy/1382736862
-#EXTINF:-1  tvg-name="请回答1988" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/请回答1988.png"  group-title="轮播剧场",请回答1988
-https://mursor.ottiptv.cc/yy/1354932362
 #EXTINF:-1  tvg-name="少年四大名捕" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/少年四大名捕.png"  group-title="轮播剧场",少年四大名捕
 https://mursor.ottiptv.cc/yy/1354936203
-#EXTINF:-1  tvg-name="国外高分大片" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/国外高分大片.png"  group-title="轮播剧场",国外高分大片
-https://mursor.ottiptv.cc/yy/1382736867
-#EXTINF:-1  tvg-name="能耐大了第1季" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/能耐大了第1季.png"  group-title="轮播剧场",能耐大了第1季
-https://mursor.ottiptv.cc/yy/1354930195
+#EXTINF:-1  tvg-name="流金岁月-经典港剧" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/流金岁月-经典港剧.png"  group-title="轮播剧场",流金岁月-经典港剧
+https://mursor.ottiptv.cc/yy/1382736891
+#EXTINF:-1  tvg-name="热门喜剧" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/热门喜剧.png"  group-title="轮播剧场",热门喜剧
+https://mursor.ottiptv.cc/yy/1354931495
 #EXTINF:-1  tvg-name="欢乐集结号2" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/欢乐集结号2.png"  group-title="轮播剧场",欢乐集结号2
 https://mursor.ottiptv.cc/yy/1354930919
-#EXTINF:-1  tvg-name="欢乐集结号4" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/欢乐集结号4.png"  group-title="轮播剧场",欢乐集结号4
-https://mursor.ottiptv.cc/yy/1382736889
 #EXTINF:-1  tvg-name="欢乐集结号58-70" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/欢乐集结号58-70.png"  group-title="轮播剧场",欢乐集结号58-70
 https://mursor.ottiptv.cc/yy/1382745119
 #EXTINF:-1  tvg-name="妖神记之黑狱篇" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/妖神记之黑狱篇.png"  group-title="轮播剧场",妖神记之黑狱篇
@@ -3193,36 +3163,30 @@ https://mursor.ottiptv.cc/yy/1382745173
 https://mursor.ottiptv.cc/yy/1382749952
 #EXTINF:-1  tvg-name="溏心风暴之家好月圆" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/溏心风暴之家好月圆.png"  group-title="轮播剧场",溏心风暴之家好月圆
 http://alist.xicp.fun:35455/yy/1354888747#http://alist.xicp.fun:35455/yy/1354888747#https://lunbo.freetv.top/yy/1354888747
-#EXTINF:-1  tvg-name="抗日神片" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/抗日神片.png"  group-title="轮播剧场",抗日神片
-https://mursor.ottiptv.cc/yy/1354926600
 #EXTINF:-1  tvg-name="一起来笑吧" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/一起来笑吧.png"  group-title="轮播剧场",一起来笑吧
 https://mursor.ottiptv.cc/yy/1454859415
+#EXTINF:-1  tvg-name="机械战警1-3" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/机械战警1-3.png"  group-title="轮播剧场",机械战警1-3
+https://mursor.ottiptv.cc/yy/1382736854
 #EXTINF:-1  tvg-name="少年包青天美黑之旅" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/少年包青天美黑之旅.png"  group-title="轮播剧场",少年包青天美黑之旅
 https://mursor.ottiptv.cc/yy/1354936141
 #EXTINF:-1  tvg-name="大台风" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/大台风.png"  group-title="轮播剧场",大台风
 https://mursor.ottiptv.cc/yy/1382735583
-#EXTINF:-1  tvg-name="紧急营救" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/紧急营救.png"  group-title="轮播剧场",紧急营救
-https://mursor.ottiptv.cc/yy/1354926676
 #EXTINF:-1  tvg-name="超英集结" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/超英集结.png"  group-title="轮播剧场",超英集结
 https://mursor.ottiptv.cc/yy/1382745091
-#EXTINF:-1  tvg-name="银河护卫队" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/银河护卫队.png"  group-title="轮播剧场",银河护卫队
-https://mursor.ottiptv.cc/yy/1382736815
 #EXTINF:-1  tvg-name="如果岁月可回头" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/如果岁月可回头.png"  group-title="轮播剧场",如果岁月可回头
 https://mursor.ottiptv.cc/yy/1382736883
 #EXTINF:-1  tvg-name="施公奇案2-欧阳震华" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/施公奇案2-欧阳震华.png"  group-title="轮播剧场",施公奇案2-欧阳震华
 https://mursor.ottiptv.cc/yy/1382736824
-#EXTINF:-1  tvg-name="辣警狂花" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/辣警狂花.png"  group-title="轮播剧场",辣警狂花
-https://mursor.ottiptv.cc/yy/1382736892
-#EXTINF:-1  tvg-name="碟中谍系列电影" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/碟中谍系列电影.png"  group-title="轮播剧场",碟中谍系列电影
-https://mursor.ottiptv.cc/yy/1382736836
-#EXTINF:-1  tvg-name="喜剧闹翻天" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/喜剧闹翻天.png"  group-title="轮播剧场",喜剧闹翻天
-https://mursor.ottiptv.cc/yy/1382735548
+#EXTINF:-1  tvg-name="另类猪妖爆笑逆袭" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/另类猪妖爆笑逆袭.png"  group-title="轮播剧场",另类猪妖爆笑逆袭
+https://mursor.ottiptv.cc/yy/1354936155
+#EXTINF:-1  tvg-name="学生兵" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/学生兵.png"  group-title="轮播剧场",学生兵
+https://mursor.ottiptv.cc/yy/1354658003
+#EXTINF:-1  tvg-name="本山快乐营2" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/本山快乐营2.png"  group-title="轮播剧场",本山快乐营2
+https://mursor.ottiptv.cc/yy/1382736718
 #EXTINF:-1  tvg-name="当旺爸爸-港剧" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/当旺爸爸-港剧.png"  group-title="轮播剧场",当旺爸爸-港剧
 https://mursor.ottiptv.cc/yy/1354936208
 #EXTINF:-1  tvg-name="国产动作电影" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/国产动作电影.png"  group-title="轮播剧场",国产动作电影
 https://mursor.ottiptv.cc/yy/1382736858
-#EXTINF:-1  tvg-name="PK地球神" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/PK地球神.png"  group-title="轮播剧场",PK地球神
-https://mursor.ottiptv.cc/yy/1382736872
 #EXTINF:-1  tvg-name="爱在璀璨时" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/爱在璀璨时.png"  group-title="轮播剧场",爱在璀璨时
 https://mursor.ottiptv.cc/yy/1354926671
 #EXTINF:-1  tvg-name="热血战争巨作" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/热血战争巨作.png"  group-title="轮播剧场",热血战争巨作
@@ -3237,28 +3201,18 @@ https://mursor.ottiptv.cc/yy/1382736799
 https://mursor.ottiptv.cc/yy/1382736863
 #EXTINF:-1  tvg-name="金牌喜剧班" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/金牌喜剧班.png"  group-title="轮播剧场",金牌喜剧班
 https://mursor.ottiptv.cc/yy/1354889009
+#EXTINF:-1  tvg-name="高分港剧合集" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/高分港剧合集.png"  group-title="轮播剧场",高分港剧合集
+https://mursor.ottiptv.cc/yy/1382735542
+#EXTINF:-1  tvg-name="匪帮传奇故事" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/匪帮传奇故事.png"  group-title="轮播剧场",匪帮传奇故事
+https://mursor.ottiptv.cc/yy/1382749941
 #EXTINF:-1  tvg-name="呆萌飞行员" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/呆萌飞行员.png"  group-title="轮播剧场",呆萌飞行员
 https://mursor.ottiptv.cc/yy/1354930968
-#EXTINF:-1  tvg-name="绝地生死营救" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/绝地生死营救.png"  group-title="轮播剧场",绝地生死营救
-https://mursor.ottiptv.cc/yy/1354936214
 #EXTINF:-1  tvg-name="快递小哥变身英雄" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/快递小哥变身英雄.png"  group-title="轮播剧场",快递小哥变身英雄
 https://mursor.ottiptv.cc/yy/1354932405
 #EXTINF:-1  tvg-name="杀机四伏" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/杀机四伏.png"  group-title="轮播剧场",杀机四伏
 https://mursor.ottiptv.cc/yy/1354936195
-#EXTINF:-1  tvg-name="苍狼特战突击" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/苍狼特战突击.png"  group-title="轮播剧场",苍狼特战突击
-https://mursor.ottiptv.cc/yy/1382736849
-#EXTINF:-1  tvg-name="战俘营大逃亡" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/战俘营大逃亡.png"  group-title="轮播剧场",战俘营大逃亡
-https://mursor.ottiptv.cc/yy/1354930915
-#EXTINF:-1  tvg-name="兵王绝境狙杀" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/兵王绝境狙杀.png"  group-title="轮播剧场",兵王绝境狙杀
-https://mursor.ottiptv.cc/yy/1382736833
-#EXTINF:-1  tvg-name="打破第四面墙" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/打破第四面墙.png"  group-title="轮播剧场",打破第四面墙
-https://mursor.ottiptv.cc/yy/1382745090
-#EXTINF:-1  tvg-name="蜀山伏魔剑" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/蜀山伏魔剑.png"  group-title="轮播剧场",蜀山伏魔剑
-https://mursor.ottiptv.cc/yy/1354932365
-#EXTINF:-1  tvg-name="非典型恋爱" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/非典型恋爱.png"  group-title="轮播剧场",非典型恋爱
-https://mursor.ottiptv.cc/yy/1354936157
-#EXTINF:-1  tvg-name="侏罗纪复活战" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/侏罗纪复活战.png"  group-title="轮播剧场",侏罗纪复活战
-https://mursor.ottiptv.cc/yy/1354930945
+#EXTINF:-1  tvg-name="唐门双雄战神犼" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/唐门双雄战神犼.png"  group-title="轮播剧场",唐门双雄战神犼
+https://mursor.ottiptv.cc/yy/1382736897
 #EXTINF:-1  tvg-name="铁甲狂猴雷霆" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/铁甲狂猴雷霆.png"  group-title="轮播剧场",铁甲狂猴雷霆
 https://mursor.ottiptv.cc/yy/1382735552
 #EXTINF:-1  tvg-name="淮水情深深" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/淮水情深深.png"  group-title="轮播剧场",淮水情深深
@@ -3267,8 +3221,12 @@ https://mursor.ottiptv.cc/yy/1382749888
 https://mursor.ottiptv.cc/yy/1354936249
 #EXTINF:-1  tvg-name="就是要疯狂" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/就是要疯狂.png"  group-title="轮播剧场",就是要疯狂
 https://mursor.ottiptv.cc/yy/1354936145
-#EXTINF:-1  tvg-name="哮天犬闹龙宫" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/哮天犬闹龙宫.png"  group-title="轮播剧场",哮天犬闹龙宫
-https://mursor.ottiptv.cc/yy/1382736913
+#EXTINF:-1  tvg-name="巨蛛嗜血狂" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/巨蛛嗜血狂.png"  group-title="轮播剧场",巨蛛嗜血狂
+https://mursor.ottiptv.cc/yy/1354930903
+#EXTINF:-1  tvg-name="仙剑风云再起" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/仙剑风云再起.png"  group-title="轮播剧场",仙剑风云再起
+https://mursor.ottiptv.cc/yy/1354933556
+#EXTINF:-1  tvg-name="特派先锋出击" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/特派先锋出击.png"  group-title="轮播剧场",特派先锋出击
+https://mursor.ottiptv.cc/yy/1382749940
 #EXTINF:-1  tvg-name="相声小品" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/相声小品.png"  group-title="轮播剧场",相声小品
 http://live.nctv.top/douyu1.php?id=9286868
 #EXTINF:-1  tvg-name="相声小品" tvg-logo="https://ghfast.top/https://raw.githubusercontent.com/CCSH/IPTV/refs/heads/main/logo/相声小品.png"  group-title="轮播剧场",相声小品
